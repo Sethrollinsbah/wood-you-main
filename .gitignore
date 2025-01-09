@@ -59,5 +59,3 @@ override/core/Product.php
 # Ignore any files or folders starting with a dot (.)
 .*
 
-# Ignore .gitignore file itself
-!.gitignore

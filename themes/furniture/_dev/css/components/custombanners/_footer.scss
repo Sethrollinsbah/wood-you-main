@@ -1,0 +1,40 @@
+/* footer */
+.custombanners {
+    &.displayFooter {
+    	padding: 0 $grid-gutter-width-base/2;
+    	img{
+        	margin-top: 30px;
+    	}
+    }
+}
+
+@include media-breakpoint-up(xx) {
+
+}
+//min 769
+@include media-breakpoint-up(md) {
+	.custombanners {
+	    &.displayFooter {
+	    	flex: 0 0 25%;
+	    }
+	}
+}
+@include media-breakpoint-up(lm) {
+
+}
+@include media-breakpoint-up(xl) {
+
+}
+//max 768
+@include media-breakpoint-down(sl) {
+    .custombanners {
+        &.displayFooter {
+            flex: 0 0 100%;
+        }
+    }
+}
+@include media-breakpoint-down(sl){
+
+}
+@include media-breakpoint-down(xs){
+}

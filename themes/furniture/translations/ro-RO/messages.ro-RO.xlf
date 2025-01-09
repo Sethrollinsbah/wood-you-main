@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/pagination.tpl" source-language="ro-RO" target-language="ro-RO" datatype="plaintext">
+    <body>
+      <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680">
+        <source>All</source>
+        <target>All</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/pagination.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="aa55eeb3bfe951eb9d56e8a919d80781">
+        <source>of %d</source>
+        <target>of %d</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/pagination.tpl:33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl" source-language="ro-RO" target-language="ro-RO" datatype="plaintext">
+    <body>
+      <trans-unit id="20db0bfeecd8fe60533206a2b5e9891a">
+        <source>First name</source>
+        <target>First name</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="8d3f5eff9c40ee315d452392bed5309b">
+        <source>Last name</source>
+        <target>Last name</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="63889cfb9d3cbe05d1bd2be5cc9953fd">
+        <source>Male</source>
+        <target>Male</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="b719ce180ec7bd9641fece2f920f4817">
+        <source>Female</source>
+        <target>Female</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:63</note>
+      </trans-unit>
+      <trans-unit id="e7dc0c1ad584207cbcc58c111e75070c">
+        <source>Your birthday</source>
+        <target>Your birthday</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="198584454b0ce1101ff5b50323325aa8">
+        <source>Your email address</source>
+        <target>Your email address</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="d67850bd126f070221dcfd5fa6317043">
+        <source>Sign Up</source>
+        <target>Sign Up</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:86</note>
+      </trans-unit>
+      <trans-unit id="94b25d4690335931802053a4205cfbc8">
+        <source>Please make sure all the highlighted fields are filled out correctly</source>
+        <target>Please make sure all the highlighted fields are filled out correctly</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:91</note>
+      </trans-unit>
+      <trans-unit id="ed5da269120ad370179fc0b91142b344">
+        <source>Thank you for signing up!</source>
+        <target>Thank you for signing up!</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/signupreminder/views/templates/hook/display-footer.tpl:97</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

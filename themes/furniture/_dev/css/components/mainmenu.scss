@@ -1,0 +1,220 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+@import "../partials/_helpers";
+
+//min 769
+@include media-breakpoint-up(md) {
+    .top-menu {
+        margin: 0;
+        .collapse{
+            display: block !important;
+            background: $white;
+            border: 1px solid $color-eight;
+            border-top: 4px solid $brand-primary;
+            border-radius: 0;
+            position: absolute;
+            z-index: 99;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity .8s, transform .8s, visibility .8s;
+            &:before{
+                content: '';
+                display: block;
+                height: 0;
+                width: 0;
+                border: 5px solid $brand-primary;
+                border-left-color: transparent!important;
+                border-top-color: transparent!important;
+                border-right-color: transparent!important;
+                position: absolute;
+                margin-top: -12px;
+                top: 0;
+                left: 48px;
+            }
+        }
+        .popover{
+            top: 30px!important;
+            transform: translate(0,70px);
+        }
+        .dropdown-item {
+            &[data-depth="0"]{
+                color: inherit;
+                text-transform: uppercase;
+                display: block;
+                padding: 0 6px;
+                position: relative;
+                font-size: 13px;
+            }
+            &:hover {
+                color: $brand-primary;
+            }
+        }
+        &[data-depth="0"]{
+            > li {
+                display: inline-block;
+                vertical-align: top;
+                position: relative;
+                > a {
+                    padding: 0 18px;
+                }
+                &:first-child{
+                    > a{
+                        padding-left: 0;
+                    }
+                }
+                &:hover{
+                    > .popover{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate(0,0);
+                        transition: opacity .5s, transform .5s, visibility .2s;
+                    }
+                }
+            }
+        }
+         &[data-depth="1"]{
+            .dropdown-item {
+                line-height: 1.4;
+                display: block;
+                padding: 15px;
+                color: inherit;
+                &:hover{
+                    background: $color-ten;
+                    color: $black;
+                }
+            }
+            .collapse{
+                top: -4px;
+                left: 100%;
+                transform: translate(70px,0);
+            }
+            li{
+                position: relative;
+                &:not(:last-child){
+                    .dropdown-item{
+                        border-bottom: 1px solid $color-eight;
+                    }
+                }
+                &:hover{
+                    > .collapse{
+                        visibility: visible;
+                        opacity: 1;
+                        transition: opacity .5s, transform .5s, visibility .2s;
+                        transform: translate(0,0);
+                    }
+                }
+            }
+         }
+        a:not([data-depth="0"]) {
+            display: block;
+        }
+        a[data-depth="0"] {
+            &:hover {
+                #header & {}
+            }
+        }
+        .collapse {
+            display: inherit;
+        }
+        .sub-menu {
+            &.collapse {
+                display: none;
+            }
+            a:hover {
+                color: $brand-primary;
+            }
+        }
+    }
+}
+//min 992
+@include media-breakpoint-up(lg) {
+    .top-menu {
+        .dropdown-item{
+            &[data-depth="0"]{
+                padding: 0 14px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+//min 1200
+@include media-breakpoint-up(xl) {
+    .top-menu {
+        .dropdown-item{
+            &[data-depth="0"]{
+                padding: 0 22px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+//max 768
+@include media-breakpoint-down(sl) {
+    .top-menu{
+        ul{
+            padding-left: 30px;
+        }
+        .dropdown-item{
+            font-size: 13px;
+            padding: 0;
+            margin-bottom: 30px;
+            position: relative;
+            &:active, &.active{
+                color: $brand-primary;
+            }
+            .pull-xs-right{
+                position: absolute;
+                right: 0;
+                top: -4px;
+            }
+        }
+        .navbar-toggler{
+            display: block;
+            padding: 0;
+            font-size: 20px;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 23px;
+            i{
+                display: inline-block;
+                font-size: inherit;
+                line-height: inherit;
+            }
+            .remove{
+                display: none;
+            }
+            &[aria-expanded=true]{
+                .add{
+                    display: none;
+                }
+                .remove{
+                    display: inline-block;
+                }
+            }
+        }
+        .collapse{
+            background: none!important;
+        }
+        .dropdown-item{
+            color: inherit!important;
+            background: none !important;
+        }
+        .popover{
+            &:before,&:after{
+                border-color: transparent!important;
+            }
+            background: none !important;
+            position: static;
+            background: none;
+            box-shadow: none;
+            border: none;
+            border-radius: 0;
+            max-width: none;
+            display: none;
+            &.show,&.collapsing{
+                display: block;
+            }
+        }
+    }
+}

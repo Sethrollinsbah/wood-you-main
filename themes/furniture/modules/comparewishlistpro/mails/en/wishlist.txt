@@ -1,0 +1,12 @@
+[/{shop_url}]
+
+Hi,
+
+{name} indicated you may want to see their
+wishlist: {wishlist_name}
+
+{wishlist} [/{url}]
+
+{shop_name} [/{shop_url}] powered by PrestaShop(tm)
+[http://www.prestashop.com/]
+

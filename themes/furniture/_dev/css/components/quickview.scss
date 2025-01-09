@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+.quickview {
+    .modal-dialog {
+        width: calc(100% - 30px);
+        max-width: 1024px;
+    }
+    .modal-footer {
+        justify-content: start;
+        border-top: 1px solid rgba($gray, .3);
+    }
+    .layer {
+        display: none;
+    }
+    .product-cover img {
+        width: 95%;
+    }
+    .images-container {
+        display: flex;
+        .product-images > li.thumb-container > .thumb {
+            width: 79px;
+            margin-bottom: 13px;
+            background: white;
+        }
+    }
+    .wrapper-product-images {
+        width: 33%;
+        height: 360px;
+        overflow: hidden;
+        margin-left: $small-space;
+    }
+    .arrows {
+        position: absolute;
+        top: 0;
+        height: 360px;
+        right: 32px;
+        z-index: 1;
+        .arrow-up,.arrow-down {
+            font-size: 20px;
+        }
+        .arrow-up {
+            margin-top: -50px;
+            cursor: pointer;
+            opacity: 0.2;
+        }
+        .arrow-down {
+            position: absolute;
+            bottom: -30px;
+            cursor: pointer;
+        }
+    }
+}

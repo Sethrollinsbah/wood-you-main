@@ -1,0 +1,32 @@
+.easycarousels{
+	.bx-controls-direction{
+	
+	}
+	.bx-wrapper{
+		.bx-controls{
+			.bx-controls-direction{
+				a{
+					&:before{
+				
+					}
+				}
+			}
+		}
+	}
+}
+//max 767
+@include media-breakpoint-down(sl) {
+	.easycarousels{
+		.bx-controls-direction{
+			
+		}
+	}
+}
+//max 544
+@include media-breakpoint-down(xx) {
+	.easycarousels{
+		.bx-controls-direction{
+		
+		}
+	}
+}

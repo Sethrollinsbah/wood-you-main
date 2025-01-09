@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/templates/_partials/pagination.tpl" source-language="eu-ES" target-language="eu-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="453aceb005ceaf54a47da15fee8b2a26">
+        <source>Pages</source>
+        <target>Pages</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/templates/_partials/pagination.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

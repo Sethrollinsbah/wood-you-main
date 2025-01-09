@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+ .twitter-box {
+     position: relative;
+     margin-top: 40px;
+ }
+ 
+ .wrap_tweets {
+     border: 1px solid $color-eight;
+     padding: 0 30px 38px;
+     min-height: 270px;
+     position: relative;
+ }
+ 
+ .twitter-box {
+     .title_main_section {
+         margin-bottom: 38px;
+     }
+ }
+ 
+ .item_twits {
+     display: inline-block;
+     text-align: left;
+     border-bottom: 1px solid $color-eight;
+     line-height: 1.5;
+     padding: 22px 0 21px;
+     &:nth-child(2n) {
+         border-bottom: none;
+     }
+     p {
+         font-weight: 300;
+         font-size: 14px;
+     }
+     span{
+        color: $brand-primary;
+     }
+ }
+ 
+
+@include media-breakpoint-up(md) {
+     .twitter-box {
+         margin-top: 64px;
+         .title_main_section {
+             text-align: left;
+             span {
+                 padding-left: 0;
+             }
+         }
+     }
+ }
+ 
+@include media-breakpoint-down(lm) {
+     .wrap_tweets {
+         min-height: 250px;
+     }
+ }
+ 
+@include media-breakpoint-down(sl) {
+     .wrap_tweets {
+         min-height: 0;
+     }
+ }
+ 
+@include media-breakpoint-down(xs) {
+     .twitter-box {
+         .title_main_section {
+             margin-bottom: 25px;
+         }
+     }
+     .wrap_tweets {
+         padding-left: 25px;
+         padding-right: 25px;
+     }
+     .item_twits {
+         p {
+             font-size: 12px;
+             line-height: 2;
+         }
+     }
+ }

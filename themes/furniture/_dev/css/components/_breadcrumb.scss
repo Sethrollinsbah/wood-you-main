@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+
+.wrapper-breadcrumb{
+    border-top: 4px solid $color-three;
+    border-bottom: 1px solid $color-sixteen;
+    margin-bottom: 50px;
+    padding: 12px 0;
+    &[data-depth="1"] {
+        display: none;
+    }
+}
+.breadcrumb {
+    background: transparent;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    ol {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    li {
+        display: inline-block;
+        &:last-child{
+            color: $brand-primary;
+        }
+        &::after {
+            content: "|";
+        }
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

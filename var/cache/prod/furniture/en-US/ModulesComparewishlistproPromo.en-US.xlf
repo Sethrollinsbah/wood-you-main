@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/admin/promo.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="17fc44c6b4e984f0d90b7631fc2f6bd0">
+        <source>Our products</source>
+        <target>Our products</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="089c85583889e7cfbac8a5a3ed72d51c">
+        <source>Download module documentation</source>
+        <target>Download module documentation</target>
+        <note>Line: 43</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

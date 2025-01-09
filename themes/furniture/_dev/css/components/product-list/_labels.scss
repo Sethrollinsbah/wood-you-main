@@ -1,0 +1,42 @@
+.product-flags{
+    margin: 0;
+    .new, .product-availability,.on-sale{
+        display: inline-block;
+        font-size: 18px;
+        line-height: 28px;
+        height: 28px;
+        position: absolute;
+        transform: rotateZ(-45deg);
+        width: 140px;
+        text-align: center;
+        color: $white;
+    }
+    .new{
+        background: $label-new;
+    }
+    .on-sale{
+        background: $label-sale;
+    }
+    .discount-percentage{
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        color: $label-sale;
+    }
+    .discount{
+        display: none;
+    }
+    .available{
+        display: none;
+    }
+    .product-availability{
+        background: $label-out;
+    }
+}
+@include media-breakpoint-down(lm) {
+    .products{
+        .tag{
+            
+        }
+    }
+}

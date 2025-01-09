@@ -1,0 +1,45 @@
+.nav-tabs{
+	border: none;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+	.nav-link{
+		display: block;
+    	padding: 10px 25px;
+    	background: $color-eighteen;
+    	border: 1px solid $color-eight;
+    	color: lighten( desaturate( adjust-hue( $brand-primary, 6deg ), 56 ), 29 );
+    	font-size: 14px;
+    	border-radius: 0;
+    	text-align: center;
+    	text-transform: uppercase;
+    	margin-right: 12px;
+		&:hover, &.active{
+		    border-color: $brand-primary;
+		    background: $brand-primary;
+		    color: $white;
+		}
+	}
+	.nav-item{
+		&:last-child{
+			.nav-link{
+				border-right-width: 1px;
+    		}
+    	}
+	}
+}
+.tab-pane{
+	&.active{
+		opacity: 1;
+	}
+}
+//max 480
+@include media-breakpoint-down(xs) {
+	.nav-tabs{
+		.nav-item{
+			width: 100%;
+		}
+		.nav-link{
+			margin: 0;
+		}
+	}
+}

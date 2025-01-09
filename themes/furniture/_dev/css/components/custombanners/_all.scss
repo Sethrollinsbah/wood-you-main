@@ -1,0 +1,57 @@
+/* common */
+.banner-item-content {
+    position: relative;
+}
+
+.html-over {
+    .custom-html {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.custombanners {
+	img {
+    	display: block;
+    	max-width: 100%;
+	}
+	h1,h2,h3,h4,h5,h6{
+		margin-top: 0;
+	}
+}
+.banner-item {
+	position: relative;
+	.banner-item-content{
+		position: relative;
+	}
+	.banner-img{
+		display: inline-block;
+		max-width: 100%;
+	}
+	&.title-item{
+		margin-bottom: 0;
+	}
+}
+.html-over .custom-html {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+	text-align: center;
+	transform: translate(0, -50%);
+}
+.img-rb .banner-item-content img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.banner-item-content .banner-img.secondary-image,
+.banner-item-content:hover .banner-img.primary-image {
+  display: none; }
+
+.banner-item-content:hover .banner-img.secondary-image {
+  display: inline-block; }

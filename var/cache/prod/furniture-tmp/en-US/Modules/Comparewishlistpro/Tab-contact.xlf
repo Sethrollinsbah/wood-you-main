@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/admin/tab-contact.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Contact us</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="b87345ea39da1e185637116e21a7bb1d">
+        <source>Thank you for choosing a module made by team Prestapro</source>
+        <target>Thank you for choosing a module made by team Prestapro</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="0a512db053dbcc314782cca5cb461cd1">
+        <source>If you encounter a problem while using this module, our team is at your service via the</source>
+        <target>If you encounter a problem while using this module, our team is at your service via the</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="23372c0d3713719764670087006fc1b6">
+        <source>contact form</source>
+        <target>contact form</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="abcbc814114f8588e7606b9b7b52a84e">
+        <source>To save your time, please make sure you have read the documentation, the How to use and FAQ sections before you contact us. If the problem still persists after that, please provide as much information on it as possible (including screenshots, steps to reproduce it, etc.)</source>
+        <target>To save your time, please make sure you have read the documentation, the How to use and FAQ sections before you contact us. If the problem still persists after that, please provide as much information on it as possible (including screenshots, steps to reproduce it, etc.)</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="4913f86350d1478cb4654a28f63b7aee">
+        <source>This module has been developed by Prestapro and can only be sold through the</source>
+        <target>This module has been developed by Prestapro and can only be sold through the</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="c3782cf09e0f24e3a31a2dda9d9de9b9">
+        <source>Addons Marketplace</source>
+        <target>Addons Marketplace</target>
+        <note>Line: 33</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

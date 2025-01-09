@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/front/mywishlist.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="7ec9cceb94985909c6994e95c31c1aa8">
+        <source>My wishlists</source>
+        <target>My wishlists</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="67279828c9f5219ecf546e21648839c9">
+        <source>Add a new wishlist</source>
+        <target>Add a new wishlist</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987">
+        <source>Name</source>
+        <target>Name</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Save</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="b708f75bc473bc601f7ca80d4f6c9b9b">
+        <source>Existing wishlists</source>
+        <target>Existing wishlists</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="03ab340b3f99e03cff9e84314ead38c0">
+        <source>Qty</source>
+        <target>Qty</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="5e729042e30967c9d6f65c6eab73e2fe">
+        <source>Viewed</source>
+        <target>Viewed</target>
+        <note>Line: 57</note>
+      </trans-unit>
+      <trans-unit id="0eceeb45861f9585dd7a97a3e36f85c6">
+        <source>Created</source>
+        <target>Created</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="45284ef16392f85ff424b2ef36ab5948">
+        <source>Direct Link</source>
+        <target>Direct Link</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="7a1920d61156abc05a60135aefe8bc67">
+        <source>Default</source>
+        <target>Default</target>
+        <note>Line: 60</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 96</note>
+      </trans-unit>
+      <trans-unit id="4351cfebe4b61d8aa5efa1d020710005">
+        <source>View</source>
+        <target>View</target>
+        <note>Line: 85</note>
+      </trans-unit>
+      <trans-unit id="630aa22e854b4dbaff60cd67bc227f3e">
+        <source>Make default</source>
+        <target>Make default</target>
+        <note>Line: 90</note>
+      </trans-unit>
+      <trans-unit id="32fe170dc03d706ef50effd43a6dc983">
+        <source>Do you really want to delete this wishlist?</source>
+        <target>Do you really want to delete this wishlist?</target>
+        <note>Line: 96</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

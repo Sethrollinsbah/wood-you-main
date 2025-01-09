@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="0b4db271fc4624853e634ef6882ea8be">
+        <source>View all</source>
+        <target>Voir tous</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Ajouter au panier</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="c91e4ee170226d66e90f99ba917e4c20">
+        <source>Quick view</source>
+        <target>Vue rapide</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="d3da97e2d9aee5c8fbe03156ad051c99">
+        <source>More</source>
+        <target>Plus</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

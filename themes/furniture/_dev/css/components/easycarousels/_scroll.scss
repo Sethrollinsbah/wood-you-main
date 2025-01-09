@@ -1,0 +1,30 @@
+/* native scroll */
+.scroll-wrapper{
+    overflow: hidden;
+    .c_item{
+        margin-bottom: 20px;
+    }
+}
+.scroll-x-wrapper {
+	clear: both;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+	-webkit-transform: translate(0,18px);
+	        transform: translate(0,18px);
+    &::-webkit-scrollbar {
+    	display: none; 
+  	}
+}
+
+.scroll-x {
+    white-space: nowrap;
+}
+
+.scroll-x .c_col {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}

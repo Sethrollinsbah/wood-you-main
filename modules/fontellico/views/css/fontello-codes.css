@@ -1,0 +1,22 @@
+
+.ft-twitter:before { content: '\e800'; } /* '' */
+.ft-git:before { content: '\e801'; } /* '' */
+.ft-flattr:before { content: '\e802'; } /* '' */
+.ft-bitcoin:before { content: '\e803'; } /* '' */
+.ft-spinner:before { content: '\e806'; } /* '' */
+.ft-share:before { content: '\e808'; } /* '' */
+.ft-clipboard:before { content: '\e809'; } /* '' */
+.ft-canc:before { content: '\e80b'; } /* '' */
+.ft-oper:before { content: '\e826'; } /* '' */
+.ft-opera:before { content: '\e826'; } /* '' */
+.ft-crown:before { content: '\e828'; } /* '' */
+.ft-mail-alt:before { content: '\e830'; } /* '' */
+.ft-heart:before { content: '\e832'; } /* '' */
+.ft-heart-empty:before { content: '\e833'; } /* '' */
+.ft-videocam:before { content: '\e841'; } /* '' */
+.ft-picture:before { content: '\e842'; } /* '' */
+.ft-thumbs-down:before { content: '\e86f'; } /* '' */
+.ft-down-circled2:before { content: '\e8ca'; } /* '' */
+.ft-laptop:before { content: '\e90f'; } /* '' */
+.ft-subwa:before { content: '\e96b'; } /* '' */
+.ft-sort-name-down:before { content: '\e97d'; } /* '' */

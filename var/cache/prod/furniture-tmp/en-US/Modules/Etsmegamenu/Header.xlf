@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/header.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="c76660d589be9a49e8846e51b71744ae">
+        <source>Day(s)</source>
+        <target>Day(s)</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="f0654269bb23d66ae7905ed4b54e6613">
+        <source>Hr(s)</source>
+        <target>Hr(s)</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="13288d9db78308c21cc4b31876eaff5c">
+        <source>Min(s)</source>
+        <target>Min(s)</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="cda45b55ab6be0e93699071e497c3c00">
+        <source>Sec(s)</source>
+        <target>Sec(s)</target>
+        <note>Line: 29</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

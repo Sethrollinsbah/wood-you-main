@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/gettadmin" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="e532954941a2469e3b3ae35ce44885d6">
+        <source>%price% tax excl.</source>
+        <target>%price% VAT excl.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="fcebe56087b9373f15514831184fa572">
+        <source>In stock</source>
+        <target>In stock</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

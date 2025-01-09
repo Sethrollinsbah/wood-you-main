@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/gettadmin" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="1dd60be263e0addb3bc17c054b2fb5db">
+        <source>Lees meer</source>
+        <target>Show more</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4bebfe2b93594245247ab758b28c8fee">
+        <source>Verberg</source>
+        <target>Show less</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

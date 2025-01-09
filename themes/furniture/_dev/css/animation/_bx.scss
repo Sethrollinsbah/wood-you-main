@@ -1,0 +1,14 @@
+.theme-carousel{
+	.bx-wrapper{
+		.bx-controls{
+			.bx-controls-direction{
+				a{
+					transition: none;
+					&:before{
+						transition: none;
+					}
+				}
+			}
+		}
+	}
+}

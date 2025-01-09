@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300px"
+   height="191px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="9novariable.svg"
+   inkscape:export-filename="/home/rdevera/workspacephpnew/catbibips15/prestashop/modules/giftcard/logo.png"
+   inkscape:export-xdpi="15.423112"
+   inkscape:export-ydpi="15.423112">
+  <defs
+     id="defs3">
+    <filter
+       id="filter8109"
+       inkscape:label="Fancy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8111"
+         stdDeviation="5"
+         result="result1" />
+      <feComposite
+         k4="0"
+         k3="0"
+         k1="0"
+         id="feComposite8113"
+         in2="result1"
+         operator="arithmetic"
+         k2="2"
+         in="result1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6970563"
+     inkscape:cx="-2.3055366"
+     inkscape:cy="152.51289"
+     inkscape:document-units="mm"
+     inkscape:current-layer="var_color1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6082" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2989">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="var_color1"
+       style="fill:#996600"
+       transform="translate(-2.0833333,2.0833333)">
+      <rect
+         style="fill:#3fb8af;fill-opacity:1;stroke:#dad8a7;stroke-width:1.98298811999999991"
+         id="rect4099"
+         width="297.16046"
+         height="188.58302"
+         x="3.7114422"
+         y="-0.28855756"
+         ry="9.8954525" />
+      <text
+         xml:space="preserve"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#dad8a7;fill-opacity:1;stroke:#7fc7af;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+         x="49.813042"
+         y="69.887024"
+         id="text6676"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="49.813042"
+           y="69.887024"
+           id="tspan6713"
+           style="font-size:56px;fill:#dad8a7;stroke:#7fc7af">BONNE Fête</tspan></text>
+      <path
+         sodipodi:type="star"
+         style="fill:#dad8a7;fill-opacity:1;stroke:#7fc7af"
+         id="path6835"
+         sodipodi:sides="5"
+         sodipodi:cx="225.68491"
+         sodipodi:cy="106.73644"
+         sodipodi:r1="30.561869"
+         sodipodi:r2="15.280933"
+         sodipodi:arg1="2.1641465"
+         sodipodi:arg2="2.792465"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 208.59649,132.07444 2.72936,-20.11072 -15.01942,-13.649455 19.96985,-3.618781 8.34015,-18.502227 9.61268,17.87419 20.17391,2.214447 -14.02888,14.665636 4.12802,19.87083 -18.28301,-8.81033 z"
+         transform="translate(-68.627344,19.12987)"
+         inkscape:transform-center-x="0.3301789"
+         inkscape:transform-center-y="-2.6025958" />
+    </g>
+  </g>
+</svg>

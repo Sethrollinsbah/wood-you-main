@@ -1,0 +1,46 @@
+.social-sharing {
+    width: 100%;
+    padding: 20px 0;
+    clear: both;
+    border-top: 1px solid $color-eight;
+    border-bottom: 1px solid $color-eight;
+    margin-top: 20px;
+    ul {
+        margin-bottom: 0;
+    }
+    li {
+    	display: inline-block;
+    	vertical-align: top;
+    	margin-right: 10px;
+        a {
+        	display: block;
+		    position: relative;
+		    padding: 0;
+		    height: 36px;
+		    width: 36px;
+		    line-height: 36px;
+		    background-color: transparent;
+		    font-size: 20px;
+		    border: 1px solid $color-eight;
+		    color: lighten( desaturate( adjust-hue( $brand-primary, 6deg ), 56 ), 29 );
+		    text-align: center;
+			&:hover{
+				background-color: $brand-primary;
+				border-color: $brand-primary;
+				color: $white;
+			}
+			&:active{
+				border-color: darken($brand-primary, 10%);
+				background-color: darken($brand-primary, 10%);
+				color: $white;
+			}
+        }
+    }
+}
+.quickview{
+	.social-sharing{
+		padding: 0;
+		margin: 0;
+		border: none;
+	}
+}

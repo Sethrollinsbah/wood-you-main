@@ -1,0 +1,150 @@
+.banner-item {
+	text-align: center;
+	position: relative;
+}
+.banner-item-content{
+	position: relative;
+}
+.banner-item-content .banner-img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+.banner-item-content .banner-img.secondary-image,
+.banner-item-content:hover .banner-img.primary-image {
+	display: none;
+}
+.banner-item-content:hover .banner-img.secondary-image {
+	display: inline-block;
+}
+
+.html-over .custom-html {
+	display: table;
+	margin: auto;
+	position: absolute;
+	width: 100%;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.img-rb .banner-item-content img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* carousel styles */
+.custombanners .bx-wrapper .bx-controls-direction a {
+	width: 20px;
+	height: 40px;
+	line-height: 52px;
+	top: 50%;
+	margin-top: -20px;
+	right: 0;
+	text-align: center;
+	background: rgba(0,0,0,.2);
+	padding: 0;
+}
+.custombanners .bx-wrapper .bx-controls-direction a.bx-prev {
+	left: 0;
+	right: auto;
+}
+.custombanners .bx-wrapper .bx-controls-direction a:hover {
+	background: rgba(0,0,0,.3);
+}
+.custombanners .bx-wrapper .bx-controls-direction a:hover:before  {
+	color: #FFF;
+}
+.custombanners .bx-wrapper .bx-controls-direction a:before {
+	content: '\232a';
+	font-family: Arial;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	margin-top: -10px;
+	height: 0px;
+	padding: 0;
+	color: #FFF;
+}
+.custombanners .bx-wrapper .bx-controls-direction a.bx-prev:before {
+	content: '\2329';
+	left: auto;
+	right: 6px;
+}
+
+.n-hover .bx-wrapper .bx-controls-direction {
+	display: none;
+}
+.n-hover .bx-wrapper:hover .bx-controls-direction {
+	display: block;
+}
+.custombanners .bx-controls.bx-has-pager {
+	margin-bottom: 35px;
+}
+.custombanners .bx-wrapper .bx-pager.bx-default-pager a.bx-pager-link {
+	width: 12px;
+	height: 12px;
+	border: 2px solid #333;
+	background: #FFF;
+	border-radius: 100%;
+}
+.custombanners .bx-wrapper .bx-pager.bx-default-pager a.bx-pager-link:hover,
+.custombanners .bx-wrapper .bx-pager.bx-default-pager a.bx-pager-link.active {
+	background: #333;
+}
+
+/* make sure carousel is hidden before loading */
+.custombanners .carousel {
+	display: none;
+}
+.custombanners .bx-wrapper .carousel {
+	display: block;
+}
+
+/* grid values for 480 px. They are not present in BS 3 */
+@media (max-width: 479px) {
+	[class*=".col-xxs-"]{ float: left; }
+	.col-xxs-1  { width: 8.3%; }
+	.col-xxs-2  { width: 16.6%; }
+	.col-xxs-3  { width: 25%; }
+	.col-xxs-4  { width: 33.3%; }
+	.col-xxs-5  { width: 41.8%; }
+	.col-xxs-6  { width: 50%; }
+	.col-xxs-7  { width: 58.3%; }
+	.col-xxs-8  { width: 66.6%; }
+	.col-xxs-9  { width: 75%; }
+	.col-xxs-10 { width: 83.3%; }
+	.col-xxs-11 { width: 91.6%; }
+	.col-xxs-12 { width: 100%; }
+}
+
+/* fix for /bx_loader.gif 404 (Not Found) */
+.custombanners .bx-wrapper .bx-loading  {
+	background: none;
+}
+
+/****** special classes used in layout ******/
+.custombanners .compact-gutters-container {
+	margin: 0 -5px;
+}
+.custombanners .compact-gutters {
+	padding: 0 5px 9px 5px;
+}
+.box-shadow, .img-box-shadow img {
+	box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* larger nav */
+.custombanners .larger-nav .bx-wrapper .bx-controls-direction a {
+	width: 25px;
+	height: 52px;
+	margin-top: -26px;
+}
+.custombanners .larger-nav .bx-wrapper .bx-controls-direction a:before {
+	font-size: 30px;
+	left: 9px;
+}
+.custombanners .larger-nav .bx-wrapper .bx-controls-direction a.bx-prev:before {
+	left: auto;
+	right: 7px;
+}
+/* since 2.9.1 */

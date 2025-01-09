@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>giftcard</name>
+    <displayName><![CDATA[Gift card]]></displayName>
+    <version><![CDATA[2.1.70]]></version>
+    <description><![CDATA[Add the functionality needed to the creation, management and use of gift card.]]></description>
+    <author><![CDATA[Timactive]]></author>
+    <tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Are you sure uninstall module gift card , all information will be deleted?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

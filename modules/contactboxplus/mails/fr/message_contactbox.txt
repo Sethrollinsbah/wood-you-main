@@ -1,0 +1,12 @@
+[{shop_url}] 
+
+Message de la part d'un client de {shop_name}
+
+
+PRODUIT CONCERNÉ : {product_name}
+
+{custom_fields_txt}
+
+
+{shop_name} [{shop_url}]
+

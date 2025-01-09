@@ -1,0 +1,81 @@
+.side-banner {
+    .custom-html{
+        background: rgba($brand-secondary, .6);
+        color: $white;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        left: 0;
+        left: 20px;
+        width: 100%;
+        width: auto;
+        padding: 20px 0 28px 27px;
+        transform: translateY(-50%);
+        text-align: left;
+    }
+    h4 {
+        font-size: 59px;
+        font-weight: 700;
+        text-transform: uppercase;
+        strong {
+            font-size: 29px;
+            display: block;
+        }
+    }
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+    }
+}
+//max 1199
+@include media-breakpoint-down(lm) {
+    .side-banner {
+        h4 {
+            font-size: 45px;
+            strong{
+                font-size: 25px;
+            }
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+}
+//max 991
+@include media-breakpoint-down(md) {
+    .side-banner {
+        .custom-html {
+            right: 10px;
+            left: 10px;
+            padding: 10px 0 10px 10px;
+        }
+        h4 {
+            font-size: 35px;
+            strong {
+                font-size: 19px;
+            }
+        }
+        p {
+            font-size: 14px;
+            padding-top: 5px;
+        }
+    }
+}
+//max 768
+@include media-breakpoint-down(sl) {
+    .side-banner{
+        text-align: center;
+    }
+}
+//max 455
+@include media-breakpoint-down(xs) {
+    .side-banner{
+        &.hover_scale{
+            display: block;
+        }
+        .banner-img{
+            width: 100%;
+        }
+    }
+}

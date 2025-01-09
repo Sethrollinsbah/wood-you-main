@@ -1,0 +1,49 @@
+//presentation
+.presentation-wrapper {
+	padding: 15px 0;
+	border: 1px solid $color-sixty;
+	display: inline-block;
+}
+.presentation-preview {
+    opacity: 0.5;
+	cursor: pointer;
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	min-height: 30px;
+}
+.presentation-preview:last-child {
+	margin-bottom: 0;
+}
+.presentation-preview.current {
+    opacity: 1;
+}
+.presentation-preview-title {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    color: $white;
+    z-index: 123;
+    background: rgba($black, 0.3);
+    font-size: 1.1em;
+}
+.main-item-content {
+	font-size: 1.1em;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+
+.main-item-content .item-readmore {
+	color: $brand-primary;
+}
+.main-item-content .item-readmore i {
+	font-size: 12px;
+}

@@ -1,0 +1,31 @@
+@import "../partials/_variables";
+
+%btn-reset{
+	background: none;
+	border: none;
+	color: inherit;
+	padding: 0;
+	outline: none;
+}
+%margin-reset {
+	margin: 0;
+}
+%padding-reset {
+	padding: 0;
+}
+%overlay-bg{
+	background: rgba($black, .2);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+%block{
+	border: 1px solid $color-nine;
+	padding: 35px;
+	#left-column &, #right-column &{
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="0b4db271fc4624853e634ef6882ea8be">
+        <source>View all</source>
+        <target>Voir tous</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Lire plus</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680">
+        <source>All</source>
+        <target>Tous</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="aa55eeb3bfe951eb9d56e8a919d80781">
+        <source>of %d</source>
+        <target>%d</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="0974d2c2f4c6420089275c2a41c4b41c">
+        <source>Pages:</source>
+        <target>Pages:</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="be8df1f28c0abc85a0ed0c6860e5d832">
+        <source>Blog</source>
+        <target>Blog</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="5a95a425f74314a96f13a2f136992178">
+        <source>Share</source>
+        <target>Partager</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="a5d491060952aa8ad5fdee071be752de">
+        <source>comments</source>
+        <target>commentaires</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+      <trans-unit id="c96417ab573f83e2ee5d3a5054f618e6">
+        <source>This post is not available</source>
+        <target>Ce post n'est pas disponible</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/Backoffice:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>contactboxplus</name>
+    <displayName><![CDATA[ContactBox: Customizable Contact Form for product pages]]></displayName>
+    <version><![CDATA[3.8.0]]></version>
+    <description><![CDATA[Adds a link to a Message Box that lets customers ask questions about a product]]></description>
+    <author><![CDATA[Chimon Sultan]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

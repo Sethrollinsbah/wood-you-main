@@ -1,0 +1,153 @@
+.fticon span {
+    height: 31px;
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 31px;
+    /* float: left; */
+    text-align: center;
+    vertical-align: top;
+    line-height: 31px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.mce-fontawesome-panel .mce-container-body,
+.mce-fontawesome-panel .mce-container{
+    width: 100% !important;
+    overflow-x: hidden;
+}
+.mce-fontawesome-panel .mce-abs-layout .mce-container-body,
+.mce-fontawesome-panel .mce-abs-layout-item
+{
+    height: auto !important;
+}
+.mce-fontawesome-panel .mce-scrollbar-h{
+    display: none !important;
+}
+.mce-fontawesome-panel .fticon{
+    width: 4%;
+    float: left;
+    cursor: pointer;
+}
+.mce-fontawesome-panel #icon-search-popup{
+    width: 94%;
+}
+
+.fticon {
+    display: table;
+}
+#fontellico-change-class-select .fticon span{
+    cursor: pointer;
+}
+.bootstrap .fticon .btn.btn-default {
+    display: table-cell;
+    width: 31px;
+    border-radius: 0;
+}
+
+.code,.css,.custom_css, .custom_id {
+    display: table-cell;
+    margin: 0 1px 3px;
+    border: 1px solid #eee;
+    padding: 6px 8px;
+    vertical-align: top;
+}
+.custom-id-label {
+    text-align: right;
+    padding-right: 5px;
+}
+#reset-form{
+    display: inline;
+}
+.bootstrap button.close {
+    margin-top: 7px;
+}
+.fticon {
+    margin: 10px 0;
+}
+
+#ft-icons {
+    margin: 10px 0;
+}
+
+.fticon {
+    margin: 0!important;
+    padding: 3px 0!important;
+    background: #fff;
+    /* border: 1px solid #eee; */
+}
+
+.fticon span:before {
+    display: block;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    width: 31px;
+    border: 1px solid;
+}
+
+#fontellico-module {
+    background: #fff;
+    padding: 12px 6px;
+    width: 100%;
+    display: table;
+}
+
+.fticon {
+    margin-bottom: 1px;
+}
+
+#icon-search {
+    border-radius: 3px;
+    border: 1px solid #eee;
+    padding: 6px 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#icon-search-popup, #icon-css-search-popup {
+    border-radius: 3px;
+    border: 1px solid #eee;
+    padding: 6px 8px;
+    margin-bottom: 10px;
+    width: 88%;
+    position: relative;
+    display: table;
+    top: auto;
+    right: 0;
+}
+
+button#add-icons-modal {
+    position: relative;
+    float: right;
+    left: 0;
+    display: table;
+    top: 0;
+    width: 10%;
+}
+.file-input {
+    position: relative;
+    overflow: hidden;
+
+}
+#zipped_config_data{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+    font-size: 23px;  }
+#search-input{
+    background: none;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#fontellico-change-class-select .fticon{
+    float: left;
+}
+#fontellico-change-class-select{
+    padding: 5px;
+}

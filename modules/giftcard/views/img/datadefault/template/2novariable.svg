@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300px"
+   height="191px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="1novariable.svg"
+   inkscape:export-filename="/home/rdevera/workspacephpnew/catbibips15/prestashop/modules/giftcard/logo.png"
+   inkscape:export-xdpi="15.423112"
+   inkscape:export-ydpi="15.423112">
+  <defs
+     id="defs3">
+    <filter
+       id="filter8109"
+       inkscape:label="Fancy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8111"
+         stdDeviation="5"
+         result="result1" />
+      <feComposite
+         k4="0"
+         k3="0"
+         k1="0"
+         id="feComposite8113"
+         in2="result1"
+         operator="arithmetic"
+         k2="2"
+         in="result1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6970563"
+     inkscape:cx="-16.830367"
+     inkscape:cy="58.231982"
+     inkscape:document-units="mm"
+     inkscape:current-layer="var_color1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6082" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2989">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="var_color1"
+       style="fill:#996600"
+       transform="translate(-2.0833333,2.0833333)">
+      <rect
+         style="fill:#e85829;fill-opacity:1;stroke:#e73b05;stroke-width:1.99218166"
+         id="rect4099"
+         width="297.15128"
+         height="190.3416"
+         x="3.7160392"
+         y="-1.4624721"
+         ry="9.9877291" />
+      <text
+         xml:space="preserve"
+         style="font-size:25.78211212px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+         x="156.40102"
+         y="65.980797"
+         id="text4101"
+         sodipodi:linespacing="125%"
+         transform="scale(0.94409602,1.0592143)"><tspan
+           sodipodi:role="line"
+           x="161.25191"
+           y="65.980797"
+           id="tspan4303"
+           style="font-size:62.87733841px;text-align:center;text-anchor:middle">CARTE </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+         x="149.02246"
+         y="147.66878"
+         id="text4309"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4311"
+           x="50.991566"
+           y="147.66878"
+           style="font-size:85px;text-anchor:middle;text-align:center">CADEAU</tspan></text>
+    </g>
+  </g>
+</svg>

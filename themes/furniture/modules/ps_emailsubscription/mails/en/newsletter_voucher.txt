@@ -1,0 +1,8 @@
+[{shop_url}] 
+
+
+We are delighted to off you 15% off your next online purchase.  Please enter the following code at checkout: {discount} 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

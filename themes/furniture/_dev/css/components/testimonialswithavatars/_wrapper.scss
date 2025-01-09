@@ -1,0 +1,42 @@
+.twa-wrapper{
+	margin-top: 40px;
+	padding: 0 $grid-gutter-width-base/2;
+	.twa-inner{
+		border: 1px solid $color-eight;
+	    padding: 30px 25px 55px 30px;
+	    position: relative;
+	    min-height: 270px;
+	}
+	.title_main_section {
+		margin-bottom: 38px;
+	}
+	.button-wrap{
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+//min 769
+@include media-breakpoint-up(md) {
+	.twa-wrapper{
+		margin-top: 64px;
+		&.DISPLAYHOMECUSTOM{
+			flex: 0 0 (6/12*100%);
+			max-width: (6/12*100%);
+	        .title_main_section {
+             text-align: left;
+	             span {
+	                 padding-left: 0;
+	             }
+			}
+		}
+	}
+}
+//max 480
+@include media-breakpoint-down(xs) {
+	.twa-wrapper{
+		.twa-inner{
+		    border: none;
+		    padding: 0 0 65px;
+		}
+	}
+}

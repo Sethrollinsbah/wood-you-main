@@ -1,0 +1,197 @@
+.awesome-effect {
+    vertical-align: bottom;
+}
+.banner-top {
+	.awesome-effect{
+		&:after, &:before {
+			transition: opacity 0.35s .35s, transform 0.35s .35s;
+		}
+		&:before {
+			content: '';
+			top: 40px;
+			right: 20px;
+			bottom: 40px;
+			left: 20px;
+			border-top: 1px solid $white;
+			border-bottom: 1px solid $white;
+			position: absolute;
+			transform: scale(0, 1);
+			transform-origin: 0 0;
+			z-index: 2;
+		}
+		&:after {
+			content: '';
+			top: 20px;
+			right: 40px;
+			bottom: 20px;
+			left: 40px;
+			border-right: 1px solid $white;
+			border-left: 1px solid $white;
+			position: absolute;
+			transform: scale(1, 0);
+			transform-origin: 100% 0;
+			z-index: 1;
+			top: 10px;
+			bottom: 10px;
+			left: 20px;
+			right: 20px;
+		}
+		&:before {
+			top: 20px;
+			bottom: 20px;
+			left: 10px;
+			right: 10px;
+		}
+	}
+	.banner-item-content{
+		&:before{
+			background: $brand-primary;
+			opacity: 0.2;
+			transition: filter 0.35s, transform 0.35s;
+			content: '';
+			display: block;
+			position: absolute;
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			width: auto;
+			height: auto;
+			left: 5px;
+			top: 5px;
+			right: 5px;
+			bottom: 5px;
+		}
+		img {
+			transition: transform .35s;
+		}
+		&:hover, &:focus{
+			img{
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+.more-width-banner {
+	.awesome-effect{
+		&:before, &:after {
+			transition: opacity 0.35s .35s, transform 0.35s .35s;
+		}
+		&:before{
+			content: '';
+			top: 40px;
+			right: 20px;
+			bottom: 40px;
+			left: 20px;
+			border-top: 1px solid $white;
+			border-bottom: 1px solid $white;
+			position: absolute;
+			transform: scale(0, 1);
+			transform-origin: 0 0;
+			z-index: 1;
+		}
+		&:after {
+			content: '';
+			top: 20px;
+			right: 40px;
+			bottom: 20px;
+			left: 40px;
+			border-right: 1px solid $white;
+			border-left: 1px solid $white;
+			position: absolute;
+			transform: scale(1, 0);
+			transform-origin: 100% 0;
+			z-index: 1;
+		}
+	}
+	.custom-html {
+		z-index: 1;
+	}
+	.inner_multi{
+		transition: background .35s;
+	}
+	.banner-item-content {
+		overflow: hidden;
+		&:before{
+			background: $brand-primary;
+			opacity: .2;
+			transition: filter 0.35s, transform 0.35s;
+			content: '';
+			display: block;
+			position: absolute;
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+		}
+		img {
+			transform: scale(1.03);
+			position: relative;
+			z-index: 0;
+			transition: transform .35s;
+		}
+		&:hover, &:focus {
+			.inner_multi {
+				&:before{
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+
+
+.more-width-banner {
+	&.banner-item {
+		&:hover, &:focus{
+			.awesome-effect{
+				&:before, &:after {
+					opacity: 1;
+					transform: scale(1);
+				}
+			}
+		}
+	}
+	.banner-item-content {
+		&:hover, &:focus{
+			img {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+	}
+}
+
+.banner-top .banner-item-content {
+	&:hover, &:focus {
+		.awesome-effect{
+			&:after, &:before {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+	}
+}
+
+.more-width-banner .banner-item-content:before, .banner-top .banner-item-content:before {
+	transform: scale(0, 0);
+	filter: blur(40px);
+}
+
+.more-width-banner,.banner-top {
+	.banner-item-content{
+		&:hover,&:focus{
+			&:before{
+				transform: scale(1, 1);
+				filter: blur(0);
+			}
+		}
+	}
+}
+
+.wrap_tabs_home li a:before {
+	transition: color .6s ease;
+}
+

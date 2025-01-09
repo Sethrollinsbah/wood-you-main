@@ -1,0 +1,115 @@
+.post-comment{
+	position: relative;
+	padding: 0 $grid-gutter-width-base/2;
+	margin-bottom: 15px;
+	.post-inner{
+		display: flex;
+		border: 1px solid $color-eight;
+		padding: 20px;
+	}
+	.wrapper-ava{
+		display: inline-block;
+    	position: relative;
+    	width: 100px;
+	}
+	.ava-img {
+	    display: inline-block;
+	    background-position: 50% 50%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-color: $white;
+	    width: 75px;
+	    height: 75px;
+	    text-align: center;
+	    line-height: 73px;
+        &[style*="0.jpg"]{
+            background-image: none!important;
+            border: 1px solid #e5e5e5;
+            &:before{
+               font-size: 25px;
+               position: absolute;
+               top: 0;
+               left: 0;
+               right: 0;
+               bottom: 0;
+            }
+        }
+	}
+	.post_rating {
+    	font-size: 0;
+    	display: block;
+    	margin-top: 10px;
+	}
+	.content_wrapper{
+		min-height: 0!important;
+	}
+	.post_content{
+	    font-weight: 300;
+	    font-size: 14px;
+	    line-height: 1.5;
+	    height: auto!important;
+	}
+	h5{
+		font-size: 16px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	}
+	.post_footer{
+	    padding-top: 15px;
+	    position: relative;
+	    margin-top: 12px;
+	    &:before{
+		    content: '';
+		    display: block;
+		    width: 70px;
+		    height: 0;
+		    border-top: 1px solid;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+	    }
+	}
+	.customer_name{
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.date_add{
+		font-size: 16px;
+	    font-weight: 300;
+	}
+}
+.rating-star{
+	font-style: normal;
+	color: #dddddd;
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 3px;
+	vertical-align: top;
+	background: none!important;
+	&.highlighted{
+		cursor: pointer;
+	}
+	&.on,&.highlighted{
+	    color: #f9ba46;
+	}
+}
+//max 480
+@include media-breakpoint-down(xs) {
+	.post-comment{
+		text-align: center;
+		.post-inner{
+			flex-wrap: wrap;
+		}
+		.post_avatar{
+			width: 100%;
+		}
+		.post_footer{
+			&:before{
+				display: none;
+			}
+		}
+		.post_content{
+			margin-top: 10px;
+		}
+	}
+}

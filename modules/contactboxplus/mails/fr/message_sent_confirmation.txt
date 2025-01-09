@@ -1,0 +1,13 @@
+[{shop_url}] 
+
+
+Votre message à propose de l'article {product_name} a bien été envoyé à notre service client.
+
+URL : {product_url}
+
+
+
+Nous vous répondrons dès que possible.
+
+{shop_name} [{shop_url}]
+

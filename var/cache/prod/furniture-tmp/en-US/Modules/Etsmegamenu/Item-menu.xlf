@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/item-menu.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="2b5ad90c840d138033f8e9641b17e7b7">
+        <source>Delete menu</source>
+        <target>Delete menu</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="630e6ef08d01ef5cb9e3397e8db5e994">
+        <source>Duplicate menu</source>
+        <target>Duplicate menu</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="ed75712b0eb1913c28a3872731ffd48d">
+        <source>Duplicate</source>
+        <target>Duplicate</target>
+        <note>Line: 72</note>
+      </trans-unit>
+      <trans-unit id="8a165af354761ba57a7f9413cf7b010a">
+        <source>Edit menu</source>
+        <target>Edit menu</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Close</target>
+        <note>Line: 74</note>
+      </trans-unit>
+      <trans-unit id="67b766b66c1b187ef3ad796aabf1753b">
+        <source>Add tab</source>
+        <target>Add tab</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Edit</target>
+        <note>Line: 73</note>
+      </trans-unit>
+      <trans-unit id="b61b8f498d489f2e2b916b887b7062bc">
+        <source>Add column</source>
+        <target>Add column</target>
+        <note>Line: 75</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

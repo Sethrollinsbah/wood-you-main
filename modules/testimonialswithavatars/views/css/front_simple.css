@@ -1,0 +1,216 @@
+/**
+*  @author    Amazzing
+*  @copyright Amazzing
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*
+*  NOTE: It is not recommended to modify this file.
+*  If you want to add custom styles, you should add an override named custom.css in your theme subfolder:
+*      PS 1.6: /themes/your_theme/css/modules/testimonialswithavatars/views/css/custom.css
+*      PS 1.7: /themes/your_theme/modules/testimonialswithavatars/views/css/custom.css
+*/
+
+.twa_posts {
+	margin: 0 -10px;
+}
+.twa_posts .post{
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.twa_posts .post h5{
+	font-size: 1.3em;
+	margin: 0.6em 0;
+}
+@media (min-width: 767px) {
+	.twa_posts.grid .post {
+		width: 50%;
+		float: left;
+	}
+}
+.twa_in_hook {
+	margin: 15px 0;
+}
+/* carousel */
+.twa_in_hook .bx-wrapper .post {
+	padding: 0 10px;
+	margin: 0;
+}
+.twa_in_hook .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+.twa_in_hook.carousel .twa_posts {
+	margin: 0;
+	opacity: 0;
+}
+.twa_in_hook.carousel .twa_posts.rendered {
+	opacity: 1;
+}
+.twa_in_hook.carousel {
+	margin-left: -10px;
+	margin-right: -10px;
+	box-shadow: none;
+}
+.twa_in_hook.carousel h2 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.twa_in_hook .bx-wrapper .bx-pager.bx-default-pager a{
+	background: #FAFAFA;
+	border: 1px solid #CCC;
+	overflow: hidden;
+}
+.twa_in_hook .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #DDD;
+}
+.twa_in_hook .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #CCC;
+}
+/* fix for /bx_loader.gif 404 (Not Found) */
+.twa_in_hook .bx-wrapper .bx-loading  {
+	background: none;
+}
+.neat {
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+a.view_all {
+	text-decoration: none;
+	color: #999;
+	margin-top: 5px;
+	display: block;
+	text-align: center;
+	clear: both;
+}
+
+.twa_posts .content_wrapper {
+	padding: 30px 15px 45px;
+	background: #FAFAFA;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	position: relative;
+}
+
+.twa_posts .post_content {
+	max-height: 130px;
+	overflow: hidden;
+}
+
+.post_content img {
+	margin: 0 3px;
+	vertical-align: top;
+}
+
+.twa_posts .post.expanded .post_content {
+	max-height: none;
+	overflow: hidden;
+	height: auto!important;
+	padding-bottom: 15px;
+}
+
+.twa_posts .post_avatar img {
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 100%;
+	/* requires important because some global styles include body selector */
+	margin: 0 0 -35px!important;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+}
+
+.post_footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 15px;
+	z-index: 1;
+}
+
+.twa_posts .expand,
+.twa_posts .post .less,
+.twa_posts .post.expanded .more {
+	display:none;
+}
+.twa_posts .post.expanded .less {
+	display: inline;
+}
+.twa_posts .expandable .expand {
+	font-size: 12px;
+	line-height: 1;
+	height: 20px;
+	padding-top: 3px;
+	background: #FAFAFA;
+	z-index: 1;
+	position: relative;
+	display: block;
+	color: #999;
+	text-decoration: none;
+}
+.twa_posts .expandable.expanded  .expand {
+	margin-top: -10px;
+}
+
+.middle-line {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+.middle-line:before,
+.middle-line:after {
+	background-color: #CCC;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+.middle-line:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+.middle-line:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+.post_rating {
+	float: right;
+	margin-right: -3px;
+}
+.rating-star {
+	color: #DDD;
+	font-size: 15px;
+	float: left;
+	padding-right: 3px;
+}
+.rating-star.on {
+	color: #FFCC00;
+}
+.rating-star.highlighted{
+	color: #FFDD00;
+}
+.unicode-star:before {
+	content: '\2605';
+	font-style: normal;
+}
+
+.text-center {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+/* bb styles*/
+.b {font-weight:bold;}
+.i {font-style:italic;}
+.u {text-decoration:underline;}
+/* since 2.5.0 */

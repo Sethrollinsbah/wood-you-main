@@ -1,0 +1,12 @@
+#giftcard_block p.link_gift_cards{
+	background:url(../img/icon/giftcard_block.png) no-repeat;
+	padding-left:50px;
+	padding-top:5px;
+	height:30px;
+}
+#giftcard_block {
+  box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5625rem;
+  background: white;
+  padding: 1.5625rem 1.25rem;
+}

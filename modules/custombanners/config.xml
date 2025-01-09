@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>custombanners</name>
+    <displayName><![CDATA[Custom banners]]></displayName>
+    <version><![CDATA[2.9.3]]></version>
+    <description><![CDATA[Add images, videos or other custom HTML content anywhere on your site]]></description>
+    <author><![CDATA[Amazzing]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

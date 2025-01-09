@@ -1,0 +1,22 @@
+.left-column{
+	.product-flag {
+        &.available{
+            display: none;
+        }
+    	&.discount-percentage{
+
+    	}
+    	&.product-availability{
+  
+    	}
+    	&.on-sale{
+            bottom: 17px;
+            left: -33px;
+            transform: rotateZ(45deg);
+    	}
+        &.new{
+            top: 21px;
+            left: -33px;
+        }
+	}
+}

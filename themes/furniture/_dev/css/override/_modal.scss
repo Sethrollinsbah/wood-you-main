@@ -1,0 +1,54 @@
+.modal{
+	.close{
+		background: $color-thirty-nine;
+		cursor: pointer;
+		display: block;
+		font-size: 14px;
+		line-height: 45px;
+		font-family: $icon-font;
+		height: 45px;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		top: 0;
+		width: 45px;
+		z-index: 1;
+		&:before{
+			content: '\E5CD';
+		}
+		&:hover{
+			background: $brand-primary;
+			color: $white;
+			opacity: 1;
+		}
+		span {
+			display: none;
+		}
+		i{
+			display: none;
+		}
+	}
+	.modal-title{
+		font-size: 22px;
+		font-weight: 700;
+		margin: 0;
+		text-transform: uppercase;
+	}
+}
+.modal-dialog{
+	.modal-content{
+		border-radius: 0;
+	}
+}
+.modal-header{
+	border: none;
+	padding: 6px 15px;
+}
+.modal-body{
+	padding: 30px 15px;
+}
+@include media-breakpoint-up(sm){
+	.modal-dialog{
+		max-width: 650px;
+	}
+}

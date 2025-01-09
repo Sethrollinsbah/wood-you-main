@@ -1,0 +1,28 @@
+.amazzingblog{
+	&.blocks{
+		margin-top: 70px;
+		.title_main_section{
+			margin-bottom: 	93px;
+		}
+	}
+	&.displayLeftColumn{
+		margin: 25px 0;
+	}
+}
+
+#module-amazzingblog-blog{
+	.card-block{
+		padding: 0 $grid-gutter-width-base/2;
+		border: none;
+	}
+}
+.amazzingblog.blocks{
+	width: 100%;
+}
+.inline-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+.hidden{
+	display: none;
+}

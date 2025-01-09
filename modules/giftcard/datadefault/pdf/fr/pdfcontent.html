@@ -1,0 +1,76 @@
+<table style="width: 100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center; border-bottom: 1px solid #D6D4D4;">
+			<a href="http://{$shop_link}"><img
+				style="width:{$width_logo}" src="http://{$logo_path}" alt="" /></a></td>
+		</tr>
+		<tr>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>Bonjour {$card_lastname}!</td>
+		</tr>
+		<tr>
+			<td>Vous avez reçu une carte cadeau d'un montant de <font color="#333">{$card_price}</font> de la part de {$card_from}! Vous pouvez l'utiliser 
+				sur <a href="http://{$shop_link}">{$shop_name}</a>. <br/>Bon achat sur {$shop_name}!</td>
+		</tr>
+	</tbody>
+</table>
+<p style="text-align: center;">{$card_image}</p>
+<br/>
+<table style="width: 100%;border:1px solid #D6D4D4;background-color:#f8f8f8;">
+	<tbody>
+		
+		<tr>
+			<td style="text-align: center;color:#FF0080" 
+				colspan="2">Message de la part {$card_from}</td>
+		</tr>
+		<tr><td colspan="2"></td></tr>
+		<tr>
+			<td colspan="2">{$card_message}</td>
+		</tr>
+		<tr><td colspan="2"></td></tr>
+	</tbody>
+</table>
+<br/>
+<table style="width: 100%;border:1px solid #D6D4D4;background-color:#f8f8f8;">
+	<tbody>
+		
+		<tr>
+			<td style="text-align: center;color:#FF0080" 
+				colspan="2">Information de la carte cadeau</td>
+		</tr>
+		<tr><td colspan="2"></td></tr>
+		<tr>
+			<td style="text-align:right;width:20%">Montant</td>
+			<td style="padding-left: 5px"><font color="#333">{$card_price}</font></td>
+		</tr>
+		<tr>
+			<td style="text-align: right;width:20%">Code</td>
+			<td style="padding-left: 5px"><font color="#333">{$card_code}</font></td>
+		</tr>
+		<tr>
+			<td style="text-align: right;width:20%">Date d'expiration</td>
+			<td style="padding-left: 5px"><font color="#333">{$card_expirate}</font></td>
+		</tr>
+		<tr><td colspan="2"></td></tr>
+	</tbody>
+</table>
+<br/>
+<table style="width: 100%;border:1px solid #D6D4D4;background-color:#f8f8f8;">
+	<tbody>
+		
+		<tr>
+			<td style="text-align: center;color:#FF0080" 
+				>Pour bénéficier de la carte cadeau</td>
+		</tr>
+		<tr><td></td></tr>
+		<tr>
+			<td>Voici le code de votre carte cadeau : <font color="#333">{$card_code}</font><br />
+				Copiez-collez ce numéro dans le panier de votre prochain achat avant de régler la commande.
+			</td>
+		</tr>
+		<tr><td></td></tr>
+	</tbody>
+</table>

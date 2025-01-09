@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/front/easywishlist.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="7ec9cceb94985909c6994e95c31c1aa8">
+        <source>My wishlists</source>
+        <target>My wishlists</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c">
+        <source>Wishlist</source>
+        <target>Wishlist</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="4a84e5921e203aede886d04fc41a414b">
+        <source>remove this product from my wishlist</source>
+        <target>remove this product from my wishlist</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="4b7d496eedb665d0b5f589f2f874e7cb">
+        <source>Product detail</source>
+        <target>Product detail</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="09dc02ecbb078868a3a86dded030076d">
+        <source>No products</source>
+        <target>No products</target>
+        <note>Line: 50</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

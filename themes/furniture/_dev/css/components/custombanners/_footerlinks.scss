@@ -1,0 +1,33 @@
+.custombanners.displayFooterAfter{
+	margin-left: auto;
+    flex: 0 0 ((100%/12)*8);
+    max-width: ((100%/12)*8);
+}
+.footerlinks{
+	text-align: right;
+	li {
+		display: inline-block;
+		padding: 0 30px 0 0;
+		&:last-child{
+			padding-right: $grid-gutter-width-base/2;
+		}
+	}
+}
+//max 991
+@include media-breakpoint-down(md){
+	.footerlinks{
+		li {
+			padding: 0 4px;
+		}
+	}
+}
+//max 768
+@include media-breakpoint-down(sl){
+	.custombanners.displayFooterAfter{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.footerlinks{
+		text-align: inherit;
+	}
+}

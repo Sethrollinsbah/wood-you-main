@@ -1,0 +1,538 @@
+    @media (min-width: 700px) and (max-width: 1200px) {
+        #wrap_form {
+            width: 100%;
+        }
+        .divCardExpirationDCVC {
+            float: none;
+            width: 42%;
+            margin: 0 0 -5px 0;
+        }
+    }
+    
+    @media (min-width: 700px) and (max-width: 1200px) {
+        #wrap_form {
+            width: 100%;
+        }
+        .divCardExpirationDCVC {
+            float: none;
+            width: 42%;
+            margin: 0 0 -5px 0;
+        }
+        #warning {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 699px) {
+        #formbox {
+            margin: 0 0 0 2px;
+        }
+        #wrap_form {
+            width: 100%;
+        }
+        .divCardExpirationDCVC {
+            float: none;
+            width: 52%;
+            margin: 0 0 -5px 0 !important;
+        }
+        #warning {
+            width: 100%;
+        }
+    }
+    
+    a.checker-decidir {
+        background: url(../img/decidir-creditcard.png) 15px 12px no-repeat #fbfbfb !important;
+        padding-left: 87px;
+        color: black;
+    }
+    
+    a.checker-decidir:after {
+        display: block;
+        content: "\f054";
+        position: absolute;
+        right: 15px;
+        margin-top: -11px;
+        top: 50%;
+        font-family: "FontAwesome";
+        font-size: 25px;
+        height: 22px;
+        width: 14px;
+        color: #777777;
+    }
+    
+    .slick-slide {
+        display: none;
+        float: left;
+        height: auto;
+        min-height: 1px;
+    }
+    
+    #formbox {
+        background: #ececec;
+        border-radius: 5px;
+        padding: 13px;
+    }
+    
+    #formbox form .row {
+        margin-bottom: 10px;
+    }
+    
+    #form_normal {
+        width: 46%;
+    }
+    
+    #form_token {
+        width: 46%;
+    }
+    
+    .formbox form button[type="submit"] {
+        border: 1px solid #54c7c3;
+        padding: 6px;
+        border-radius: 5px;
+        background: #54c7c3;
+        color: #fff;
+        font-size: 16px;
+        width: 10% !important;
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    
+    #security_code {
+        width: 5%;
+    }
+    
+    #plan_selection {
+        width: 100%;
+    }
+    
+    #wrap_form {
+        width: 50%;
+    }
+    
+    #new_card,
+    #tokens_cards {
+        width: auto;
+        /* display: block; */
+        height: 40px;
+    }
+    
+    .label_chose_card {
+        margin: 14px 0 0 8px;
+    }
+    
+    #cvcfield {
+        width: 63% !important;
+    }
+    
+    #cvc_help {
+        width: 17px;
+        margin: 0 7px 0 0;
+        padding: 0 0px 0 0;
+    }
+    
+    .left {
+        float: left;
+    }
+    
+    .right {
+        float: right;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .security {
+        margin: 0 0 0 0;
+    }
+    
+    #cvc {
+        width: 16%;
+    }
+    
+    #confirm_button_token,
+    #confirm_button_norm {
+        padding: 0 10px 0 12px;
+        width: 75px !important;
+        float: left;
+    }
+    
+    .elemento {
+        left: 506px;
+        top: 251px;
+        display: block;
+    }
+    
+    #boxSecCodeHelpContainer {
+        position: absolute;
+        display: none;
+        font-family: Roboto, sans-serif;
+        border: 1px solid #c2c2c2;
+        /*left: 236px;
+        top: 307px;*/
+        width: 296px !important;
+        background-color: white;
+    }
+    
+    .barcode {
+        height: 28px;
+        background-color: #5e656b;
+        margin: 24px 0 0 0;
+        border: 1px solid #c2c2c2;
+    }
+    
+    .cardcode {
+        color: #8dd983;
+        margin: 10px 0 5px 5px;
+    }
+    
+    .signature {
+        margin: 10px 0 5px 24px;
+    }
+    
+    .explanation {
+        margin: 0 0 10px 13px;
+    }
+    
+    .paybox {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+    /**/
+    
+    div.selector span {
+        width: 100%!important
+    }
+    
+    .loader {
+        background-image: url(../img/loader.gif);
+        width: 30px;
+        height: 30px;
+        border: 1px solid 000;
+        float: left;
+        margin: 5px 0 0 8px;
+        display: none;
+    }
+    
+    h1 {
+        color: #5d6f78;
+        font-size: 23px;
+        margin: 10px 0 22px 0;
+    }
+    
+    input {
+        width: 100%;
+        display: block;
+        height: 40px;
+    }
+    
+    select {
+        display: block;
+        height: 40px;
+        margin: 0 5px 0 0;
+    }
+    
+    button {
+        margin: 0 5px 0 5px !important;
+    }
+    
+    label {
+        margin: 10px 0 0 0;
+        display: block;
+        text-align: left !important;
+    }
+    
+    input[type="text"] {
+        width: none;
+    }
+    
+    #warning {
+        display: none;
+        background-color: #FFF3D7;
+        color: #ad0d1a;
+        border: none;
+        border-left: 3px solid #ad0d1a;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+    #formbox {
+        max-width: 550px !important;
+    }
+    
+    #formbox form .row {
+        margin-bottom: 10px;
+    }
+    
+    #alert {
+        display: none;
+        background-color: #FFF3D7;
+        color: #ad0d1a;
+        border: none;
+        border-left: 3px solid #ad0d1a;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+    #form_normal {
+        width: 98%;
+        margin-top: -9px
+    }
+    
+    #confirm_button_token,
+    #confirm_button_norm {
+        padding: 5px 15px 5px 17px;
+        width: 100px !important;
+        height: 50px;
+        float: left;
+        margin-top: 1rem;
+    }
+    
+    #form_token {
+        width: 98%;
+    }
+    
+    .formbox form button[type="submit"] {
+        border: 1px solid #54c7c3;
+        padding: 6px;
+        border-radius: 5px;
+        background: #54c7c3;
+        color: #fff;
+        font-size: 16px;
+        width: 10% !important;
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    
+    #CardSecurityCodeHelper {
+        background-color: #f2f2f2;
+        color: #5e656b;
+        display: inline-block;
+        border: 1px solid #c7cbce;
+        border-left: 0px;
+        height: 40px;
+        padding: 5px 4px;
+        border-radius: 0px 5px 5px 0px;
+        margin: 0 0px 0 0 !important;
+    }
+    
+    #CardExpirationYear {
+        margin: 33px 21px 0px 6px
+    }
+    
+    #security_code {
+        width: 5%;
+    }
+    
+    #plan_selection {
+        width: 98%;
+    }
+    
+    #plan_selection .form-control-select,
+    select {
+        background-image: none;
+        border-color: #ccc;
+        border-radius: 4px;
+    }
+    
+    .form-controlc {
+        margin-top: 3px;
+        padding: 5px;
+        font-size: 16px;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #dcdcdc;
+        color: #666;
+    }
+    
+    #wrap_form {
+        width: 98%;
+    }
+    
+    .divCardExpirationDate {
+        display: inline;
+        width: 98%;
+        float: left;
+    }
+    
+    .divCardExpirationDateField {
+        display: inline;
+        border: 0px solid #000;
+        float: left;
+    }
+    
+    .divCardExpirationDCVC {
+        display: inline;
+        border: 0px solid #000;
+        float: left;
+        width: 28%;
+        margin: 0 0 0 10px;
+    }
+    
+    #new_card,
+    #tokens_cards {
+        width: auto;
+        /* display: block; */
+        height: 40px;
+    }
+    
+    .label_chose_card {
+        margin: 14px 0 0 8px;
+    }
+    
+    #cvcfield {
+        width: 63% !important;
+    }
+    
+    #cvc_help {
+        width: 35px;
+        margin: 4px 0 -10px 10px;
+    }
+    
+    .left {
+        float: left;
+    }
+    
+    .right {
+        float: right;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .security {
+        margin: 0 0 0 0;
+    }
+    
+    #cvc {
+        width: 16%;
+    }
+    
+    #confirm_button_token,
+    #confirm_button_norm {
+        padding: 0 10px 0 12px;
+        width: 75px !important;
+        float: left;
+    }
+    
+    .elemento {
+        left: 506px;
+        top: 251px;
+        display: block;
+    }
+    
+    #boxSecCodeHelpContainer {
+        position: absolute;
+        display: none;
+        font-family: Roboto, sans-serif;
+        border: 1px solid #c2c2c2;
+        /*left: 236px;
+      top: 307px;*/
+        width: 296px !important;
+        background-color: white;
+    }
+    
+    .barcode {
+        height: 28px;
+        background-color: #5e656b;
+        margin: 24px 0 0 0;
+        border: 1px solid #c2c2c2;
+    }
+    
+    .cardcode {
+        color: #8dd983;
+        margin: 10px 0 5px 5px;
+    }
+    
+    .signature {
+        margin: 10px 0 5px 24px;
+    }
+    
+    .explanation {
+        margin: 0 0 10px 13px;
+    }
+    
+    .paybox {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+    
+    fieldset {
+        border: none
+    }
+    
+    #formbox ul li {
+        list-style: none
+    }
+    
+    div.selector span {
+        width: 100%!important;
+    }
+    
+    .tarjetas {
+        position: relative;
+        float: left;
+        padding-right: 5px;
+    }
+    
+    div.selector select {
+        border: 1px solid #bbbbbb;
+        cursor: pointer;
+        background: #ffffff;
+        position: absolute;
+        padding: 5px;
+        top: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        left: 0;
+        width: 100%;
+    }
+    
+    .aceptar-condiciones {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        background: #fbffc6;
+        padding: 1rem 2rem 1rem 1rem;
+        border: solid 1px rgba(161, 161, 161, .60);
+    }
+    
+    .aceptar-condiciones input {
+        height: 30px;
+        width: 60px;
+        margin-right: 1rem;
+    }
+    
+    .aceptar-condiciones p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .boton-pagar {
+        cursor: not-allowed;
+        background-color: #aaa;
+        pointer-events: none;
+    }
+    
+    .active-pagar {
+        cursor: pointer !important;
+        background-color: #0069d9 !important;
+        pointer-events: auto !important;
+    }
+    
+    #formbox {
+        background: #ececec;
+        border-radius: 5px
+    }
+    
+    .formboxul ul li {
+        position: relative;
+        margin-right: 5px;
+    }
+    
+    .formboxul {
+        margin-top: 17px;
+    }

@@ -1,0 +1,16 @@
+/*animation slide*/
+.home-slide.in_carousel {
+    .custom-html {
+        visibility: hidden;
+        transition: visibility .8s .4s, opacity .8s .4s, transform .8s .4s;
+        transform: translate(-50px, -50%);
+        opacity: 0;
+    }
+    &.middle {
+        .custom-html {
+            visibility: visible;
+            transform: translate(-50%, -50%);
+            opacity: 1;
+        }
+    }
+}

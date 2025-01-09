@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/contactboxplus/views/templates/hook/cboxplus_form17.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="cc5fd9b9f1cad59fcff97a1f21f34304">
+        <source>Send a message</source>
+        <target>Send a message</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="a11cb3d6b736a1c7c84c13f3e16a12c4">
+        <source>Max size</source>
+        <target>Max size</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="6dd757cbdd852a16f222a7d1a07eab3e">
+        <source>Mb</source>
+        <target>Mb</target>
+        <note>Line: 84</note>
+      </trans-unit>
+      <trans-unit id="1d11ba2b2e5e5891a7bb5378bdc1c242">
+        <source>Allowed extensions</source>
+        <target>Allowed extensions</target>
+        <note>Line: 86</note>
+      </trans-unit>
+      <trans-unit id="5ccb72b3b258508dc7918070eaeb214c">
+        <source>Between</source>
+        <target>Between</target>
+        <note>Line: 95</note>
+      </trans-unit>
+      <trans-unit id="be5d5d37542d75f93a87094459f76678">
+        <source>and</source>
+        <target>and</target>
+        <note>Line: 102</note>
+      </trans-unit>
+      <trans-unit id="fc934f8aba2ac859133dfb0b5c7428e9">
+        <source>Choose a date</source>
+        <target>Choose a date</target>
+        <note>Line: 98</note>
+      </trans-unit>
+      <trans-unit id="2942c466ae985c4fe2d8cc9d0c801501">
+        <source>between</source>
+        <target>between</target>
+        <note>Line: 101</note>
+      </trans-unit>
+      <trans-unit id="632a2406bbcbcd553eec45ac14b40a0a">
+        <source>after</source>
+        <target>after</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="2f44417567bc123bd7c60de8c2a2b444">
+        <source>before</source>
+        <target>before</target>
+        <note>Line: 106</note>
+      </trans-unit>
+      <trans-unit id="9258cdb88f76574c5b600b603315b9e5">
+        <source>I have read and accept the</source>
+        <target>I have read and accept the</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="fa2ead697d9998cbc65c81384e6533d5">
+        <source>Privacy Policy</source>
+        <target>Privacy Policy</target>
+        <note>Line: 181</note>
+      </trans-unit>
+      <trans-unit id="70397c4b252a5168c5ec003931cea215">
+        <source>Required fields</source>
+        <target>Required fields</target>
+        <note>Line: 190</note>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3">
+        <source>Send</source>
+        <target>Send</target>
+        <note>Line: 200</note>
+      </trans-unit>
+      <trans-unit id="e81c4e4f2b7b93b481e13a8553c2ae1b">
+        <source>or</source>
+        <target>or</target>
+        <note>Line: 203</note>
+      </trans-unit>
+      <trans-unit id="ea4788705e6873b424c65e91c2846b19">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>Line: 205</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,9 @@
+*ERROR* 	v1.7.8.11	2024/05/31 - 13:36:21: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 14:56:04: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:11:12: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:11:12: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:11:13: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:11:13: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:11:14: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:11:14: Link to database cannot be established: SQLSTATE[08004] [1040] Too many connections at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/05/31 - 16:25:16: Link to database cannot be established: SQLSTATE[HY000] [1130] Host &#039;127.0.0.1&#039; is not allowed to connect to this MariaDB server at line 137 in file classes/db/DbPDO.php

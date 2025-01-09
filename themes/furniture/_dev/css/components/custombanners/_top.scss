@@ -1,0 +1,127 @@
+/* banner-top */
+.wrapper-top-banner{
+    padding-top: 40px;
+}
+.banner-top {
+    .banner-item-content {
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        border: 1px solid $color-eight;
+    }
+    .awesome-effect {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .banner-item-content {
+        img{
+            width: 100%;
+        }
+    }
+    .custom-html {
+        color: $color-three;
+        position: absolute;
+        z-index: 1;
+        top: 29px;
+        left: 0;
+        width: 100%;
+        padding: 0 5px;
+        text-align: center;
+    }
+    .awesome-effect {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+    }
+    h3 {
+        font-size: 29px;
+        font-weight: 400;
+        strong {
+            font-weight: 300;
+            text-transform: none;
+        }
+    }
+    &.banner-top-style-one {
+        .awesome-effect {
+            background: $color-thirteen;
+        }
+    }
+    &.banner-top-style-two {
+        .awesome-effect {
+            background: lighten( desaturate( adjust-hue( $brand-primary, 4deg ), 32 ), 27 );
+        }
+        .custom-html {
+            color: $white;
+            padding-right: 30px;
+            text-align: right;
+        }
+        h3 {
+            display: inline-block;
+            text-align: left;
+            strong {
+                display: block;
+            }
+        }
+    }
+    &.banner-top-style-three {
+        .awesome-effect {
+            background: lighten( desaturate( adjust-hue( $brand-primary, 2deg ), 40 ), 51 );
+        }
+        .custom-html {
+            padding-left: 30px;
+            text-align: left;
+        }
+    }
+}
+
+//max 1199
+@include media-breakpoint-down(lm){
+    .banner-top{
+        h3{
+            font-size: 25px;
+        }
+    }
+}
+//max 768
+@include media-breakpoint-down(sl) {
+    .banner-top {
+        h3 {
+            font-size: 18px;
+        }
+        &.banner-top-style-two .custom-html {
+            padding-right: 10px;
+        }
+    }
+}
+//max 667
+@include media-breakpoint-down(sm) {
+    .banner-top {
+        .custom-html{
+            top: 15px;
+        }
+    }
+}
+//max 455
+@include media-breakpoint-down(xs) {
+    .wrapper-top-banner{
+        padding-top: 0;
+    }
+    .banner-top {
+        margin: 0;
+        padding: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        h3{
+            font-size: 20px;
+        }
+        .banner-item-content {
+            display: block;
+            padding: 0;
+            border: none;
+        }
+        .awesome-effect {
+            display: block;
+        }
+    }
+}

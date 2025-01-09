@@ -1,0 +1,142 @@
+#module-amazzingblog-blog{
+	.post-page {
+		h1{
+			color: #363636;
+			font-size: 30px;
+			font-weight: bold;
+			line-height: 1.5;
+			margin: 42px 0 8px;
+		}
+	}
+	#footer{
+		margin-top: 57px;
+	}
+}
+.post-page {
+	.title-blog{
+		color: $black;
+		font-size: 20px;
+		font-weight: 400;
+		margin-bottom: 32px;
+	}
+	.cover{
+		position: relative;
+	}
+	.post-main-image{
+		img {
+			display: block;
+			width: 100%;
+		}
+		+ .post-date{
+			background: $brand-primary;
+			bottom: 0;
+			color: $white;
+			font-size: 16px;
+			left: 30px;
+			padding: 2px 8px;
+			position: absolute;
+			text-transform: uppercase;
+			width: 51px;
+			height: 51px;
+			text-align: center;
+			overflow: hidden;
+			line-height: 1.5;
+			transform: translateY(50%);
+		}
+	}
+	.post-content {
+		background: none;
+		color: #363636;
+		line-height: 2;
+		padding: 0;
+	}
+	.post-info{
+		font-size: 12px;
+		font-weight: bold;
+		color: $color-fourty-one;
+		> div {
+			padding-right: 5px;
+		}
+		i{
+			padding-right: 5px;
+			font-style: normal;
+			vertical-align: middle;
+			&:before{
+				font-family: $icon-font;
+			}
+		}
+		.icon-user{
+			&:before{
+				content: '\E7FD';
+			}
+		}
+		.icon-eye{
+			&:before{
+				content: '\E417';
+			}
+		}
+		.icon-comment{
+			&:before{
+				content: '\E253';
+			}
+		}
+	}
+}
+
+.post-page h4 {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.post-page img {
+	max-width: 100%;
+}
+//min 668
+@include media-breakpoint-up(sm) {
+	.post-page{
+		.wrapper-info{
+			display: table;
+			width: 100%;
+			.post-info,.post-sharing{
+				display: table-cell;
+				padding: 23px 0 35px;
+				vertical-align: middle;
+			}
+			.post-sharing{
+				text-align: right;
+			}
+		}
+	}
+}
+/* tablet and mobile */
+//max 768
+@include media-breakpoint-down(sl) {
+	#module-amazzingblog-blog{
+		.breadcrumb{
+			margin-bottom: 25px;
+		}
+		.column-side{
+			display: none;
+		}
+	}
+	.post-page{
+		.title-blog{
+			margin-bottom: 22px;
+		}
+		.wrapper-post-content{
+			padding-left: 0;
+		}
+	}
+}
+//max 667
+@include media-breakpoint-down(sm) {
+	.post-page .post-info {
+		padding: 15px 0;
+	}
+	#module-amazzingblog-blog {
+		.post-page {
+			h1{
+				font-size: 16px;
+			}
+		}
+	}
+}

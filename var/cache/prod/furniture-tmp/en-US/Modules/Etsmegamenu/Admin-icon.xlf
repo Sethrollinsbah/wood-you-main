@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/admin-icon.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Close</target>
+        <note>Line: 21</note>
+      </trans-unit>
+      <trans-unit id="ec9da5db23d32f44f4031df5bd98cb11">
+        <source>Browse icon</source>
+        <target>Browse icon</target>
+        <note>Line: 25</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

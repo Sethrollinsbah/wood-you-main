@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/pagination.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="0974d2c2f4c6420089275c2a41c4b41c">
+        <source>Pages:</source>
+        <target>Pages:</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/pagination.tpl:38</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/post.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="be8df1f28c0abc85a0ed0c6860e5d832">
+        <source>Blog</source>
+        <target>Blog</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/post.tpl:17</note>
+      </trans-unit>
+      <trans-unit id="5a95a425f74314a96f13a2f136992178">
+        <source>Share</source>
+        <target>Share</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/post.tpl:55</note>
+      </trans-unit>
+      <trans-unit id="a5d491060952aa8ad5fdee071be752de">
+        <source>comments</source>
+        <target>comments</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/amazzingblog/views/templates/front/post.tpl:69</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

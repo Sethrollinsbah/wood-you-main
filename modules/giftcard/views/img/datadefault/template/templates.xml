@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+	<template>
+		<mode>svg</mode>
+		<image>7</image>
+		<isdefault>1</isdefault>
+		<name>
+			<fr>Coeur</fr>
+			<en>Heart</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+		</tags>
+		<var_color1>#d81848</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<!-- template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>1novariable_fr.png</image>
+		<name>
+			<fr>Shopping</fr>
+		</name>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>1novariable_en.png</image>
+		<name>
+			<en>Shopping</en>
+		</name>
+		<language>en</language>
+	</template-->
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>2novariable_fr.jpg</image>
+		<name>
+			<fr>Carte Cadeau</fr>
+		</name>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>2novariable_en.jpg</image>
+		<name>
+			<en>Gift Card</en>
+		</name>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>3novariable_fr.jpg</image>
+		<name>
+			<fr>Je t'aime</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>3novariable_en.jpg</image>
+		<name>
+			<en>I love you</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Love</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>4novariable_fr.png</image>
+		<name>
+			<fr>Merci</fr>
+		</name>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>4novariable_en.png</image>
+		<name>
+			<en>Thank you</en>
+		</name>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>5novariable_fr.jpg</image>
+		<name>
+			<fr>Félicitation</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Félicitation</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>5novariable_en.jpg</image>
+		<name>
+			<en>Congratulation</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Congratulation</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>6novariable_fr.png</image>
+		<name>
+			<fr>Bonne continuation</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Félicitation</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>6novariable_en.png</image>
+		<name>
+			<en>Good Luck</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Congratulation</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>7novariable.png</image>
+		<name>
+			<fr>Bonne continuation</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+		</tags>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>8novariable_fr.png</image>
+		<name>
+			<fr>JOYEUX NOËL</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>8novariable_en.png</image>
+		<name>
+			<en>MERRY CHRISTMAS</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>9novariable_fr.png</image>
+		<name>
+			<fr>Bonne saint valentin</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+			<tag>
+				<fr>Amour</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>9novariable_en.png</image>
+		<name>
+			<en>Valentine's Day</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+			<tag>
+				<en>Love</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>10novariable_fr.png</image>
+		<name>
+			<fr>Bonne Fête</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>11novariable_fr.png</image>
+		<name>
+			<fr>Bon anniversaire</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+			<tag>
+				<fr>Anniversaire</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>11novariable_en.png</image>
+		<name>
+			<en>Happy Birthday</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+			<tag>
+				<en>Happy Birthday</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>12novariable_fr.png</image>
+		<name>
+			<fr>Joyeux anniversaire coeur</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+			<tag>
+				<fr>Anniversaire</fr>
+			</tag>
+			<tag>
+				<fr>Amour</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>12novariable_en.png</image>
+		<name>
+			<en>Happy Birthday heart</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+			<tag>
+				<en>Happy Birthday</en>
+			</tag>
+			<tag>
+				<en>Love</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>13novariable_fr.png</image>
+		<name>
+			<fr>Félicitation</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Félicitation</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>13novariable_en.png</image>
+		<name>
+			<en>Congratulation</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Congratulation</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>14novariable_fr.png</image>
+		<name>
+			<fr>Pour toi</fr>
+		</name>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>14novariable_en.png</image>
+		<name>
+			<en>For You</en>
+		</name>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>15novariable_fr.png</image>
+		<name>
+			<fr>Félicitation naissance garcon</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Félicitation</fr>
+			</tag>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>15novariable_en.png</image>
+		<name>
+			<en>Congratulation</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Congratulation</en>
+			</tag>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>16novariable_fr.png</image>
+		<name>
+			<fr>Félicitation naissance fille</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Félicitation</fr>
+			</tag>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>16novariable_en.png</image>
+		<name>
+			<en>congratulation birth girl</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Congratulation</en>
+			</tag>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	
+	<template>
+		<mode>svg</mode>
+		<isdefault>0</isdefault>
+		<image>1</image>
+		<name>
+			<fr>Cadeau</fr>
+			<en>Gift</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Anniversaire</fr>
+				<en>Happy Birthday</en>
+			</tag>
+		</tags>
+		<var_color1>#e84000</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+			<es>{shop_name}</es>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>2</image>
+		<name>
+			<fr>Amour</fr>
+			<en>Love</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+		</tags>
+		<var_color1>#d81848</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+			<es>{shop_name}</es>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>3</image>
+		<name>
+			<fr>Amour</fr>
+			<en>Love</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+			<tag>
+				<fr>Anniversaire</fr>
+				<en>Happy Birthday</en>
+			</tag>
+		</tags>
+		<var_color1>#d81848</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>4</image>
+		<name>
+			<fr>Coeur famille</fr>
+			<en>Love</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+			<tag>
+				<fr>Anniversaire</fr>
+				<en>Happy Birthday</en>
+			</tag>
+		</tags>
+		<var_color1>#d81848</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>5</image>
+		<name>
+			<fr>Saint Valentin</fr>
+			<en>Valentine's Day</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+			<tag>
+				<fr>Occasion spéciale</fr>
+				<en>Special Occasion</en>
+			</tag>
+		</tags>
+		<var_color1>#d81848</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>6</image>
+		<name>
+			<fr>Félicitation</fr>
+			<en>Congratulation</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Félicitation</fr>
+				<en>Congratulation</en>
+			</tag>
+		</tags>
+		<var_color1>#b88900</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>9</image>
+		<name>
+			<fr>Coeur</fr>
+			<en>Heart</en>
+		</name>
+		<tags>
+			<tag>
+				<fr>Amour</fr>
+				<en>Love</en>
+			</tag>
+		</tags>
+		<var_color1>#d81848</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>svg</mode>
+		<image>10</image>
+		<name>
+			<fr>Offrir</fr>
+			<en>Offer</en>
+		</name>
+		<var_color1>#b88900</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+		</var_text2>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>17novariable_fr.png</image>
+		<name>
+			<fr>Bonne fête maman!</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>17novariable_en.png</image>
+		<name>
+			<en>Happy mother's day!</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>18novariable_fr.png</image>
+		<name>
+			<fr>Bonne fête papa!</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>18novariable_en.png</image>
+		<name>
+			<en>Happy father's day!</en>
+		</name>
+		<tags>
+			<tag>
+				<en>Special Occasion</en>
+			</tag>
+		</tags>
+		<language>en</language>
+	</template>
+	<template>
+		<mode>jpg</mode>
+		<isdefault>0</isdefault>
+		<image>19novariable_fr.png</image>
+		<name>
+			<fr>Bonne fête mamie!</fr>
+		</name>
+		<tags>
+			<tag>
+				<fr>Occasion spéciale</fr>
+			</tag>
+		</tags>
+		<language>fr</language>
+	</template>
+	<!-- template>
+		<mode>svg</mode>
+		<isdefault>1</isdefault>
+		<image>2</image>
+		<name>
+			<fr>Base</fr>
+			<en>Default</en>
+			<es></es>
+		</name>
+		<tags>
+			<tag>
+				<fr>Anniversaire</fr>
+				<en>Birthday</en>
+				<es>Cumpleaños</es>
+			</tag>
+		</tags>
+		<var_color1>#000000</var_color1>
+		<var_color2>#ffffff</var_color2>
+		<var_text1>
+			<fr>{shop_name}</fr>
+			<en>{shop_name}</en>
+			<es>{shop_name}</es>
+		</var_text1>
+		<var_text2>
+			<fr>Carte Cadeau</fr>
+			<en>Gift Card</en>
+			<es>Tarjeta regalo</es>
+		</var_text2>
+	</template-->
+</templates>

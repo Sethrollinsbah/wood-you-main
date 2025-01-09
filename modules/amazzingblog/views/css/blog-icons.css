@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'blogIcons';
+    src:    url('../fonts/blogIcons.eot?v120');
+    src:    url('../fonts/blogIcons.eot?v120#iefix') format('embedded-opentype'),
+        url('../fonts/blogIcons.ttf?v120') format('truetype'),
+        url('../fonts/blogIcons.woff?v120') format('woff'),
+        url('../fonts/blogIcons.svg?v120#blogIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon-AdminBlog:before, .amazzingblog .icon-pencil:before {
+	font: normal normal normal 16px/1 blogIcons;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	content: "\e90c";
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+/* since 1.2.0 */

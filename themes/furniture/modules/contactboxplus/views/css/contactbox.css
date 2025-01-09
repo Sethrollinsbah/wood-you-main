@@ -1,0 +1,176 @@
+#ajax-contact .fancybox-close {
+    right: 11px;
+    top: 11px;
+}
+
+#ajax-contact .product img {
+    border: 1px solid #D6D4D4;
+    width: 100%;
+}
+
+#fancybox-wrap {
+    width: 585px;
+}
+
+#fancybox-content {
+    border-width: 0;
+    width: 585px;
+}
+
+#ajax-contact {
+    color: #333333;
+    overflow: hidden;
+    text-align: left;
+}
+
+#ajax-contact h2 {
+    margin-bottom: 10px;
+}
+
+#ajax-contact .title {
+    background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#ajax-contact .product {
+    padding: 15px;
+}
+
+#ajax-contact .product .product_desc {
+    color: #666666;
+    line-height: 18px;
+}
+
+#ajax-contact .product .product_desc .product_name {
+    color: #000000;
+    font-size: 13px;
+    padding: 10px 0 5px;
+}
+
+#ajax-contact .message_form_content {
+    background: none repeat scroll 0 0 #F8F8F8;
+    padding: 15px 25px 15px 15px;
+}
+
+@media (max-width: 767px) {
+    #ajax-contact .message_form_content {
+        padding-left: 25px;
+    }
+}
+
+#ajax-contact .form-group > label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 12px 0 4px;
+}
+
+.ajax-contact input, .ajax-contact textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 28px;
+    padding: 0 5px;
+    width: 100%;
+}
+
+#ajax-contact textarea {
+    height: 80px;
+}
+
+#ajax-contact .submit {
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: right;
+}
+
+#ajax-contact #new_comment_form_footer {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#ajax-contact .alert {
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+#ajax-contact .alert-danger, .alert-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}
+
+#ajax-contact .alert.alert-danger:before {
+    content: inherit;
+    float: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    padding-right: inherit;
+    vertical-align: inherit;
+}
+
+#ajax-contact .alert ul, .alert ol {
+    margin-left: 0;
+}
+
+.pb-left-column #image-block .new-box, .pb-left-column #image-block .sale-box {
+    z-index: 8000;
+}
+
+#ajax-contact .checker {
+    display: inline-block;
+    bottom: -2px;
+
+}
+
+#ajax-contact .display-inline {
+    display: inline;
+}
+
+#ajax-contact label.checkbox {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 12px 0 4px;
+}
+
+.box-logo {
+    padding: 5px 0;
+    clear: both;
+    padding: 13px 19px;
+}
+
+#contact_us > span {
+    text-align: center;
+}
+
+#contact_us.exclusive:before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+}
+
+#ajax-contact .radio_options > label {
+    margin-right: 1em;
+    font-weight: normal;
+}
+
+#ajax-contact .form-group {
+    float: left;
+}
+
+#ajax-contact p.help-block {
+    line-height: 1em;
+    min-height: 1em;
+    margin-bottom: 5px;
+}
+
+#ajax-contact .form-group {
+    margin-bottom: 10px;
+}
+

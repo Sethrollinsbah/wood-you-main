@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+Message from a {shop_name} customer
+
+
+PRODUCT : {product_name}
+
+{custom_fields_txt}
+
+
+{shop_name} [{shop_url}]
+

@@ -1,0 +1,36 @@
+#ajax-contact img {
+    max-width: 100%;
+}
+
+#ajax-contact .radio_options > label {
+    margin-right: 1em;
+    font-weight: normal;
+}
+
+#ajax-contact .form-group {
+    float: left;
+}
+
+#ajax-contact p.help-block {
+    line-height: 1em;
+    min-height: 1em;
+    margin-bottom: 5px;
+}
+
+#ajax-contact .form-group {
+    margin-bottom: 10px;
+}
+
+#ajax-contact label, #ajax-contact .label {
+    font-weight: bold;
+}
+
+p.required{
+	float:right;
+}
+.fancybox-overlay.fancybox-overlay-fixed {
+    background-color: rgba(100,100,100,0.8)!important;
+}
+#cbp_message_form {
+    overflow: hidden;
+}

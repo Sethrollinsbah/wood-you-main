@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/custombanners/views/templates/hook/banners.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="81093d9e27a4adc7a8dcb5937dbf8b91">
+        <source>At your service</source>
+        <target>At your service</target>
+        <note>Line: 19</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/templates/catalog/_partials/facets.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="1dd60be263e0addb3bc17c054b2fb5db">
+        <source>Lees meer</source>
+        <target>Lees meer</target>
+        <note>Line: 99</note>
+      </trans-unit>
+      <trans-unit id="4bebfe2b93594245247ab758b28c8fee">
+        <source>Verberg</source>
+        <target>Verberg</target>
+        <note>Line: 100</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

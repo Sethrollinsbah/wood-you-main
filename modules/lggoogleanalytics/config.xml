@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>lggoogleanalytics</name>
+    <displayName><![CDATA[Google Analytics 4]]></displayName>
+    <version><![CDATA[1.1.7]]></version>
+    <description><![CDATA[It allows you to measure Google Analytics 4 events by adding additional events 
+        related to e-commerce.]]></description>
+    <author><![CDATA[L&iacute;nea Gr&aacute;fica]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

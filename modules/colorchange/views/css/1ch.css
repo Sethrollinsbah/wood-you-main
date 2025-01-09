@@ -1,0 +1,181 @@
+
+            .block-categories{
+                background:!important;
+                color:!important;   
+            }
+            .block-categories a, .facets-title {
+                color:!important;
+            }
+                .popover{background:!important}
+.product-images>li.thumb-container>.thumb.selected, .product-images>li.thumb-container>.thumb:hover{border: 3px solid #000000!important;}
+.dropdown .expand-more, #header .header-nav .currency-selector{color: !important}
+#products .thumbnail-container .product-thumbnail img, .featured-products .thumbnail-container .product-thumbnail img, .product-accessories .thumbnail-container .product-thumbnail img, .product-miniature .thumbnail-container .product-thumbnail img{
+    border:!important
+}
+.blockreassurance_product{
+    padding:6px;
+}
+.blockreassurance_product, #product .tabs{
+    background-color:!important;
+
+/*buton*/
+
+#header .header-nav{background:!important}
+#header .header-nav a,#header .header-nav span{color:!important}
+h1, .h1{    color: !important;
+}
+h3 a{    color: !important;
+}
+.dropdown-item{    color: !important;
+}
+h2, .h2{    color: !important;
+}
+p{    color: !important;
+}
+h3,h4,.h3, .h4{    color: !important;
+}
+.product-customization, .blockreassurance_product p {color: !important;}
+#search_widget form input{
+    background-color: !important;
+}
+#search_widget form i, .header-top .search-widgets form input[type=text]{    color: !important;
+}
+.btn-primary {
+    color: !important;
+    background-color: #000000!important;
+}
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary:disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled:hover {
+    background-color: #000000!important;
+    border-color: transparent;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover,.tag-primary[href]:focus, .tag-primary[href]:hover  { background-color: !important;}
+
+.btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary:hover, .open>.btn-outline-primary.dropdown-toggle {
+    color: !important;
+    background-color: #000000!important;
+    border-color: #2fb5d2;
+}
+.dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover {
+    color: !important;
+    text-decoration: none;
+    background-color: #000000!important;
+    outline: 0;
+}
+.nav-pills .nav-item.open .nav-link, .nav-pills .nav-item.open .nav-link:focus, .nav-pills .nav-item.open .nav-link:hover, .nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover {
+    color: !important;
+    cursor: default;
+    background-color: #000000!important;
+}
+.card-primary {
+    background-color: #000000!important;
+    border-color: #2fb5d2;
+}
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+    z-index: 2;
+    color: !important;
+    cursor: default;
+    background-color: #000000!important;
+    border-color: #2fb5d2;
+}
+.tag-primary {
+    background-color: #000000!important;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: !important;
+    text-decoration: none;
+    background-color: #000000!important;
+    border-color: #2fb5d2;
+}
+.custom-radio input[type=radio]:checked+span {
+    background-color: #000000!important;
+
+}
+.block-social li:hover {
+    background-color: #000000!important;
+}
+.tabs .nav-tabs .nav-link.active, .tabs .nav-tabs .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid #000000!important;
+}
+.tabs .nav-tabs .nav-link.active {
+    color: #000000!important;
+}
+a {
+    color: !important;
+    text-decoration: none;
+}
+.footer-container li a,.block-contact a, #footer a{
+    color: !important;
+    text-decoration: none;
+}
+#footer .h1,#footer .h2,#footer .h3, .block-contact .h4, #block_myaccount_infos .myaccount-title a,#block_myaccount_infos .h3, #block-newsletter-label, .block_newsletter p{
+    color: !important;
+    text-decoration: none;
+}
+
+#header .header-nav .cart-preview.active {
+    background: #000000!important;
+}
+#header .header-nav .blockcart{
+    background: #000000!important;
+
+}
+/*prices*/
+.product-price, .cart-summary-line .value,#products .product-price-and-shipping, .featured-products .product-price-and-shipping, .product-accessories .product-price-and-shipping, .product-miniature .product-price-and-shipping{
+ color: #000000!important;
+    }
+/*wrapper*/
+#wrapper,.product-customization .product-message,.search-widget form input[type=text], .block_newsletter form input[type=text] {
+    background-color: !important;
+
+}
+#wrapper{
+    background-color: !important;
+    
+
+    background-repeat:repeat!important;
+}
+.tag-default {
+    background: !important;
+}
+.bootstrap-touchspin .btn-touchspin:hover {
+    background-color: !important;
+}
+body#checkout .modal-content {
+    background-color: !important;
+}
+.block-social li:hover {
+    background-color: !important;
+}
+#footer, .block_newsletter {
+    background-color: !important;
+}
+#header {
+    background: !important;
+}
+/*blocks*/
+#search_filters, #search_filters_brands, #search_filters_suppliers, .block-categories, .card{
+      background: !important;
+    }
+#products .product-description, .featured-products .product-description, .product-accessories .product-description, .product-miniature .product-description, #products .thumbnail-container, .featured-products .thumbnail-container, .product-accessories .thumbnail-container, .product-miniature .thumbnail-container
+{
+        background: !important;
+}
+#header .header-nav .cart-preview.active i, #header .header-nav .cart-preview.active a{color:!important}
+.block-social  li{background:!important;}
+.facebook.icon-gray,.twitter.icon-gray,.googleplus.icon-gray,.pinterest.icon-gray {
+    background-color:  !important;
+}
+.header-top .search-widget form input[type=text] {
+    min-width: inherit;
+    width: 100%;background:white!important;
+}
+#wrapper .container{background-color: }
+@media (max-width: 767px){
+#header.is-open, #header.is-open .header-top {
+    background: #000000!important;
+}
+}
+
+    

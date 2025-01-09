@@ -1,0 +1,55 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+
+@import "../partials/_helpers";
+
+.search-widget{
+    form{
+        position: relative;
+    }
+    .text{
+        border: 1px solid darken( saturate( adjust-hue( $brand-secondary, 2deg ), 2 ), 4 );
+        background: darken( saturate( adjust-hue( $brand-secondary, 7deg ), 1 ), 2 );
+        color: inherit;
+        width: 100%;
+        font-size: 13px;
+        padding: 0 10px;
+        height: 28px;
+        display: inline-block;
+        outline: none;
+        color: lighten( desaturate( adjust-hue( $brand-primary, 7deg ), 50 ), 41 );
+        &::placeholder{
+            color: inherit;
+        }
+    }
+    .btn{
+        background: none !important;
+        display: inline-block;
+        outline: none;
+        padding: 0;
+        background: none;
+        border: none;
+        position: absolute;
+        right: 5px;
+        bottom: 0;
+        font-size: 15px;
+        transform: scaleX(-1);
+        line-height: 28px;
+        i{
+            font-size: inherit;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    #_desktop_search-block{
+        margin-left: auto;
+    }
+}
+//max 768
+@include media-breakpoint-down(sl) {
+    .search-widget{
+        margin: 32px 0 45px;
+    }
+}

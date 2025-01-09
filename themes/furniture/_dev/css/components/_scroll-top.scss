@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+#back-top{
+    background: $brand-primary;
+    color: $white;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    bottom: 25px;
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+    cursor: pointer;
+    &:before{
+        content: '\E316';
+        font-family: $icon-font;
+    }
+    &:hover{
+        background: lighten($brand-primary, 10%);
+    }
+    &:active{
+        background: darken($brand-primary, 10%);
+    }
+}

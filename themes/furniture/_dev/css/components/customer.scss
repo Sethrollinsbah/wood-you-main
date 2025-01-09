@@ -1,0 +1,437 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+/*** SOME GENERIC STYLES ***/
+
+@mixin customer-area-base-box {
+    background: $color-nine;
+    padding: 16px;
+}
+
+@mixin customer-area-box {
+    padding: 16px;
+    border: 1px solid $color-nine;
+    font-size: $font-size-sm;
+    color: $gray-dark;
+}
+
+.table-labeled {
+    th {
+        vertical-align: middle;
+    }
+    td {
+        vertical-align: middle;
+    }
+    .label {
+        font-weight: 400;
+        border-radius: 3px;
+        font-size: inherit;
+        padding: 4px 6px;
+        margin: 2px;
+        color: white;
+        white-space: nowrap;
+    }
+}
+
+.page-order {
+    .table {
+        margin-bottom: 0;
+    }
+    table {
+        th {
+            padding: 8px;
+        }
+        td {
+            padding: 8px;
+        }
+        thead {
+            th {
+                text-align: center;
+            }
+        }
+    }
+}
+
+#authentication {
+    .tooltip.tooltip-bottom {
+        padding: 0;
+        margin: 0;
+    }
+    .custom-checkbox {
+        display: flex;
+        span {
+            flex: 0 0 15px;
+        }
+        label {
+            padding-left: 10px;
+        }
+    }
+}
+
+#identity,
+#authentication {
+    .radio-inline {
+        padding: 0;
+        .custom-radio {
+            margin-right: 0;
+        }
+    }
+}
+
+
+/*** Most of the customer accpunt pages ***/
+
+.page-customer-account {
+    .breadcrumb {
+      + .row{
+        margin-left: 0;
+        margin-right: 0;
+      } 
+    }
+    #content {
+        @include customer-area-box;
+        .order-actions {
+            a {
+                padding: 0 2px;
+            }
+        }
+        .forgot-password {
+            text-align: center;
+            font-size: $font-size-sm;
+            margin-top: 16px;
+            padding-bottom: 15px;
+        }
+        .no-account {
+            text-align: center;
+            font-size: $base-font-size;
+        }
+    }
+}
+
+
+/*** Login page ***/
+
+.page-authentication {
+    .page-header{
+        text-align: center;
+    }
+    #content {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .form-footer{
+        text-align: center;
+    }
+}
+
+
+
+/*** Addresses page ***/
+
+.page-addresses {
+  .breadcrumb {
+    + .row{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+    .address {
+        background: white;
+        margin-bottom: 30px;
+        font-size: $font-size-sm;
+        color: $gray-darker;
+        .address-body {
+            @include customer-area-base-box;
+            h4 {
+                font-size: $base-font-size;
+                font-weight: 700;
+            }
+            address {
+                min-height: rem(144px);
+            }
+        }
+        .address-footer {
+            padding: 8px 16px;
+            a {
+                color: $gray-dark;
+                margin-right: 8px;
+                &:hover {
+                    color: $gray-darker;
+                }
+                i {
+                    font-size: $base-font-size;
+                }
+                span {
+                    font-size: $font-size-lg;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .addresses-footer {
+        margin: 0 15px;
+        a {
+            color: $gray-darker;
+            &:hover {
+                color: $gray-darker;
+            }
+            i {
+                font-size: $base-font-size;
+            }
+            span {
+                font-size: $base-font-size;
+                vertical-align: middle;
+                margin-top: $small-space;
+            }
+        }
+    }
+}
+
+
+/*** Order details page ***/
+
+.page-order-detail {
+    font-size: 14px;
+    color: $gray-dark;
+    .box {
+        @include customer-area-base-box;
+        margin-bottom: 16px;
+    }
+    h3 {
+        font-size: $base-font-size;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $gray-darker;
+        margin-bottom: 16px;
+    }
+    #order-infos {
+        ul {
+            margin: 0;
+        }
+    }
+    #order-history {
+        .history-lines {
+            .history-line {
+                padding: 8px 0;
+                border-bottom: 1px solid $gray-lighter;
+                &:last-child {
+                    border-bottom: 0;
+                }
+                .label {
+                    display: inline-block;
+                    margin: 4px 0;
+                    padding: 4px 6px;
+                    color: white;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+    .addresses {
+        margin: 0 -15px;
+        display: flex;
+        flex-wrap: wrap;
+        h4 {
+            font-size: $base-font-size;
+            font-weight: 700;
+        }
+    }
+    #order-products {
+        &.return {
+            margin-bottom: 16px;
+            th {
+                &.head-checkbox {
+                    width: 30px;
+                }
+            }
+            td {
+                padding: (75) (5);
+                &.qty {
+                    min-width: 125px;
+                    .current {
+                        width: 30%;
+                        float: left;
+                        text-align: right;
+                        padding-right: (0.5);
+                    }
+                    .select {
+                        width: 70%;
+                        float: left;
+                        margin: -(25) 0;
+                        padding-left: (5);
+                        select {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .order-items {
+        padding: 0 !important;
+        .order-item {
+            padding: 16px 16px 0;
+            border-bottom: 1px solid $gray-lighter;
+            .checkbox {
+                width: 30px;
+                float: left;
+                padding: 0 15px;
+            }
+            .content {
+                width: calc(100% - 30px);
+                float: left;
+                padding: 0 15px;
+            }
+            .desc {
+                .name {
+                    font-weight: bold;
+                }
+                margin-bottom: 16px;
+            }
+            .qty {
+                margin-bottom: 16px;
+                .q {
+                    margin-bottom: 4px;
+                }
+                .s {
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+    .messages {
+        .message {
+            margin-top: 8px;
+            border-bottom: 1px solid $gray-lighter;
+            &:last-child {
+                border-bottom: 0;
+            }
+            > div {
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .customization {
+        margin-top: 12px;
+    }
+}
+
+
+/*** Order return page ***/
+
+#order-return-infos {
+    .thead-default th {
+        color: $gray-darker;
+    }
+    .customization {
+        margin-top: 12px;
+    }
+}
+
+
+/*** My account landing page ***/
+
+.page-my-account {
+  .breadcrumb {
+    + .row{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+    #content {
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 100%;
+            a {
+                text-align: center;
+                display: inline-block;
+                font-size: $base-font-size;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: $gray-dark;
+                padding: 0 15px;
+                margin-bottom: 30px;
+                span.link-item {
+                    display: block;
+                    height: 100%;
+                    @include customer-area-base-box;
+                }
+                i {
+                    display: block;
+                    font-size: 25px;
+                    width: 100%;
+                    color: $gray-darker;
+                    margin-bottom: 15px;
+                }
+                &:hover {
+                    color: $gray-darker;
+                    i {
+                        color: $brand-primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*** History page ***/
+
+#history {
+    .orders {
+        margin: 0 rem(-16px);
+        .order {
+            a {
+                h3 {
+                    color: $gray-dark;
+                }
+            }
+            padding: 12px 16px;
+            border-bottom: 1px solid $gray-lighter;
+            .label {
+                display: inline-block;
+                margin: 4px 0;
+                padding: 4px 6px;
+                color: white;
+                border-radius: 3px;
+            }
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+//identity
+#customer-form{
+    .custom-checkbox {
+        display: flex;
+        span {
+            flex: 0 0 15px;
+            margin-top: 3px;
+        }
+    }
+}
+/*** FOOTER ***/
+
+.page-footer {
+    .account-link {
+        margin-right: 16px;
+        i {
+            font-size: $base-font-size;
+        }
+        span {
+            font-size: $font-size-sm;
+            vertical-align: middle;
+        }
+    }
+}
+@include media-breakpoint-up(md) {
+    .page-authentication {
+        .form-control-label{
+            text-align: right;
+        }
+    }
+}

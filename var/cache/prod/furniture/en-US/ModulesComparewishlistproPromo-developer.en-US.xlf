@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/admin/promo-developer.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="2a0e5d3cb3ef0a959b99732b859b3afb">
+        <source>Module developed by</source>
+        <target>Module developed by</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="442d8488bb973abc52560262c2ce29f4">
+        <source>We are a PrestaShop Captain Seller</source>
+        <target>We are a PrestaShop Captain Seller</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="f2a766a11efa3e77992c930dcecb2e3a">
+        <source>Rate this module</source>
+        <target>Rate this module</target>
+        <note>Line: 36</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

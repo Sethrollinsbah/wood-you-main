@@ -1,0 +1,20 @@
+.easycarousels.row{
+    flex: 0 0 100%;
+}
+.c_container, .ec-tabs {
+    visibility: hidden;
+}
+.c_container.rendered, .ec-tabs.activated {
+    visibility: visible;
+}
+.easycarousel{
+	margin-top: 57px;
+	position: relative;
+}
+.c-wrapper{
+	min-width: 100%;
+	display: block;
+}
+.one_by_one {
+	width: 100%;
+}

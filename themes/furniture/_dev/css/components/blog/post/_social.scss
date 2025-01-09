@@ -1,0 +1,98 @@
+/* social sharing */
+.post-sharing {
+	font-size: 14px;
+	.sharing-icons {
+		padding-left: 12px;
+	}
+}
+.post-page .social-share {
+	text-decoration: none;
+}
+.post-page {
+	.social-share{
+		i{
+			background-color: $color-fourty-nine;
+			border-radius: 50%;
+			color: $white;
+			font-size: 17px;
+			display: inline-block;
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			margin: 4px;
+			text-align: center;
+			vertical-align: middle;
+			background-size: 15px;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+		}
+		&:hover {
+			i{
+				color: $white;
+			}
+			.icon-facebook {
+				background-color: $color-fifty;
+			}
+			.icon-vk {
+				background-color: $color-fifty-one;
+			}
+			.icon-odnoklassniki {
+				background-color: $color-fifty-two;
+			}
+			.icon-twitter {
+				background-color: $color-fifty-three;
+			}
+			.icon-google-plus {
+				background-color: $color-fifty-four;
+			}
+			.icon-yandex {
+				background-color: $color-fifty-five;
+			}
+			.icon-yahoo {
+				background-color: $color-fifty-six;
+			}
+			.icon-paypal {
+				background-color: $color-fifty-seven;
+			}
+			.icon-linkedin {
+				background-color: $color-fifty-eight;
+			}
+			.icon-pinterest {
+				background-color: $color-fifty-nine;
+			}
+		}
+	}
+}
+//max 991
+@include media-breakpoint-down(md) {
+	.post-page {
+		.social-share {
+			i{
+				font-size: 13px;
+				height: 30px;
+				line-height: 30px;
+				margin: 1px;
+				width: 30px;
+			}
+		}
+	}
+}
+
+//max 768
+@include media-breakpoint-down(sl) {
+	.post-page {
+		.post-content{
+			font-size: 12px;
+		}
+	}
+}
+//max 667
+@include media-breakpoint-down(sm) {
+	.post-sharing{
+		font-size: 0;
+		padding: 10px 0 15px;
+		.sharing-icons{
+			padding-left: 0;
+		}
+	}
+}

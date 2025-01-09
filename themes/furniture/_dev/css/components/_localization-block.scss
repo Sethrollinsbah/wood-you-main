@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+
+.language-selector,.currency-selector{
+	text-transform: uppercase;
+	.expand-more{
+		border: 1px solid darken( saturate( adjust-hue( $brand-secondary, 2deg ), 2 ), 4 );
+        background: darken( saturate( adjust-hue( $brand-secondary, 7deg ), 1 ), 2 );
+        padding: 4px 8px;
+	}
+	.dropdown-menu{
+		border: none;
+		margin-top: 11px;
+	}
+	li {
+		&:not(:last-child){
+			border: none;
+		}
+	}
+	.dropdown-item{
+		background: darken( saturate( adjust-hue( $brand-secondary, 7deg ), 1 ), 2 );
+		color: $white;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+@include media-breakpoint-up(md) {
+	#_desktop_language_selector,#_desktop_language_selector{
+		padding: 0 $grid-gutter-width-base/2;
+	}
+}
+@include media-breakpoint-down(sl) {
+	#_mobile_currency_selector,#_mobile_language_selector{
+		margin-left: auto;
+	}
+	#_mobile_currency_selector{
+		+ #_mobile_language_selector{
+			margin-left: 0;
+		}
+	}
+	.language-selector, .currency-selector{
+		select{
+			background-color: transparent;
+			font-size: 13px;
+			text-transform: uppercase;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+}

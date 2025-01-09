@@ -1,0 +1,20 @@
+#product-availability {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $color-eight;
+    padding-bottom: 15px;
+    .material-icons {
+        line-height: 1;
+        font-size: 18px;
+    }
+    .product-available {
+        color: $brand-success;
+    }
+    .product-unavailable {
+        color: $brand-warning;
+    }
+    .product-last-items {
+        color: $brand-warning;
+    }
+}

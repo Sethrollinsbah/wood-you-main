@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/front/managewishlist.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="252b932a00fd8017e6540cb6abc7eca1">
+        <source>Close wishlist</source>
+        <target>Close wishlist</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="0ac1aeb2429db494dd42ad2dc219ca7e">
+        <source>Hide products</source>
+        <target>Hide products</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="0de9d09a36e820f9da7e87ab3678dd12">
+        <source>Show products</source>
+        <target>Show products</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="604b042fae99b6700e1b60d5341a7471">
+        <source>Hide bought product info</source>
+        <target>Hide bought product info</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="7a17e0d73d5b5802f38b88e9065e4b65">
+        <source>Show bought product info</source>
+        <target>Show bought product info</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="4b7d496eedb665d0b5f589f2f874e7cb">
+        <source>Product detail</source>
+        <target>Product detail</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73">
+        <source>Quantity</source>
+        <target>Quantity</target>
+        <note>Line: 130</note>
+      </trans-unit>
+      <trans-unit id="502996d9790340c5fd7b86a5b93b1c9f">
+        <source>Priority</source>
+        <target>Priority</target>
+        <note>Line: 63</note>
+      </trans-unit>
+      <trans-unit id="655d20c1ca69519ca647684edbb2db35">
+        <source>High</source>
+        <target>High</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="87f8a6ab85c9ced3702b4ea641ad4bb5">
+        <source>Medium</source>
+        <target>Medium</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="28d0edd045e05cf5af64e35ae0c4c6ef">
+        <source>Low</source>
+        <target>Low</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="6bc362dbf494c61ea117fe3c71ca48a5">
+        <source>Move</source>
+        <target>Move</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="017a49fd237ab9f30c276efb4705daf9">
+        <source><![CDATA[tmlspecialchars(sprintf('Move to %s',$_smarty_tpl->tpl_vars['wishlist']->value['name']), ENT_QUOTES, 'UTF-8', true]]></source>
+        <target><![CDATA[tmlspecialchars(sprintf('Move to %s',$_smarty_tpl->tpl_vars['wishlist']->value['name']), ENT_QUOTES, 'UTF-8', true]]></target>
+        <note>Line: 79</note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Save</target>
+        <note>Line: 92</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="8725214cdd9f9af24e914b5da135793d">
+        <source>Permalink</source>
+        <target>Permalink</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="4e7ec3c27f031d9ad5a736bc6ed7dd9f">
+        <source>Click on the URL to copy it to clipboard</source>
+        <target>Click on the URL to copy it to clipboard</target>
+        <note>Line: 100</note>
+      </trans-unit>
+      <trans-unit id="30820a1bf6a285e45cda2beda3d7738d">
+        <source>Send this wishlist</source>
+        <target>Send this wishlist</target>
+        <note>Line: 103</note>
+      </trans-unit>
+      <trans-unit id="f78674b9c6b19504756230c57f6aec38">
+        <source>Close this wishlist</source>
+        <target>Close this wishlist</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Line: 117</note>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3">
+        <source>Send</source>
+        <target>Send</target>
+        <note>Line: 121</note>
+      </trans-unit>
+      <trans-unit id="19f823c6453c2b1ffd09cb715214813d">
+        <source>Required field</source>
+        <target>Required field</target>
+        <note>Line: 122</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Product</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="3384622e86410fd01fa318fedc6a98ce">
+        <source>Offered by</source>
+        <target>Offered by</target>
+        <note>Line: 131</note>
+      </trans-unit>
+      <trans-unit id="44749712dbec183e983dcd78a7736c41">
+        <source>Date</source>
+        <target>Date</target>
+        <note>Line: 132</note>
+      </trans-unit>
+      <trans-unit id="09dc02ecbb078868a3a86dded030076d">
+        <source>No products</source>
+        <target>No products</target>
+        <note>Line: 161</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

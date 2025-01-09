@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/front/easywishlist-extra.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="3b3ec44cb14072192c45e2c290d7ca01">
+        <source>Compare product</source>
+        <target>Compare product</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="1cdb26deeb082d085936516b9b955c9f">
+        <source>Remove from comparison</source>
+        <target>Remove from comparison</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="2d96bb66d8541a89620d3c158ceef42b">
+        <source>Add to wishlist</source>
+        <target>Add to wishlist</target>
+        <note>Line: 46</note>
+      </trans-unit>
+      <trans-unit id="c33b854973addbdabc7b874491807c73">
+        <source>Remove from wishlist</source>
+        <target>Remove from wishlist</target>
+        <note>Line: 46</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

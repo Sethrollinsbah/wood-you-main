@@ -1,0 +1,110 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+.select-title {
+	display: inline-block;
+	vertical-align: middle;
+	background: none;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 13px 55px 13px 10px;
+    border: 1px solid $color-fourty;
+    line-height: 1.25;
+    cursor: pointer;
+    i{
+    	font-size: 20px;
+    	border-left: 1px solid $color-fourty;
+    	position: absolute;
+    	right: -1px;
+    	top: -1px;
+    	bottom: -1px;
+    	width: 45px;
+    	line-height: 45px;
+    	height: auto;
+    	text-align: center;
+    }
+}
+.show{
+	.select-title{
+		i{
+			background: $brand-primary;
+			border-color: $brand-primary;
+			color: $white;
+		}
+	}
+}
+.dropdown{
+	&:hover .expand-more{
+		color: $brand-primary;
+	}
+	.expand-more{
+		cursor: pointer;
+		user-select:none;
+		&:after{
+			content: '\E5C5';
+			font-family: $icon-font;
+			vertical-align: middle;
+		}
+	}
+
+	.active{
+		max-height: 200px;
+		overflow-y: hidden;
+		visibility: visible;
+	}
+
+	select {
+		-moz-appearance: none;
+		border: 0 none;
+		outline: 0 none;
+		color: $gray-darker;
+		background: white;
+	}
+}
+
+.dropdown-menu {
+	border: 1px solid $color-fourty;
+	border-radius: 0;
+	color: $black;
+	font-size: 13px;
+	min-width: 100%;
+	display: block;
+	padding: 0;
+	margin-top: 5px;
+	opacity: 0;
+	visibility: hidden;
+	transform: translate(0, -50px);
+	transition: opacity .4s, visibility .4s, transform .4s;
+	li {
+		&:not(:last-child){
+			border-bottom: 1px solid $color-fourty;
+		}
+		&:hover{
+			border-bottom-color: $brand-primary;
+		}
+	}
+	.dropdown-item,.select-list{
+		color: inherit;
+		display: block;
+		padding: 13px 10px;
+		white-space: nowrap;
+		background: $white;
+		&:not(:last-child){
+			border-bottom: 1px solid $color-fourty;
+		}
+		&:hover{
+			background: $brand-primary;
+			color: $white;
+			border-bottom-color: $brand-primary;
+		}
+	}
+}
+.show{
+	> .dropdown-menu{
+		opacity: 1;
+		visibility: visible;
+		transform: translate(0);
+	}
+}

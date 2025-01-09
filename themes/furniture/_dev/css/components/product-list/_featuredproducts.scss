@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../../partials/_variables";
+
+.featured-products{
+	margin-top: 30px;
+}
+.all-product-link{
+	&:after{
+		content: '\E5C8';
+		font-family: $icon-font;
+		vertical-align: middle;
+	}
+	i{
+		display: none;
+	}
+}
+
+//max 455
+@include media-breakpoint-down(xs) {
+	.featured-products {
+		.products{
+			border-top: 1px solid #e6e6e6;
+			margin-left: -$grid-gutter-width-base/2;
+			margin-right: -$grid-gutter-width-base/2;
+		}
+	}
+}

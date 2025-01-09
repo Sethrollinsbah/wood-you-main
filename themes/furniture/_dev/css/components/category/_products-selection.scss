@@ -1,0 +1,113 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../../partials/_variables";
+
+
+#js-product-list-top{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.products-selection {
+	border: 1px solid $color-eight;
+	align-items: center;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 13px;
+	> div, > nav{
+		padding: 20px;
+	}
+	> * {
+		&:not(:last-child){
+			border-right: 1px solid $color-eight;
+		}
+	}
+	label{
+		color: $color-three;
+	    display: inline-block;
+	    font-weight: bold;
+	    padding: 0 5px 0 0;
+	    line-height: 25px;
+	    text-transform: uppercase;
+	    max-width: 100%;
+	    vertical-align: middle;
+	    margin: 0;
+	}
+	.select-title{
+		font-size: 13px;
+		padding: 4px 35px 4px 10px;
+		i{
+			width: 25px;
+			line-height: 26px;
+		}
+	}
+	.dropdown-menu{
+		.select-list{
+			font-size: 13px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+		}
+	}
+	.total-products {
+		padding-left: $grid-gutter-width-base/2;
+		padding-right: $grid-gutter-width-base/2;
+		text-transform: uppercase;
+		p{
+			margin: 0;
+		}
+		label {
+			
+		}
+	}
+}
+
+/* display view */
+.display-view{
+    padding: 0 $grid-gutter-width-base/2;
+    .view-item{
+        display: inline-block;
+        font-size: 23px;
+        vertical-align: middle;
+        cursor: pointer;
+        width: 31px;
+        height: 25px;
+        line-height: 23px;
+        text-align: center;
+        border: 1px solid;
+        &.active, &:hover{
+            color: $brand-primary;
+        }
+    }
+}
+//max 1199
+@include media-breakpoint-down(xl) {
+	.products-selection{
+		label{
+			display: none;
+		}
+	}
+}
+//max 768
+@include media-breakpoint-down(sl) {
+	.products-selection{
+		.total-products{
+			font-size: 12px;
+		}
+	}
+}
+//max 455
+@include media-breakpoint-down(xs) {
+	#js-product-list-top{
+		margin-bottom: 0;
+	}
+	.products-selection{
+		> div, > nav{
+			padding: 15px 7px;
+		}
+		border-right: none;
+		border-left: none;
+		margin-left: -$grid-gutter-width-base/2;
+		margin-right: -$grid-gutter-width-base/2;
+		.select-title{
+			max-width: 110px;
+		}
+	}
+}

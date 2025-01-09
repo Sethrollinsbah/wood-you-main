@@ -1,0 +1,34 @@
+/* compact list */
+.post-item-compact {
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+.post-item-cover-compact img{
+	margin: 0 0 5px 0;
+	border: 1px solid $color-sixty;
+	padding: 5px;
+}
+.post-item-title-compact {
+	margin: 0 0 3px 0;
+	font-size: 14px;
+}
+.post-item-infos-compact {
+	margin: 5px 0;
+	color: $color-fifteen;
+	font-size: 11px;
+}
+.post-item-infos-compact a.comments-num {
+	color: $color-fifteen;
+}
+.item-readmore-compact {
+	color: $brand-primary;
+}
+.icon-angle-right.second {
+	margin-left: -5px;
+}
+.post-item-infos.pull-right {
+	margin: 0 0 0 -10px;
+}
+.item-readmore-compact i {
+	vertical-align: middle;
+}

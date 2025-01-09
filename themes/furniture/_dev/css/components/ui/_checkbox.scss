@@ -1,0 +1,44 @@
+.not-styling{
+	display: none !important;
+}
+.custom-checkbox {
+	position: relative;
+	input[type="checkbox"] {
+		opacity: 0;
+		cursor: pointer;
+		position: absolute;
+	    width: 15px;
+    	height: 15px;
+    	top: 3px;
+		+ span {
+			border: 1px solid $color-eight;
+			color: $white;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 13px;
+			height: 15px;
+			line-height: 13px;
+			margin-right: 10px;
+			text-align: center;
+			vertical-align: middle;
+			width: 15px;
+			.checkbox-checked {
+				display: none;
+				height: 100%;
+				font-size: inherit;
+				line-height: inherit;
+				width: 100%;
+			}
+		}
+		&:checked + span {
+			background: $brand-primary;
+			border-color: $brand-primary;
+			.checkbox-checked {
+				display: block;
+			}
+		}
+	}
+	label {
+		text-align: left;
+	}
+}

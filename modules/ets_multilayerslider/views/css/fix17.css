@@ -1,0 +1,5 @@
+.mls_nav > div.mls_next:before,
+.mls_nav > div.mls_prev:before {
+  content: attr(data-title);
+  font-family: Material Icons;
+}

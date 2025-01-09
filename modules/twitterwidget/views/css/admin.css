@@ -1,0 +1,12 @@
+.icon-large {
+	font-size: 28px;
+	height: 30px;
+}
+.display-twitter-tooltip {
+	margin-left: 10px;
+	color: #999;
+}
+/* avoid double margins on nested from-groups, rendered by helpers */
+.form-group .form-group {
+	margin: 0;
+}

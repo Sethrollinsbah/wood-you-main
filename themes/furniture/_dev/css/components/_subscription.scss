@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+.block_newsletter{
+    .conditions{
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 17px;
+    }
+    .input-wrapper{
+        position: relative;
+    }
+    .form-control{
+        padding-right: 52px;
+        border-color: darken( saturate( adjust-hue( $brand-secondary, 2deg ), 2 ), 4 );
+        background: darken( saturate( adjust-hue( $brand-secondary, 7deg ), 1 ), 2 );
+        font-size: 13px;
+        &:focus{
+            border-color: $brand-primary;
+            color: $brand-primary;
+        }
+    }
+    .submit{
+        background: $brand-primary;
+        border: none;
+        color: $white;
+        font-size: 21px;
+        height: 41px;
+        line-height: 39px;
+        outline: none;
+        position: absolute;
+        right: 2px;
+        text-align: center;
+        top: 2px;
+        vertical-align: top;
+        width: 40px;
+        &:before{
+            content: '\E0E1';
+            font-family: $icon-font;
+        }
+    }
+    .alert{
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+    }
+}

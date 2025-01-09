@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/item-block.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="c613629aef5762bb8c3f646a4035b7fd">
+        <source>Delete block</source>
+        <target>Delete block</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="dbe9af535d36976a3fb4158761b21e55">
+        <source>Duplicate block</source>
+        <target>Duplicate block</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="ed75712b0eb1913c28a3872731ffd48d">
+        <source>Duplicate</source>
+        <target>Duplicate</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="4f358ab0d7f1d9623bdcad1c346bd0f6">
+        <source>Edit block</source>
+        <target>Edit block</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Edit</target>
+        <note>Line: 27</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/admin-form.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Close</target>
+        <note>Line: 107</note>
+      </trans-unit>
+      <trans-unit id="c3bf447eabe632720a3aa1a7ce401274">
+        <source>Open</source>
+        <target>Open</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 42</note>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Edit</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="474c1219b0e41415e1115456a362ef4d">
+        <source>Delete this item</source>
+        <target>Delete this item</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="0164b35f3cbc5cbf9bf58abeb4bc14df">
+        <source>Add new menu</source>
+        <target>Add new menu</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="8a165af354761ba57a7f9413cf7b010a">
+        <source>Edit menu</source>
+        <target>Edit menu</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="4220caf81d84096b21f1c382d9f2104c">
+        <source>Add new column</source>
+        <target>Add new column</target>
+        <note>Line: 31</note>
+      </trans-unit>
+      <trans-unit id="c3e7864531017869d04d401e5771cde4">
+        <source>Edit column</source>
+        <target>Edit column</target>
+        <note>Line: 32</note>
+      </trans-unit>
+      <trans-unit id="137e8451b75e1e21b42f174538cd5cb0">
+        <source>Delete this column</source>
+        <target>Delete this column</target>
+        <note>Line: 33</note>
+      </trans-unit>
+      <trans-unit id="4fd76a4441a519f2a61252085d438b0f">
+        <source>Delete this block</source>
+        <target>Delete this block</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="d4bde2ef599c3bc55a57e23427eabbd2">
+        <source>Edit this block</source>
+        <target>Edit this block</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="bd6b819a39fdcd26de086e9f352c1fa0">
+        <source>Add new block</source>
+        <target>Add new block</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="ed75712b0eb1913c28a3872731ffd48d">
+        <source>Duplicate</source>
+        <target>Duplicate</target>
+        <note>Line: 37</note>
+      </trans-unit>
+      <trans-unit id="a2b8f8667e7bb8cb9ea87526c637c93d">
+        <source>Duplicate this menu</source>
+        <target>Duplicate this menu</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="a2c3cdca64334e4f378d97ff72608b36">
+        <source>Duplicate this column</source>
+        <target>Duplicate this column</target>
+        <note>Line: 39</note>
+      </trans-unit>
+      <trans-unit id="667398242bf9a519ce518c772bb34e1f">
+        <source>Duplicate this block</source>
+        <target>Duplicate this block</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="18d043a5ec966d214566f4dda8d31c01">
+        <source>Image is invalid</source>
+        <target>Image is invalid</target>
+        <note>Line: 41</note>
+      </trans-unit>
+      <trans-unit id="c93e7ab5c20aab9f777ce2ac2655c700">
+        <source>Preview in tab mode</source>
+        <target>Preview in tab mode</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="5c6ba25104401c9ee0650230fc6ba413">
+        <source>Tab</source>
+        <target>Tab</target>
+        <note>Line: 49</note>
+      </trans-unit>
+      <trans-unit id="d0c92a6168f5a6301e8c75cc787a9c10">
+        <source>Preview in list mode</source>
+        <target>Preview in list mode</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>List</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="3e35661f311d49f66eccb1bc2ea4de46">
+        <source>LTR</source>
+        <target>LTR</target>
+        <note>Line: 54</note>
+      </trans-unit>
+      <trans-unit id="efe01da942ed68b700b911f5a1b131a7">
+        <source>RTL</source>
+        <target>RTL</target>
+        <note>Line: 55</note>
+      </trans-unit>
+      <trans-unit id="f8d1d022d3f7645b4b0dfe4f6de3efbc">
+        <source>Import/Export</source>
+        <target>Import/Export</target>
+        <note>Line: 58</note>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c">
+        <source>Settings</source>
+        <target>Settings</target>
+        <note>Line: 59</note>
+      </trans-unit>
+      <trans-unit id="715eafb80fc4c2e5251a46012b0ef9e4">
+        <source>Other modules</source>
+        <target>Other modules</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="c4086ec40444dc78cf96bb5599f6a402">
+        <source>Made by ETS-Soft</source>
+        <target>Made by ETS-Soft</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="f6c4ed278c3f8a43a2b4913a1d61c6d5">
+        <source>Add menu</source>
+        <target>Add menu</target>
+        <note>Line: 82</note>
+      </trans-unit>
+      <trans-unit id="deba57aebf40e70cb31644eb6ee69498">
+        <source>Export menu content</source>
+        <target>Export menu content</target>
+        <note>Line: 110</note>
+      </trans-unit>
+      <trans-unit id="19976a024d14b37b816064a67c64732e">
+        <source>Export menu</source>
+        <target>Export menu</target>
+        <note>Line: 112</note>
+      </trans-unit>
+      <trans-unit id="b5112dd068d158561df29735df378eef">
+        <source>Export all menu data including images, text and configuration</source>
+        <target>Export all menu data including images, text and configuration</target>
+        <note>Line: 114</note>
+      </trans-unit>
+      <trans-unit id="b8c534fb8ac5166939ccce4525eb148f">
+        <source>Import menu data</source>
+        <target>Import menu data</target>
+        <note>Line: 117</note>
+      </trans-unit>
+      <trans-unit id="4f92db9fb554ed1d896ef872346e345f">
+        <source>Menu data package</source>
+        <target>Menu data package</target>
+        <note>Line: 120</note>
+      </trans-unit>
+      <trans-unit id="7726d9dd8129ac1ed3eaf1c5da96ae28">
+        <source>Clear all menus before importing</source>
+        <target>Clear all menus before importing</target>
+        <note>Line: 125</note>
+      </trans-unit>
+      <trans-unit id="377119d4cf2d6af97ac466d2954d6e77">
+        <source>Importing data</source>
+        <target>Importing data</target>
+        <note>Line: 129</note>
+      </trans-unit>
+      <trans-unit id="20b0d75c1373adc14873b7b41a495602">
+        <source>Import menu</source>
+        <target>Import menu</target>
+        <note>Line: 132</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

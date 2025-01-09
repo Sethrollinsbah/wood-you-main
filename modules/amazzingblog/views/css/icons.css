@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'blogIcons';
+    src:    url('../fonts/blogIcons.eot?v120');
+    src:    url('../fonts/blogIcons.eot?v120#iefix') format('embedded-opentype'),
+        url('../fonts/blogIcons.ttf?v120') format('truetype'),
+        url('../fonts/blogIcons.woff?v120') format('woff'),
+        url('../fonts/blogIcons.svg?v120#blogIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.amazzingblog [class^="icon-"], .amazzingblog [class*=" icon-"] {
+    font: normal normal normal 14px/1 blogIcons;
+    font-size: inherit;
+    speak: none;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    display: inline-block;
+}
+
+.amazzingblog .icon-tags:before {
+    content: "\e917";
+}
+.amazzingblog .icon-file-upload:before {
+    content: "\e904";
+}
+.amazzingblog .icon-angle-right:before {
+    content: "\e900";
+}
+.amazzingblog .icon-angle-left:before {
+    content: "\e901";
+}
+.amazzingblog .icon-arrow-right:before {
+    content: "\e909";
+}
+.amazzingblog .icon-arrow-left:before {
+    content: "\e90a";
+}
+.amazzingblog .icon-eye:before {
+    content: "\e90d";
+}
+.amazzingblog .icon-google-plus:before {
+    content: "\e90e";
+}
+.amazzingblog .icon-linkedin:before {
+    content: "\e90f";
+}
+.amazzingblog .icon-pinterest:before {
+    content: "\e910";
+}
+.amazzingblog .icon-facebook:before {
+    content: "\e912";
+}
+.amazzingblog .icon-twitter:before {
+    content: "\e913";
+}
+.amazzingblog .icon-thumbs-down:before {
+    content: "\e90b";
+}
+.amazzingblog .icon-thumbs-up:before {
+    content: "\e911";
+}
+.amazzingblog .icon-chevron-right:before {
+    content: "\e902";
+}
+.amazzingblog .icon-chevron-left:before {
+    content: "\e903";
+}
+.amazzingblog .icon-vk:before {
+    content: "\e905";
+}
+.amazzingblog .icon-odnoklassniki:before {
+    content: "\e906";
+}
+.amazzingblog .icon-user:before {
+    content: "\e907";
+}
+.amazzingblog .icon-calendar:before {
+    content: "\e908";
+}
+.amazzingblog .icon-comments:before {
+    content: "\e915";
+}
+.amazzingblog .icon-comment:before {
+    content: "\e914";
+}
+.amazzingblog .icon-quill:before {
+    content: "\e916";
+}
+.amazzingblog .icon-feather:before {
+    content: "\e90c";
+}
+/* since 1.2.0 */

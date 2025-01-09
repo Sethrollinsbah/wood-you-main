@@ -1,0 +1,105 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+
+#blockcart-modal {
+    .modal-dialog {
+        width: 100%;
+        max-width: 950px;
+    }
+    .modal-body{
+		padding: 0;
+		> .row{
+			margin: 0;
+		}
+	}
+	.divide-right{
+		padding: 0;
+	}
+	.product-image{
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		padding-top: 100%;
+	}
+}
+
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding: 40px 45px;
+    h6 {
+		font-size: 25px;
+	    display: block;
+	    margin-bottom: 30px;
+	    font-weight: 400;
+	    text-transform: uppercase;
+    }
+    p {
+        font-size: 16px;
+        margin: 0;
+        text-transform: uppercase;
+        &:after {
+            display: table;
+            clear: both;
+            content: '';
+        }
+        strong {
+        	color: $color-fourteen;
+            display: block;
+            float: left;
+            margin-bottom: 10px;
+        }
+        span {
+            font-weight: 700;
+            display: block;
+            float: right;
+            margin-bottom: 10px;
+        }
+    }
+}
+.cart-content-btn{
+    margin-top: 25px;
+    .btn{
+        font-size: 12px;
+        padding: 9px 15px;
+        text-transform: uppercase;
+    }
+    .btn-secondary{
+        float: left;
+    }
+    .btn-primary{
+        float: right;
+    }
+}
+@include media-breakpoint-down(md) {
+    #blockcart-modal{
+        .product-image{
+            padding-top: 50%;
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+	#blockcart-modal{
+		.modal-dialog{
+			width: auto;
+		}
+	}
+}
+@include media-breakpoint-down(xs) {
+    .cart-content{
+    	padding: 20px;
+    	h6{
+    		font-size: 20px;
+    	}
+    }
+    .cart-content-btn{
+        .btn{
+            width: 100%;
+            &:first-child{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.product-pack {
+	margin-top: $extra-large-space;
+	.pack-product-container {
+		display: flex;
+		justify-content: space-around;
+		.pack-product-name {
+			flex: 0 0 50%;
+			font-size: 14px;
+			color: $gray;
+		}
+		.pack-product-quantity {
+			border-left: $gray-light 2px solid;
+			padding-left: $small-space;
+		}
+		.pack-product-name,
+		.pack-product-price,
+		.pack-product-quantity {
+			display: flex;
+			align-items: center;
+		}
+	}
+}

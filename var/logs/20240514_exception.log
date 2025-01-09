@@ -1,0 +1,1 @@
+*ERROR* 	v1.7.7.2	2024/05/14 - 17:20:54: Link to database cannot be established: SQLSTATE[HY000] [1130] Host &#039;127.0.0.1&#039; is not allowed to connect to this MariaDB server at line 136 in file classes/db/DbPDO.php

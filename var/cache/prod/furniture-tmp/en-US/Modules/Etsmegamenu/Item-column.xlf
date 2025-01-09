@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/item-column.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="f722b0bbb0ecaa598bf84b6568ac826b">
+        <source>Delete column</source>
+        <target>Delete column</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Line: 25</note>
+      </trans-unit>
+      <trans-unit id="53f6b8619350888a722e39b25414b909">
+        <source>Duplicate column</source>
+        <target>Duplicate column</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="ed75712b0eb1913c28a3872731ffd48d">
+        <source>Duplicate</source>
+        <target>Duplicate</target>
+        <note>Line: 26</note>
+      </trans-unit>
+      <trans-unit id="c3e7864531017869d04d401e5771cde4">
+        <source>Edit column</source>
+        <target>Edit column</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Edit</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="2ff8071bcd15a31f9a743f1b06d0d00f">
+        <source>Add block</source>
+        <target>Add block</target>
+        <note>Line: 28</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

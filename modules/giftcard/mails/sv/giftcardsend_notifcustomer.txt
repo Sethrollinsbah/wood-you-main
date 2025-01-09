@@ -1,0 +1,4 @@
+Hej {firstname} {lastname},
+DItt presentkort på {giftcard_price} skickades idag till {giftcard_to_mail} med ditt meddelande.
+Bifogat till detta mail finns en PDF bifogad som du kan skriva ut och ge som gåva.
+Tack för din beställning.

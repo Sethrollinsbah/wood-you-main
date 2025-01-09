@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+.page-sitemap{
+	.breadcrumb{
+		+ .row{
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+}
+.sitemap{
+	line-height: 1.8;
+}

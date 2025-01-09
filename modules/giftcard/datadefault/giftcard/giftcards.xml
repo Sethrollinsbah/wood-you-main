@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<giftcards>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 30</fr>
+ 		<en>Gift card 30</en>
+ 		<es>Tarjeta regalo 30</es>
+ 	</name>
+ 	<amount>30</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 50</fr>
+ 		<en>Gift card 50</en>
+ 		<es>Tarjeta regalo 50</es>
+ 	</name>
+ 	<amount>50</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>1</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 75</fr>
+ 		<en>Gift card 75</en>
+ 		<es>Tarjeta regalo 75</es>
+ 	</name>
+ 	<amount>75</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 150</fr>
+ 		<en>Gift card 150</en>
+ 		<es>Tarjeta regalo 150</es>
+ 	</name>
+ 	<amount>150</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 200</fr>
+ 		<en>Gift card 200</en>
+ 		<es>Tarjeta regalo 200</es>
+ 	</name>
+ 	<amount>200</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 300</fr>
+ 		<en>Gift card 300</en>
+ 		<es>Tarjeta regalo 300</es>
+ 	</name>
+ 	<amount>300</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ 	
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 400</fr>
+ 		<en>Gift card 400</en>
+ 		<es>Tarjeta regalo 400</es>
+ 	</name>
+ 	<amount>400</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+ <giftcard>
+ 	<name>
+ 		<fr>Carte cadeau 500</fr>
+ 		<en>Gift card 500</en>
+ 		<es>Tarjeta regalo 500</es>
+ 	</name>
+ 	<amount>500</amount>
+ 	<period_val>12</period_val>
+ 	<quantity>99999</quantity>
+ 	<isdefaultgiftcard>0</isdefaultgiftcard>
+ 	<statut>1</statut>
+ </giftcard>
+</giftcards>

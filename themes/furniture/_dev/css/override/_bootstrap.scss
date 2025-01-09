@@ -1,0 +1,10 @@
+html {
+	font-size: 100%;
+}
+.bootstrap-touchspin {
+	.input-group-btn-vertical{
+		>.btn{
+			background: none;
+		}
+	}
+}

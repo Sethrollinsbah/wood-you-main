@@ -1,0 +1,36 @@
+{
+	"name" : "timactive/giftcard",
+	"description" : "Gift card module for Prestashop",
+	"homepage" : "https://github.com/PrestaShop/welcome",
+	"license" : "AFL - Academic Free License (AFL 3.0)",
+	"authors" : [{
+			"name" : "TimActive"
+		}
+	],
+	"require" : {
+		"php" : ">=5.4.0a"
+	},
+	"require-dev" : {
+		"squizlabs/php_codesniffer" : "3.5.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimActive\\Module\\GiftCard\\": "src/"
+		},
+		"classmap": [
+			"giftcard.php"
+		],
+		"exclude-from-classmap": []
+	},
+	"config" : {
+		"preferred-install" : "dist",
+		"prepend-autoloader": false
+	},
+	"scripts" : {
+		"post-install-cmd" : [
+			"compass compile",
+			"rm -rf .sass-cache"
+		]
+	},
+	"type" : "prestashop-module"
+}

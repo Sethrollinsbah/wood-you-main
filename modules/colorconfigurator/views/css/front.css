@@ -1,0 +1,873 @@
+:root {
+    --primary-color: rgb(246, 40, 98);
+    --secondary-color: rgb(242, 242, 242);
+    --third-color: #000;
+    --four-color: #fff;
+}
+
+body {
+    position: relative
+}
+
+#colorconfigurator {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    position: fixed;
+    top: 10%;
+    bottom: 2%;
+    color:var(--third-color);
+    right: 0;
+    transform: translateX(100%);
+    z-index: 11111;
+    -webkit-transition: transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    max-height: calc(100% - 12%);
+}
+
+#colorconfigurator li, #colorconfigurator ol, #colorconfigurator ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#colorconfigurator .group,.lines {
+    font-weight: 400;
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#colorconfigurator .tabs {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(-secondary-color);
+    padding: 0 8px
+}
+
+#colorconfigurator .btn:after,#colorconfigurator .btn:before {
+    display: none
+}
+
+#colorconfigurator .footer-btns {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -1px
+}
+
+#colorconfigurator .footer-btns span {
+    background: var(--primary-color);
+    color: var(--four-color);
+    display: inline-block;
+    cursor: pointer;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    text-align: center
+}
+
+#colorconfigurator .footer-btns li:nth-child(2) {
+    border-left: 1px solid var(--four-color);
+}
+
+#colorconfigurator .footer-btns li:hover {
+    background: var(--primary-color);
+    color: var(--four-color);
+}
+
+#colorconfigurator .footer-btns li:first-child {
+    border-radius: 0 0 0 5px
+}
+
+#colorconfigurator .tabs li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    color: var(--primary-color)
+}
+
+#colorconfigurator .tabs li.active,#colorconfigurator .tabs li:hover {
+    background: var(--primary-color);
+    color: var(--four-color);
+}
+
+#colorconfigurator .tabs li:last-child {
+    border: 0
+}
+
+#colorconfigurator.open {
+    transform: translateX(0)
+}
+
+#colorconfigurator .toggle {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -40px;
+    margin-top: 100px;
+    background: var(--four-color);
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    z-index: 99999999;
+    position: relative;
+    right: -1px;
+}
+
+#colorconfigurator .toggle svg {
+    display: inline-block
+}
+
+#colorconfigurator .wrap {
+    background: var(--four-color);
+    border-radius: 3px 0 0 3px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+#colorconfigurator .title {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-weight: 700;
+    margin: 5px 0
+}
+
+#colorconfigurator .line {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+#colorconfigurator .class-title {
+    font-size: 12px
+}
+
+#colorconfigurator .color,#colorconfigurator .eydropper {
+    border: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    z-index: 0;
+    position: relative;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 1px;
+}
+
+#colorconfigurator .color-wrap {
+    position: relative;
+    margin-left: auto;
+    padding: 1px;
+    background: var(--four-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 1px;
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+}
+
+#colorconfigurator .color-wrap:hover,#colorconfigurator .color-wrap:focus,#colorconfigurator .color-wrap:focus-within{
+    border-color: var(--primary-color);
+}
+
+#colorconfigurator .color-wrap:before {
+    content: '';
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: 0;
+    position: absolute;
+    opacity: 1;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background: -webkit-linear-gradient(45deg,#d7d7d7 25%,transparent 25%,transparent 75%,#d7d7d7 75%,#d7d7d7 0),-webkit-linear-gradient(45deg,#d7d7d7 25%,transparent 25%,transparent 75%,#d7d7d7 75%,#d7d7d7 0),var(--four-color);
+    background: -moz-linear-gradient(45deg,#d7d7d7 25%,transparent 25%,transparent 75%,#d7d7d7 75%,#d7d7d7 0),-moz-linear-gradient(45deg,#d7d7d7 25%,transparent 25%,transparent 75%,#d7d7d7 75%,#d7d7d7 0),var(--four-color);
+    background: linear-gradient(45deg,#d7d7d7 25%,transparent 25%,transparent 75%,#d7d7d7 75%,#d7d7d7 0),linear-gradient(45deg,#d7d7d7 25%,transparent 25%,transparent 75%,#d7d7d7 75%,#d7d7d7 0),var(--four-color);
+    background-repeat: repeat,repeat;
+    background-position: 0 0,3px 3px;
+    -webkit-background-origin: padding-box,padding-box;
+    background-origin: padding-box,padding-box;
+    -webkit-background-clip: border-box,border-box;
+    background-clip: border-box,border-box;
+    -webkit-background-size: 12px 12px,12px 12px;
+    background-size: 6px 6px,6px 6px;
+    -webkit-box-shadow: none;
+    -webkit-transition: none;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1);
+    transform: scaleX(1) scaleY(1) scaleZ(1);
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+    border-radius: 1px;
+}
+
+#colorconfigurator .width-buttons {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color)
+}
+
+#colorconfigurator .borderradius-buttons .btn.active,#colorconfigurator .boxshadow-buttons .btn.active,#colorconfigurator .buttons .btn.active,#colorconfigurator .fixedmenu-buttons .btn.active,#colorconfigurator .width-buttons li.active {
+    background: var(--primary-color)
+}
+
+#colorconfigurator .fixedmenu-buttons {
+    display: flex
+}
+
+#colorconfigurator .borderradius-buttons,#colorconfigurator .boxshadow-buttons,#colorconfigurator .buttons,#colorconfigurator .fixedmenu-buttons {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+#colorconfigurator .borderradius-buttons,#colorconfigurator .boxshadow-buttons {
+    display: flex
+}
+
+#colorconfigurator .fixedmenu-buttons>li:first-child {
+    width: 100%
+}
+
+#colorconfigurator .buttons>li:first-child,#colorconfigurator .fixedmenu-buttons>li:first-child {
+    border-bottom: 1px solid var(--primary-color);
+    border: 0;
+    text-align: left;
+    padding: 0 18px;
+    font-size: 12px;
+    line-height: initial
+}
+
+#colorconfigurator .borderradius-buttons>li:first-child,#colorconfigurator .boxshadow-buttons>li:first-child {
+    width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+    border: 0;
+    text-align: left;
+    padding: 9px 18px
+}
+
+#colorconfigurator .save.disabled {
+    cursor: wait;
+    opacity: .9
+}
+
+canvas.eye-dropper-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000
+}
+
+canvas.finder {
+    border-radius: 50%;
+    border: 1px solid #d3d3d3;
+    position: absolute;
+    z-index: 11000;
+    cursor: none
+}
+
+#colorconfigurator .group-name {
+    font-weight: 500
+}
+
+#colorconfigurator i {
+    font-style: normal;
+    cursor: pointer
+}
+
+#colorconfigurator .groups {
+    border-left: 1px solid #f3f3f3;
+    color: inherit
+}
+
+#colorconfigurator .hidden,
+#colorconfigurator .hidden.copy-paste-wrap,
+#colorconfigurator .hidden.cc-reset-color {
+    display: none;
+}
+
+#colorconfigurator [class^=icon-] {
+    font-style: normal
+}
+
+#colorconfigurator .icon-plus:before {
+    content: '+'
+}
+
+#colorconfigurator .icon-minus:before {
+    content: '-'
+}
+
+#colorconfigurator .colorpicker {
+    position: fixed;
+    top: calc(10% + 100px);
+    right: 278px;
+    z-index: 1000
+}
+
+#colorconfigurator .colorpicker-wrap {
+    position: relative
+}
+
+#colorconfigurator .font-size-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 10px
+}
+
+#colorconfigurator .c-select {
+    display: inline-block;
+    width: calc(100% - 41px);
+    /* position: relative; */
+}
+
+#colorconfigurator .line .fontsize-input {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid var(--secondary-color)
+}
+
+#colorconfigurator .line .class-title {
+    /* display: inline-block */
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#colorconfigurator .c-select input {
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+    height: 33px;
+    padding: 0 10px;
+    border-radius: 2px 0 0 2px
+}
+
+#colorconfigurator .c-select input:focus {
+    outline: 0;
+    border-color: var(--primary-color);
+    z-index: 1;
+    position: relative
+}
+
+#colorconfigurator .c-select .opt {
+    padding: 7px 14px
+}
+
+#colorconfigurator .c-select .opts-wrap {
+    max-height: 270px;
+    overflow-y: scroll;
+    border: 1px solid var(--primary-color);
+    padding: 0;
+    z-index: 1000;
+    margin-top: 5px;
+}
+
+#colorconfigurator .c-select .opts-wrap .opt:hover {
+    background-color: var(--primary-color);
+    color: var(--four-color);
+}
+
+#colorconfigurator .width-select {
+    float: right;
+    background: 0 0;
+    height: 28px
+}
+
+#colorconfigurator .cc-btn-group,
+#colorconfigurator .cc-btn-group-top,
+#colorconfigurator .vc-chrome-toggle-btn,
+#colorconfigurator .cc-reset-color,
+#colorconfigurator .copy-paste-wrap,
+#colorconfigurator .copy-paste-wrap span,
+#colorconfigurator .cc-close-colorpicker span {
+    display: flex;
+}
+
+#colorconfigurator .cc-btn-group, #colorconfigurator .cc-btn-group-top {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#colorconfigurator .cc-btn-group {
+    padding-left: 6px;
+}
+
+#colorconfigurator .cc-btn-group-top {
+    flex-direction: row;
+}
+
+#colorconfigurator .vc-chrome-toggle-btn,
+#colorconfigurator .cc-reset-color,
+#colorconfigurator .copy-paste-wrap span {
+    width: 24px;
+}
+
+#colorconfigurator .vc-chrome-toggle-btn {
+    margin: 0;
+    justify-content: center;
+}
+
+#colorconfigurator .cc-reset-color {
+    align-items: center;
+    justify-content: center;
+}
+
+#colorconfigurator .cc-reset-color span {
+    height: 15px;
+}
+
+#colorconfigurator .copy-paste-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+<<<<<<< HEAD
+}
+
+#colorconfigurator .copy-paste-wrap span {
+    align-items: center;
+    justify-content: center;
+}
+
+#colorconfigurator .copy-paste-wrap svg, #colorconfigurator .cc-reset-color svg {
+    width: 15px;
+}
+
+#colorconfigurator .copy-paste-wrap svg:hover,
+#colorconfigurator .copy-paste-wrap svg:focus,
+#colorconfigurator .cc-reset-color svg:hover,
+#colorconfigurator .cc-reset-color svg:focus {
+    fill: var(--primary-color);
+    cursor: pointer;
+}
+
+#colorconfigurator .cc-close-colorpicker {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#colorconfigurator .cc-close-colorpicker span {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
+}
+
+#colorconfigurator .cc-close-colorpicker svg {
+    width: 12px;
+    fill: #555;
+}
+
+#colorconfigurator .cc-close-colorpicker path {
+    transform: translate(85px,0);
+=======
+}
+
+#colorconfigurator .copy-paste-wrap span {
+    align-items: center;
+    justify-content: center;
+}
+
+#colorconfigurator .copy-paste-wrap svg, #colorconfigurator .cc-reset-color svg {
+    width: 15px;
+    fill: #a7a7a7
+>>>>>>> c5405f76ba4058885d7159bf07b6e8d0bafb037c
+}
+
+#colorconfigurator .copy-paste-wrap svg:hover,
+#colorconfigurator .copy-paste-wrap svg:focus,
+#colorconfigurator .cc-reset-color svg:hover,
+#colorconfigurator .cc-reset-color svg:focus {
+    fill: var(--primary-color);
+    cursor: pointer;
+}
+
+#colorconfigurator .cc-close-colorpicker {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#colorconfigurator .cc-close-colorpicker span {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
+}
+
+#colorconfigurator .cc-close-colorpicker svg {
+    width: 12px;
+    fill: #555;
+}
+
+#colorconfigurator .cc-close-colorpicker path {
+    transform: translate(85px,0);
+}
+
+#colorconfigurator .show-all-btn {
+    font-size: 11px
+}
+
+.vc-chrome,.wrap {
+    box-shadow: 0 2px 54px 0 rgba(0,0,0,.08)!important;
+}
+
+#colorconfigurator .toggle {
+    -webkit-box-shadow: -3px 0 10px -2px rgba(0,0,0,.08);
+    box-shadow: -3px 0 10px -2px rgba(0,0,0,.08);
+}
+
+#colorconfigurator.open {
+    width: 305px;
+}
+
+#colorconfigurator .footer-btns span {
+    width: 122px;
+    height: 34px;
+    font-size: 12px;
+    border-radius: 20px!important;
+    line-height: 34px;
+    padding: 0;
+    margin: 0 3px
+}
+
+#colorconfigurator .footer-btns .save {
+    background-color: var(--primary-color);
+    order: 1
+}
+
+#colorconfigurator .footer-btns .reset {
+    background-color: var(--secondary-color);
+    color: #666;
+}
+
+#colorconfigurator .footer-btns {
+    padding: 19px 27px;
+    border-top: 1px solid var(--secondary-color);
+    position: relative;
+}
+
+#colorconfigurator .groups :last-child .group .line {
+    padding-bottom:0;
+}
+
+#colorconfigurator .groups > .group {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+}
+
+#colorconfigurator .line {
+    padding-bottom: 17px;
+    margin: 9px 18px;
+    width: auto;
+}
+
+#colorconfigurator .colorpicker-wrap {
+    padding: 0
+}
+
+#colorconfigurator .form-control {
+    display: flex;
+    background: 0 0;
+    border: 1px solid var(--primary-color);
+    margin: 17px auto;
+    font-size: 14px;
+    padding: 7px 14px;
+    width: calc(100% - 36px);
+    border-radius: 2px
+}
+
+#colorconfigurator .group-name {
+    font-size: 13px;
+    color: inherit;
+    line-height: 40px;
+    display: inline-flex;
+    padding: 0 18px;
+    text-transform: capitalize;
+    margin-right: auto;
+}
+
+#colorconfigurator [class^=icon-] {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    justify-content: center;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+#colorconfigurator [class^=icon-]:hover,#colorconfigurator [class^=icon-]:focus,#colorconfigurator [class^=icon-]:focus-within{
+    color:var(--primary-color)
+}
+
+#colorconfigurator .borderradius-buttons,#colorconfigurator .boxshadow-buttons,#colorconfigurator .buttons,#colorconfigurator .fixedmenu-buttons {
+    border: 0;
+    margin: 0;
+    justify-content: center;
+    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 0;
+    padding: 0 18px 0 0;
+    align-content: center;
+    align-items: center;
+    line-height: 46px;
+    height: 46px;
+    justify-items: center;
+}
+
+#colorconfigurator .borderradius-buttons .btn,#colorconfigurator .boxshadow-buttons .btn,#colorconfigurator .buttons .btn,#colorconfigurator .fixedmenu-buttons .btn,#colorconfigurator .width-buttons>li {
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 3px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+    width: auto;
+    min-width: 40px;
+    height: 21px;
+    line-height: 21px;
+    color: #666;
+    cursor: pointer;
+    border: 0;
+}
+
+#colorconfigurator .show-all-btn {
+    text-transform: capitalize;
+    width: auto;
+    padding: 8px 0;
+    margin: 0 0 0 18px;
+    background: transparent;
+    color: inherit;
+}
+
+#colorconfigurator .buttons .active li,#colorconfigurator .width-buttons .active li {
+    border-radius: 2px;
+    background-color: #f62862;
+    box-shadow: 0 1px 9px 0 rgba(246,40,98,.4);
+    width: 41px;
+    height: 21px;
+    color: var(--four-color);
+    line-height: 21px;
+    display: block;
+    text-align: center;
+}
+
+#colorconfigurator .buttons li,#colorconfigurator .width-buttons li {
+    font-size: 12px;
+}
+
+#colorconfigurator .width-buttons>li {
+    border: 0
+}
+
+#colorconfigurator .width-buttons {
+    justify-content: flex-end;
+    border: 0;
+    margin: 16px 18px 0;
+    line-height: 26px;
+    height: 26px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#colorconfigurator .form-control:focus {
+    outline: 1px solid var(--primary-color);
+    outline-offset: -1px
+}
+
+#colorconfigurator .btn.btn-default.show-all-btn {
+    border: 1px solid transparent;
+}
+
+#colorconfigurator .btn.btn-default.show-all-btn:focus-within {
+    border-bottom: 1px solid var(--primary-color)
+}
+
+#colorconfigurator .show-all-btn:hover {
+    outline: 1px solid transparent
+}
+
+#colorconfigurator .show-all-btn:focus {
+    outline: 1px solid transparent
+}
+
+#colorconfigurator .c-select .opts-wrap {
+    border-color: var(--primary-color);
+    border-radius: 2px;
+    position: absolute;
+    left: 27px;
+    right: 27px;
+    background: var(--four-color);
+    width: auto;
+    border: 0;
+    /* top: auto; */
+    box-shadow: 0 2px 54px 0 rgba(0,0,0,.08);
+}
+
+#colorconfigurator .group li:last-child {
+    flex: 100%;
+}
+
+#colorconfigurator .line .fontsize-input:focus {
+    outline: 1px solid transparent;
+    border-color: var(--primary-color)
+}
+
+#colorconfigurator .line .fontsize-input {
+    border-radius: 0 2px 2px 0;
+    margin: 0;
+    position: relative;
+    left: -1px
+}
+
+#colorconfigurator .buttons {
+    display: flex;
+    line-height: 26px;
+    height: 26px;
+}
+
+#colorconfigurator .buttons>li:first-child,#colorconfigurator .width-buttons>li:first-child {
+    width: auto;
+    margin-left: 0;
+    margin-right: auto;
+    background: 0 0;
+    color: inherit;
+    text-transform: capitalize
+}
+
+#colorconfigurator .group .group .group-name {
+    line-height: 34px
+}
+
+#colorconfigurator .groups .group .line {
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 12px;
+    margin-left: 27px;
+    margin-right: 0;
+}
+
+.vc-chrome-toggle-icon {
+    margin: 0 !important;
+    display: flex;
+    flex: 0 0 20px;
+}
+
+.vc-chrome-toggle-icon-highlight {
+    background: transparent !important;
+}
+
+.vc-chrome-fields {
+    flex: 0 0 200px;
+    align-content: baseline;
+    align-items: baseline;
+    align-self: start;
+}
+
+#colorconfigurator .vc-chrome-toggle-btn svg {
+    top: 10px;
+    width: 20px!important;
+    height: 20px!important;
+}
+
+.opts-wrap {
+    position: relative;
+}
+
+.opts-wrap:empty:before {
+    content: 'Not founded fonts';
+    display: block;
+    line-height: 34px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.wrap ol.width-buttons input,
+.wrap ol.buttons input {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrap li.btn-default input,
+.wrap li.color input {
+  opacity:0;
+}
+
+.slider-box-custom {
+  left: 0 !important;
+  width: 100% !important;
+}

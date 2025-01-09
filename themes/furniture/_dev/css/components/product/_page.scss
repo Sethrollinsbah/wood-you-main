@@ -1,0 +1,8 @@
+//max 455
+@include media-breakpoint-down(xs) {
+	.page-product{
+		.sidebar{
+			display: none;
+		}
+	}
+}

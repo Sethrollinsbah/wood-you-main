@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{simpletabs}prestashop>simpletabs_b0683d46b6f5b2ff535655bafcba6fc0'] = 'Semplici Schede';
+$_MODULE['<{simpletabs}prestashop>simpletabs_8e17899facb48771af15540bab178687'] = 'Aggiunge una finestra di descrizione sezione di pagine di prodotto in front office.';
+$_MODULE['<{simpletabs}prestashop>simpletabs_876f23178c29dc2552c0b48bf23cd9bd'] = 'Sei sicuro di voler disinstallare?';
+$_MODULE['<{simpletabs}prestashop>configure_5b6cf869265c13af8566f192b4ab3d2a'] = 'Documentazione';
+$_MODULE['<{simpletabs}prestashop>display-product-list_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{simpletabs}prestashop>display-product-list_49ee3087348e8d44e1feda1917443987'] = 'Nome';
+$_MODULE['<{simpletabs}prestashop>display-product-list_45e96c0a422ce8a1a6ec1bd5eb9625c6'] = 'Seleziona Tutto';
+$_MODULE['<{simpletabs}prestashop>display-product-list_016269c0d83a19a19a2ee0a4294740b4'] = 'Deseleziona Tutto';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_977d8639bfd405e7747d4b80ca0e793c'] = 'Aggiungere o modificare una scheda';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_b78a3223503896721cca1303f776159b'] = 'Titolo';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_d5f456b74810604d93fa97e4130b2a80'] = 'Invio scheda titolo';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_f1ba8d26f8582a5f4230d69f500dcba0'] = 'Scheda campo title (%s) è necessario';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_f15c1cae7882448b3fb0404682e17e61'] = 'Contenuto';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Abilitato';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_93cba07454f06a4a960172bbd6e2a435'] = 'Sì';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_bafd7322c6e97d25b6299b5d6fe8920b'] = 'No';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_2b5932460c4f1e726c2fe5eb4c84cf64'] = 'Altri prodotti';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_1ca151a258c88f5ab8e959ad7fad6f5b'] = 'Selezionare altri prodotti di questa scheda verranno assegnati a';
+$_MODULE['<{simpletabs}prestashop>display-tab-form_ea4788705e6873b424c65e91c2846b19'] = 'Annulla';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_b78a3223503896721cca1303f776159b'] = 'Titolo';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_f15c1cae7882448b3fb0404682e17e61'] = 'Contenuto';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_ec53a8c4f07baed5d8825072c89799be'] = 'Stato';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_d63647f0d1d919e7c508bf2dd5c35fd7'] = 'Scheda elimina \"%s\"?';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_c8a19ea6c79e23a1ee5372c8dbf3c6cf'] = 'Nuova scheda';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_12c110ad1b37cf8db33fa1246ec4143d'] = 'Annulla la modifica';
+$_MODULE['<{simpletabs}prestashop>display-tab-list_3c0eb0d6d5960db66d88a0d0abcaf129'] = 'Scheda salva';
+$_MODULE['<{simpletabs}prestashop>display-tab-page_7015777bcc86cd0c5e4819310d62b040'] = 'Schede';

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/ets_megamenu/views/templates/hook/product-list-mini.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="8a48e3d7293fc9e2f774581231418412">
+        <source>No product available</source>
+        <target>No product available</target>
+        <note>Line: 79</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

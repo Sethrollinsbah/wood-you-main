@@ -1,0 +1,191 @@
+name: furniture
+display_name: Furniture Theme
+version: 1.4.0
+theme_key: a8578db54f7afd5617e2494034a4e9c1
+author:
+  name: "PrestaPro Team"
+  email: "info@prestapro.ru"
+  url: "https://www.prestapro.ru"
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+#  use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+#  css:
+#    all:
+#      - id: custom-lib-style
+#        path: assets/css/custom-lib.css
+#    product:
+#      - id: product-style
+#        path: assets/css/product.css
+#        media: all
+#        priority: 200
+#  js:
+#    cart:
+#      - id: cat-extra-lib
+#        path: assets/js/cart-lib.js
+dependencies:
+  modules:
+    - easycarousels
+    - custombanners
+    - amazzingblog
+    - fontellico
+    - simpletabs
+    - revsliderprestashop
+    - testimonialswithavatars
+    - twitterwidget
+    - colorconfigurator
+    - signupreminder
+    - alltranslate
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  modules:
+   to_enable:
+     - ps_linklist
+     - fontellico
+   to_disable:
+     - welcome
+  hooks:
+    modules_to_hook:
+      displayAdminProductsExtra:
+        - amazzingblog
+        - simpletabs
+      displayBackOfficeHeader:
+        - custombanners
+        - easycarousels
+        - amazzingblog
+        - fontellico
+        - revsliderprestashop
+        - simpletabs
+        - testimonialswithavatars
+        - twitterwidget
+        - colorconfigurator
+        - alltranslate
+      displayFooterProduct:
+        - easycarousels
+      displayEasyCarousel1:
+        - easycarousels
+      displayCustomBanners1:
+        - custombanners
+      displayCustomBanners2:
+        - custombanners
+      displayCustomBanners3:
+        - custombanners
+      displayCustomBanners4:
+        - custombanners
+      displayNav1:
+        - ps_customersignin
+        - ps_searchbar
+        - ps_currencyselector
+        - ps_languageselector
+      displayTopColumn:
+        - revsliderprestashop
+      displayTop:
+        - ps_mainmenu
+        - ps_shoppingcart
+        - custombanners
+      displayHome:
+        - amazzingblog
+        - easycarousels
+        - custombanners
+      displayHomeCustom:
+        - twitterwidget
+        - testimonialswithavatars
+      displayFooterAfter:
+        - custombanners
+      displayFooter:
+         - custombanners
+         - ps_linklist
+         - ps_customeraccountlinks
+         - ps_emailsubscription
+         - ps_socialfollow
+         - colorconfigurator
+         - signupreminder
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+        - custombanners
+      displayLeftColumnProduct:
+        - ps_categorytree
+        - custombanners
+      displaySearch:
+        - ps_searchbar
+      displayProductAdditionalInfo:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+      displayOrderConfirmation2:
+        - ps_featuredproducts
+      displayCrossSellingShoppingCart:
+        - ps_featuredproducts
+      displayProductTab:
+        - simpletabs
+      displayProductTabContent:
+        - simpletabs
+
+  image_types:
+    cart_default:
+      width: 125
+      height: 125
+      scope: [products]
+    small_default:
+      width: 98
+      height: 98
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 452
+      height: 452
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 250
+      height: 250
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 141
+      height: 180
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+    manufacturer_default:
+      width: 170
+      height: 90
+      scope: [manufacturers, suppliers]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-full-width
+    new-products: layout-full-width
+    prices-drop: layout-full-width
+    product: layout-left-column
+    contact: layout-left-column

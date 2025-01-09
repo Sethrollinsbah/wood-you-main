@@ -1,0 +1,46 @@
+@include media-breakpoint-up(xx) {
+	.mobile-banner-wrapper {
+		display: none;
+	}
+}
+@include media-breakpoint-down(xs) {
+	.home-slider {
+		display: none!important;
+	}
+	.mobile-banner {
+		.banner-img{
+		}
+		h3{
+			
+		}
+		.banner-item-content {
+			&:before{
+				
+			}
+		}
+		.custom-html{
+			background: rgba($brand-secondary, .6);
+			color: $white;
+			left: 50px;
+			right: 50px;
+			padding: 15px;
+			z-index: 1;
+		}
+		.title_slide_two{
+			font-size: 21px;
+			font-weight: 700;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+		.title_slide_one{
+			font-size: 18px;
+			font-weight: 300;
+			text-transform: uppercase;
+		}
+		p{
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

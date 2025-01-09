@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+//min 769
+@include media-breakpoint-up(md) {
+    #_desktop_user_info{
+        .user-info{
+            display: block!important;
+            transform: none;
+            background: none;
+            margin: 0;
+            opacity: 1;
+            visibility: visible;
+            position: static;
+            color: inherit;
+            border: none;
+            .dropdown-item{
+                padding: 0 14px;
+                border: none;
+                background: none;
+                display: inline-block;
+                white-space: normal;
+                width: auto;
+                i {
+                    font-size: 16px;
+                    vertical-align: middle;
+                }
+                &:hover{
+                    color: $brand-primary;
+                }
+            }
+        }
+    }
+}
+//max 768
+@include media-breakpoint-down(sl) {
+    #_mobile_user_info{
+        margin-left: auto;
+    }
+    #_mobile_user_info{
+        .expand-more{
+            > i {
+                font-size: 22px;
+            }
+        }
+    }
+    .user-info{
+        left: auto;
+        right: 0;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,41 @@
+select,select.form-control{
+    background: none;
+	background-color: transparent;
+    background-image: url(../../../img/arrow-down.svg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center right 5px;
+    -webkit-appearance: none;
+    position: relative;
+    white-space: nowrap;
+    padding: 12.5px 19px 12.5px 14px;
+    transition: all 0s;
+    border: 1px solid $color-fourty;
+    line-height: 1.2;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: auto!important;
+    &:focus{
+    	border-color: $brand-primary;
+    	background-color: $brand-primary;
+        background-image: url(../../../img/arrow-down-alt.svg);
+    	color: $white;
+    }
+}
+.dropdown{
+    select{
+        background: none;
+        background-color: $color-thirty-four;
+        background-image: url(../../../img/arrow-down.svg);
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: center right 5px;
+        &:focus{
+            border-color: $brand-primary;
+            background-color: $brand-primary;
+            background-image: url(../../../img/arrow-down-alt.svg);
+            color: $white;
+        }
+    }
+}

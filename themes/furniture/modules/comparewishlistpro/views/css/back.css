@@ -1,0 +1,268 @@
+/* Common configuration page styles */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+h4.ppro-faq-section,
+.ppro-information {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.ppro-product,
+.ppro-product .ppro-product-name {
+  font-family: "Montserrat", "Open Sans", sans-serif;
+}
+
+.ppro-content ol li {
+  margin: 1em 0;
+}
+
+.ppro-highlight {
+  font-weight: bold;
+}
+
+.ppro-content .ppro-signature {
+  font-style: italic;
+  margin-top: 2em;
+}
+
+.ppro-entries h4:not(:first-child) {
+  border-top: 1px solid #eee;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h4.ppro-faq-section {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.ppro-faq-list {
+  list-style: none;
+}
+
+.ppro-faq-list li {
+  padding: 6px;
+}
+
+.ppro-faq-question {
+  font-size: 1.2em;
+}
+
+.ppro-faq-answer {
+  background-color: #eff1f2;
+  margin: 10px 0;
+  padding: 16px;
+}
+
+.ppro-faq-question a {
+  color: inherit;
+}
+
+.ppro-faq-question a:focus,
+.ppro-faq-question a:hover {
+  color: #00aff0;
+  text-decoration: none;
+}
+
+.ppro-quick-links {
+  font-size: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ppro-quick-links li {
+  margin: 1em 0 1.5em;
+}
+
+.ppro-quick-links i {
+  margin-right: 4px;
+}
+
+.ppro-quick-links a,
+.ppro-quick-links a:hover {
+  color: #251b5b;
+}
+
+.icon-star {
+  color: #efaf0f;
+}
+
+.icon-medkit {
+  color: #f00;
+}
+
+.icon-file-text {
+  color: #251b5b;
+}
+
+.ppro-developer,
+.ppro-partner {
+  color: #251b5b;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ppro-developer p {
+  margin: 0 0 20px;
+}
+
+.ppro-developer img {
+  max-width: 100%;
+}
+
+.ppro-partner {
+  color: #db0065;
+  margin: 30px 0 20px;
+}
+
+.ppro-rating {
+  font-weight: bold;
+  text-align: center;
+}
+
+.ppro-product-showcase {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+.ppro-product {
+  flex: 1 1 auto;
+  margin-bottom: 15px;
+  max-width: 33%;
+  text-align: center;
+  width: 200px;
+}
+
+.ppro-product a {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: block;
+  margin: .5em;
+  min-height: 100%;
+  padding: 1.5em 1.5em 0;
+}
+
+.ppro-product a:link,
+.ppro-product a:visited,
+.ppro-product a:focus,
+.ppro-product a:hover,
+.ppro-product a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.ppro-product a:hover {
+  box-shadow: 1px 1px 10px rgba(0,0,0,.1);
+}
+
+.ppro-product-image {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+.ppro-product-image img {
+  max-height: 60px;
+  max-width: 60px;
+}
+
+.ppro-product .ppro-product-name {
+  font-size: 16px;
+  height: 38px;
+  line-height: 19px;
+  margin: 1em 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ppro-product-description {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.ppro-products-footer {
+  color: #251b5b;
+  font-weight: bold;
+  margin-top: 2em;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.ppro-products-footer a:link,
+.ppro-products-footer a:visited,
+.ppro-products-footer a:focus,
+.ppro-products-footer a:hover,
+.ppro-products-footer a:active,
+a.ppro-ps-style:link,
+a.ppro-ps-style:visited,
+a.ppro-ps-style:focus,
+a.ppro-ps-style:hover,
+a.ppro-ps-style:active {
+  color: #251b5b;
+}
+
+.ppro-hidden {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .ppro-product {
+    max-width: 20%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .ppro-product {
+    flex: 0 0 auto;
+    width: 16.6666%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .ppro-product {
+    flex: 0 0 auto;
+    max-width: 20%;
+    width: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ppro-product {
+    flex: 0 0 auto;
+    max-width: 25%;
+    width: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ppro-product {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .ppro-product-showcase {
+    flex-wrap: wrap;
+  }
+
+  .ppro-product {
+    flex: 0 0 50%;
+    margin-bottom: 15px;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+  .ppro-product {
+    flex: 0 0 100%;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{fontellico}prestashop>fontellico_7be0c4facac3c44d0065aedda4cee9b0'] = 'Fontellico';
+$_MODULE['<{fontellico}prestashop>fontellico_c377eaa678c802d175cc5b9adc432021'] = 'Fontello icone';
+$_MODULE['<{fontellico}prestashop>fontellico_6f7c8c5e696c57ba411c2680c90e88dd'] = 'Si è verificato un errore durante la decompressione dell\'archivio';
+$_MODULE['<{fontellico}prestashop>fontellico_786862a902f7e77bdfa1203980ee65c5'] = 'File non caricato';
+$_MODULE['<{fontellico}prestashop>fontellico_a7971ee3e8fcfe3ef0c98c0b1b1c40eb'] = 'Errore nella caricato file di configurazione';
+$_MODULE['<{fontellico}prestashop>fontellico_8c36869e009c8bbfbc855ccb5793280b'] = 'Icone disponibili';
+$_MODULE['<{fontellico}prestashop>fontellico_e98ce041350567b5276fd3168d41904c'] = 'Selezionare l\'icona per cambiare classe';
+$_MODULE['<{fontellico}prestashop>admin_9e0e99c2a233f447aa018cdbb4cb5a1b'] = 'Aggiungere classe personalizzata';
+$_MODULE['<{fontellico}prestashop>admin_c15a6ec85c9e2dfc65fde2c60b592564'] = 'Le classi personalizzate';
+$_MODULE['<{fontellico}prestashop>admin_4ba25b0cbc7e577ad8327e36a2654e5b'] = 'Cambiare classe';
+$_MODULE['<{fontellico}prestashop>admin_13348442cc6a27032d2b4aa28b75a5d3'] = 'Ricerca';
+$_MODULE['<{fontellico}prestashop>admin_716de874a0d74f25c0aa8c444c3a7539'] = 'Prefisso';
+$_MODULE['<{fontellico}prestashop>admin_c9cc8cce247e49bae79f15173ce97354'] = 'Salva';
+$_MODULE['<{fontellico}prestashop>admin_cfb2bc053fa15cc4c746bb207c839757'] = 'Aggiungere icone';
+$_MODULE['<{fontellico}prestashop>admin_b1eb835fbad6059d60941c25f7af766e'] = 'Icone chiare';
+$_MODULE['<{fontellico}prestashop>admin_b221f4cbec816b83f0d154713739c724'] = 'Reimpostare le icone';
+$_MODULE['<{fontellico}prestashop>admin_81508d1e393ffad114c81744d87c3750'] = 'Aggiungere valore unicode';
+$_MODULE['<{fontellico}prestashop>admin_4b95c3adde55121eb310b547b904f3c8'] = 'Fix unicode';
+$_MODULE['<{fontellico}prestashop>admin_d95452b5b83c6cb00d3b8ece5c43ac57'] = 'Importazione/esportazione';
+$_MODULE['<{fontellico}prestashop>admin_aed667aab033a3cb641740e6c5c2e6cf'] = 'Aprire il file di configurazione...';
+$_MODULE['<{fontellico}prestashop>admin_d751fef439997fa7ed45bafd0b17ddb7'] = 'Aggiungere al file config';
+$_MODULE['<{fontellico}prestashop>admin_91412465ea9169dfd901dd5e7c96dd99'] = 'Caricare';
+$_MODULE['<{fontellico}prestashop>custom_classes_select_13348442cc6a27032d2b4aa28b75a5d3'] = 'Ricerca';
+$_MODULE['<{fontellico}prestashop>custom_classes_select_4ba25b0cbc7e577ad8327e36a2654e5b'] = 'Cambiare classe';
+$_MODULE['<{fontellico}prestashop>popup_13348442cc6a27032d2b4aa28b75a5d3'] = 'Ricerca';
+$_MODULE['<{fontellico}prestashop>popup_cfb2bc053fa15cc4c746bb207c839757'] = 'Aggiungere icone';

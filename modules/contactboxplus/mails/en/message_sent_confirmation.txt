@@ -1,0 +1,15 @@
+[{shop_url}] 
+
+
+Hi,
+
+Your message about {product_name}  has been sent successfully.
+
+URL : {product_url}
+
+
+We will answer as soon as possible.
+
+{shop_name} [{shop_url}]
+
+

@@ -1,0 +1,126 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+.rev_slider_wrapper {
+    //arrows
+    .tparrows.hesperiden{
+        background: none;
+        font-size: 45px;
+        color: $brand-primary;
+        width: 40px;
+        height: 40px;
+        transform: rotate(135deg);
+        border-radius: 0;
+        &:hover{
+            color: $brand-third;
+        }
+        &.tp-leftarrow{
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+        }
+        &.tp-rightarrow{
+            border-left: 1px solid;
+            border-top: 1px solid;
+        }
+        &:hover{
+            background: none;
+        }
+        &:before{
+            content: '';
+            display: none;
+        }
+    }
+    //bullets
+    .hesperiden{
+        .tp-bullet{
+            width: 30px;
+            height: 5px;
+            border: none;
+            background: $white;
+            border-radius: 0;
+            &.selected, &:hover{
+                background: $brand-primary;
+            }
+        }
+    }
+    //layer
+    .btn{
+        white-space: nowrap;
+    }
+}
+.tp-caption.big_white span{
+	font-weight: 300;
+}
+.tp-caption.big_white .mini_text{
+	font-size: 18px;
+	line-height: 25px;
+}
+.tp-caption .btn.btn-default {
+	line-height: 1;
+	height: auto;
+	padding: 15px 30px;
+}
+.overlay-slider{
+	padding: 50px;
+	text-align: center;
+	&:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $brand-secondary;
+        opacity: 0.6;
+        z-index: -1;
+    }
+	>*{
+		color: $white;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+	.best{
+		font-size: 80px;
+		line-height: 1;
+	}
+	.best{
+		padding-bottom: 25px;
+		span{
+			font-weight: bold;
+			font-size: 80px;
+		}
+	}
+	.for-you{
+		font-size: 40px;
+		line-height: 1;
+		padding-bottom: 30px;
+	}
+	.white-btn{
+		display: inline-block;
+		line-height: 1;
+		color: $white;
+		border-style: solid;
+		border-width: 2px;
+		padding: 15px 25px;
+		font-size: 14px;
+		font-weight: normal;
+		text-transform: uppercase;
+		&:hover{
+			color: $brand-primary;
+		}
+	}
+}
+@include media-breakpoint-down(xx) {
+    .rev_slider_wrapper {
+        .tparrows.hesperiden{
+            display: none !important;
+        }
+    }
+}
+@include media-breakpoint-down(xs) {
+    .displayCustomBanners4 {
+        ~ .rev_slider_wrapper, ~ .forcefullwidth_wrapper_tp_banner{
+            display: none !important;
+        }
+    }
+}

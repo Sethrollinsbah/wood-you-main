@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+.price{
+	font-size: 20px;
+	font-weight: 700;
+	color: $brand-third;
+}
+.regular-price{
+	font-size: 20px;
+	color: $color-three;
+    text-decoration: line-through;
+}

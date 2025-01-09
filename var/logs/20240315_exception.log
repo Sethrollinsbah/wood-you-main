@@ -1,0 +1,21 @@
+*ERROR* 	v1.7.7.2	2024/03/15 - 14:03:53: Table &#039;u695283169_shop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;woodyoubahamas.com&#039; OR su.domain_ssl = &#039;woodyoubahamas.com&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.7.2	2024/03/15 - 14:03:58: Table &#039;u695283169_shop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;woodyoubahamas.com&#039; OR su.domain_ssl = &#039;woodyoubahamas.com&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.7.2	2024/03/15 - 14:04:04: Table &#039;u695283169_shop.ps_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;woodyoubahamas.com&#039; OR su.domain_ssl = &#039;woodyoubahamas.com&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php

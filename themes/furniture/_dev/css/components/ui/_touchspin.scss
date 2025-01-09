@@ -1,0 +1,72 @@
+.bootstrap-touchspin{
+    border: 1px solid $color-fourty;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    .form-control{
+        background: none;
+        border: none;
+        height: 36px;
+        padding: 0 10px;
+        width: 40px;
+        text-align: center;
+        margin: 0 31px;
+        padding: 0;
+    }
+    .input-group-btn-vertical{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+    }
+    .btn.btn-touchspin{
+        display: block;
+        width: 32px;
+        height: 36px;
+        line-height: 36px;
+        padding: 0;
+        background: none;;
+        border: none;
+        color: $gray-darker;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        &:hover{
+            background: $brand-primary;
+            border-color: $brand-primary;
+            color: $white;
+        }
+        &:active{
+            background: darken($brand-primary, 10%);
+            border-color: darken($brand-primary, 10%);
+            color: $white;
+        }
+        i{
+            font-size: inherit;
+        }
+    }
+    .btn.bootstrap-touchspin-up{
+        order: 2;
+        border-left: 1px solid $color-fourty;
+        margin-right: -1px;
+    }
+    .btn.bootstrap-touchspin-down{
+        order: 1;
+        border-right: 1px solid $color-fourty;
+        margin-left: -1px;
+    }
+    .touchspin-up {
+        &:after {
+            content: "\E5C7";
+        }
+    }
+    .touchspin-down {
+        &:after {
+            content: "\E5C5";
+        }
+    }
+}

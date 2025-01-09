@@ -1,0 +1,49 @@
+.grid{
+     .product-title{
+         font-size: 18px;
+         font-weight: 400;
+         border-top: 1px solid $color-eight;
+         padding: 24px 0 10px;
+         margin-bottom: 0;
+         line-height: 1.3;
+         text-align: center;
+         text-transform: none;
+     }
+    .product-description-short{
+        display: none;
+    }
+    .thumbnail-container{
+        position: relative;
+    }
+    .right-block{
+        padding: 0 19px 19px;
+    }
+}
+//max 1199
+@include media-breakpoint-down(lm){
+    .grid{
+        .product-flags {
+            .new, .product-availability, .on-sale{
+                font-size: 12px;
+                height: 23px;
+                line-height: 23px;
+            }
+            .discount-percentage{
+                font-size: 17px;
+                right: 12px;
+            }
+        }
+        .add-to-cart{
+            padding: 0;
+            width: 38px;
+            height: 38px;
+            line-height: 36px;
+            &:before{
+                padding: 0;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+}

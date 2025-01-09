@@ -1,0 +1,7 @@
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:46:39: Link to database cannot be established: SQLSTATE[HY000] [2006] MySQL server has gone away at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:48:01: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:48:10: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:49:33: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:50:01: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:50:07: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.11	2024/06/25 - 23:50:59: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 137 in file classes/db/DbPDO.php

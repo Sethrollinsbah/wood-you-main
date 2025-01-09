@@ -1,0 +1,70 @@
+.product-discounts {
+	margin-bottom: 24px;
+	> .product-discounts-title {
+		font-weight: normal;
+		font-size: $font-size-sm;
+	}
+	> .table-product-discounts {
+		thead tr th {
+			width: 33%;
+			padding: $small-space $medium-space;
+			background: white;
+			border: 5px $gray-light solid;
+			text-align: center;
+		}
+		tbody tr {
+			background: $gray-lighter;
+			&:nth-of-type(even) {
+				background: white;
+			}
+			td {
+				padding: $small-space $medium-space;
+				text-align: center;
+				border: 5px $gray-light solid;
+			}
+		}
+	}
+}
+.product-prices {
+    border-top: 1px solid $color-eight;
+    border-bottom: 1px solid $color-eight;
+    padding: 15px 0 5px;
+    .product-price{
+    	display: inline-block;
+    }
+	.price{
+		font-size: 16px;
+		font-weight: 700;
+		vertical-align: middle;
+	}
+	> div {
+		margin-bottom: 10px;
+		line-height: 1;
+	}
+	.tax-shipping-delivery-label {
+		font-size: 13px;
+		color: $gray-dark;
+	}
+}
+
+.product-discount {
+	display: inline-block;
+	.regular-price {
+		font-size: 16px;
+		text-decoration: line-through;
+		font-weight: normal;
+		margin-right: $small-space;
+	}
+}
+
+.has-discount {
+	.discount {
+		color: $brand-third;
+		font-size: 16px;
+	}
+}
+
+.product-unit-price {
+	font-size: $font-size-xs;
+	margin-bottom: 0;
+}

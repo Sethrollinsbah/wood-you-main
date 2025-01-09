@@ -1,0 +1,89 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+
+
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px 20px 11px;
+    white-space: normal;
+    position: relative;
+    background: $brand-primary;
+    border: none;
+    color: $white;
+    border-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    &:focus, &:active, &:hover{
+		outline: none;
+    }
+    &:hover{
+	  	border-color: lighten($brand-primary, 10%);
+		background: lighten($brand-primary, 10%);
+		color: $white;
+    }
+    &:active{
+	  	border-color: darken($brand-primary, 10%);
+		background: darken($brand-primary, 10%);
+		color: $white;
+    }
+	&.disabled,&[disabled]{
+		pointer-events: none;
+		cursor: not-allowed;
+		opacity: 0.5;
+	}
+}
+.butt.btn_border{
+	display: inline-block;
+	background: $white;
+	border: 1px solid $color-eight;
+	color: $color-fourteen;
+	line-height: 1.5;
+	padding: 7px 20px 8px;
+	cursor: pointer;
+    &:hover{
+	  	border-color: $brand-primary;
+		background: $brand-primary;
+		color: $white;
+    }
+    &:active{
+	  	border-color: darken($brand-primary, 10%);
+		background: darken($brand-primary, 10%);
+		color: $white;
+    }
+	&.mini{
+		padding-top: 4px;
+		padding-bottom: 5px;
+	}
+	&.disabled,&[disabled]{
+		pointer-events: none;
+		cursor: not-allowed;
+		opacity: 0.5;
+	}
+}
+.order-btn{
+	margin-top: 30px;
+}
+.btn-primary{
+	
+}
+.btn-secondary{
+	
+}
+.btn-primary,
+.btn-secondary {
+
+	&:hover{
+		
+	}
+	&:active{
+		
+	}
+}
+.btn-tertiary {
+	&:hover{
+		
+	}
+}

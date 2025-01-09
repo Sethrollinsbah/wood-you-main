@@ -1,0 +1,42 @@
+.product-cover {
+	border: 1px solid $color-eight;
+	margin-bottom: $medium-space;
+	position: relative;
+	overflow: hidden;
+	img {
+		background: white;
+	}
+	.layer {
+		width: 100%;
+		height: 100%;
+		background: white;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		background: rgba(255, 255, 255, 0.7);
+		cursor: pointer;
+		transition: opacity .7s ease-in-out;
+		&:hover {
+			opacity: 1;
+		}
+		.zoom-in {
+		    display: block;
+		    width: 36px;
+		    height: 36px;
+		    line-height: 36px;
+		    text-align: center;
+		    position: absolute;
+		    bottom: -1px;
+		    right: -1px;
+		    font-size: 20px;
+    		cursor: pointer;
+			background: lighten( saturate( adjust-hue( $brand-secondary, -13deg ), 14 ), 12 );
+			color: $white;
+			&:hover{
+				background: $brand-third;
+				color: $white;
+			}
+		}
+	}
+}

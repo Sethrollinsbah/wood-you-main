@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/admin/promo-product-list.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="c9189b9d0be364a501aa527e5d8265d3">
+        <source>No products available</source>
+        <target>No products available</target>
+        <note>Line: 38</note>
+      </trans-unit>
+      <trans-unit id="822882d8e4b4b7d3923c5a20904906e7">
+        <source>Check out all our modules and themes on the Addons Marketplace</source>
+        <target>Check out all our modules and themes on the Addons Marketplace</target>
+        <note>Line: 42</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

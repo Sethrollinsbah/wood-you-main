@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/easycarousels/views/templates/hook/product-item-17.tpl" source-language="gl-ES" target-language="gl-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Add to cart</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/easycarousels/views/templates/hook/product-item-17.tpl:120</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/easycarousels/views/templates/hook/carousel.tpl" source-language="gl-ES" target-language="gl-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="0b4db271fc4624853e634ef6882ea8be">
+        <source>View all</source>
+        <target>View all</target>
+        <note>Context:
+File: /var/www/prestade/data/www/ps17.prestademo.ru/furniture/themes/furniture/modules/easycarousels/views/templates/hook/carousel.tpl:41</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

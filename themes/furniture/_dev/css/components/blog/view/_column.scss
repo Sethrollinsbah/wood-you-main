@@ -1,0 +1,22 @@
+/* column layout */
+.column-hook{
+	.post-item{
+		margin-bottom: 20px;
+		&.has-date{
+			padding-left: 0;
+		}
+	}
+	.post-item-date{
+		position: static;
+		width: 100%;
+		text-align: left;
+		border: none;
+		.d, .m, .y {
+			display: inline-block;
+		}
+		.d{
+			font-size: 1em;
+			margin: 0;
+		}
+	}
+}

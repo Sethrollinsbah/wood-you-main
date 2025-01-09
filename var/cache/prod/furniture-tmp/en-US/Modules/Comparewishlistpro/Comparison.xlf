@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/comparewishlistpro/views/templates/front/comparison.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="368140d2caf6b43106964fd615756d1b">
+        <source>Product comparison</source>
+        <target>Product comparison</target>
+        <note>Line: 29</note>
+      </trans-unit>
+      <trans-unit id="62f5d708d6ad1fa1ddd9429a65cccbea">
+        <source>All categories</source>
+        <target>All categories</target>
+        <note>Line: 35</note>
+      </trans-unit>
+      <trans-unit id="89c4c08ca9eeeba2924c552970d0cbb5">
+        <source>Remove category</source>
+        <target>Remove category</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="498f79c4c5bbde77f1bceb6c86fd0f6d">
+        <source>Show</source>
+        <target>Show</target>
+        <note>Line: 45</note>
+      </trans-unit>
+      <trans-unit id="6262100df6d9a6e54246bc699f9daa1d">
+        <source>Differing features</source>
+        <target>Differing features</target>
+        <note>Line: 53</note>
+      </trans-unit>
+      <trans-unit id="f641fe697a059e62d9353f43471bdb74">
+        <source>All features</source>
+        <target>All features</target>
+        <note>Line: 52</note>
+      </trans-unit>
+      <trans-unit id="50f67a17a3a4c58de43d4b9abf7ccab7">
+        <source>Share link</source>
+        <target>Share link</target>
+        <note>Line: 62</note>
+      </trans-unit>
+      <trans-unit id="d85544fce402c7a2a96a48078edaf203">
+        <source>Facebook</source>
+        <target>Facebook</target>
+        <note>Line: 65</note>
+      </trans-unit>
+      <trans-unit id="2491bc9c7d8731e1ae33124093bc7026">
+        <source>Twitter</source>
+        <target>Twitter</target>
+        <note>Line: 66</note>
+      </trans-unit>
+      <trans-unit id="86709a608bd914b28221164e6680ebf7">
+        <source>Pinterest</source>
+        <target>Pinterest</target>
+        <note>Line: 67</note>
+      </trans-unit>
+      <trans-unit id="b75833669968adbef634495636e3fe50">
+        <source>Copy link</source>
+        <target>Copy link</target>
+        <note>Line: 68</note>
+      </trans-unit>
+      <trans-unit id="bbace27e2a7d16cd52970c188ff749e8">
+        <source>Send link via email</source>
+        <target>Send link via email</target>
+        <note>Line: 219</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Line: 221</note>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3">
+        <source>Send</source>
+        <target>Send</target>
+        <note>Line: 222</note>
+      </trans-unit>
+      <trans-unit id="9e2941b3c81256fac10392aaca4ccfde">
+        <source>Condition</source>
+        <target>Condition</target>
+        <note>Line: 168</note>
+      </trans-unit>
+      <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9">
+        <source>Brand</source>
+        <target>Brand</target>
+        <note>Line: 179</note>
+      </trans-unit>
+      <trans-unit id="98f770b0af18ca763421bac22b4b6805">
+        <source>Features</source>
+        <target>Features</target>
+        <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="2a2ac7ebd66917963acd8696d927f1e4">
+        <source>Not enough in stock</source>
+        <target>Not enough in stock</target>
+        <note>Line: 127</note>
+      </trans-unit>
+      <trans-unit id="3c616105a5b531230d177f65b8f30a23">
+        <source>The minimum purchase order quantity for this product is %s</source>
+        <target>The minimum purchase order quantity for this product is %s</target>
+        <note>Line: 153</note>
+      </trans-unit>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Add to cart</target>
+        <note>Line: 156</note>
+      </trans-unit>
+      <trans-unit id="0308b3e92544a990177da45e98d90bae">
+        <source>No products to compare. Select some products in the front office first.</source>
+        <target>No products to compare. Select some products in the front office first.</target>
+        <note>Line: 213</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

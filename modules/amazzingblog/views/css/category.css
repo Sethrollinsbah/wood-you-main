@@ -1,0 +1,45 @@
+.loading {
+	opacity: 0.5;
+	-webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.blog-subcategories {
+	border-top: 1px dashed #DDD;
+	border-bottom: 1px dashed #DDD;
+	padding: 20px 3px;
+    margin: 20px 0 10px 0;
+}
+.blog-subcategory {
+	color: #C1C1C1;
+	display: inline-block;
+	margin-right: 50px;
+}
+.blog-subcategory a {
+	display: block;
+	font-size: 1.3em;
+}
+
+/* pagination */
+.dynamic-posts .pagination {
+	float: right;
+	width: auto;
+}
+.pagination .pages {
+	margin-left: 15px;
+}
+.pagination .pages > a, .pagination .pages > span {
+	border: 1px solid #CCC;
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    width: 27px;
+    height: 27px;
+}
+.pagination .pages > span {
+	background: #EEE;
+}
+.npp-holder .inline-block {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+/* since 1.2.1 */

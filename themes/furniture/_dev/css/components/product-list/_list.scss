@@ -1,0 +1,28 @@
+.list{
+    .product-title{
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+        text-align: left;
+    }
+}
+@include media-breakpoint-up(xx){
+    .list{
+        .product-miniature{
+            width: 100%;
+            .thumbnail-container{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                text-align: left;
+            }
+            .left-block{
+                width: 30%;
+            }
+            .right-block{
+                width: 70%;
+                padding: 15px 0px;
+            }
+        }
+    }
+}

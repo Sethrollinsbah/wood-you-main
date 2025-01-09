@@ -1,0 +1,6 @@
+Hej {firstname} {lastname},
+Här kommer ditt presentkort {giftcard_price}.
+ 
+Ange koden {giftcard_code} i kassan innan du betalar din order.
+
+Tack för din beställning!

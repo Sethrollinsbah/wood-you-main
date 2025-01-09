@@ -1,0 +1,113 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+
+#products,
+#pagenotfound {
+    #main {
+        .page-header {
+            margin: 2rem 0 3rem;
+        }
+        .page-content {
+            margin-bottom: 10rem;
+        }
+    }
+    .page-not-found {
+        font-size: $font-size-sm;
+        padding: 1rem;
+        border: 1px solid $gray-light;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        h4 {
+            font-size: $base-font-size;
+            font-weight: 700;
+            margin: .5rem 0 1rem;
+        }
+        #_desktop_search-block{
+            display: block !important;
+        }
+        .search-widget {
+            float: none;
+            padding: 0;
+            input {
+                background: none;
+                font-weight: 600;
+                width: 100%;
+                padding: 0 30px 0 10px;
+                border: 1px solid $gray-light;
+                height: 37px;
+                color: inherit;
+            }
+            button[type=submit] {
+                top: 50%;
+                transform: translateY(-50%);
+                right: 5px;
+                color: inherit;
+                height: auto;
+                line-height: 1;
+            }
+        }
+    }
+}
+.page-category {
+    #products {
+        .page-not-found {
+            max-width: none;
+            margin-top: 40px;
+        }
+    }
+}
+.page-search, #pagenotfound, .page-prices-drop, .page-new-products, .page-best-sales, .page-supplier, .page-manufacturer{
+    .h2, h1, h2{
+        text-align: center;
+        margin-bottom: 25px;
+        text-transform: none;
+    }
+    .title_main_section.listing-title {
+        text-align: center;
+        span  {
+            padding-left: 30px;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    #products, #pagenotfound {
+        .page-not-found {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            padding: 50px 10px;
+            h4 {
+                margin: 0 0 5px;
+            }
+            p {
+                font-size: $font-size-xs;
+                margin: 0;
+            }
+            .search-description, #_desktop_search-block {
+                flex: 1;
+                padding: 0 10px;
+                max-width: none;
+            }
+        }
+    }
+}
+@include media-breakpoint-down(xs) {
+    .page-search, #pagenotfound{
+        .h2, h1{
+            text-align: center;
+            margin: 10px 0 25px;
+            font-size: $font-size-h1;
+            text-transform: none;
+        }
+    }
+    #products,
+    #pagenotfound {
+        .page-not-found {
+            h4 {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

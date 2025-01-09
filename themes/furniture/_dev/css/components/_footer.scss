@@ -1,0 +1,113 @@
+@import "~bootstrap/scss/_mixins.scss";
+@import "../partials/_variables";
+.footer-container {
+    clear: both;
+    background: $brand-secondary;
+    color: $color-fourty-one;
+    .links {
+        .collapse {
+            display: inherit;
+        }
+    }
+}
+
+.footer-blocks {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.links {
+    .h3,
+    h3 {
+        color: $white;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+        line-height: 1;
+        font-weight: 400;
+    }
+    li {
+        margin-bottom: 11px;
+        position: relative;
+        padding-left: 14px;
+        line-height: 1.2;
+        &:before {
+            background-color: $brand-primary;
+            content: '';
+            display: block;
+            height: 4px;
+            width: 4px;
+            position: absolute;
+            top: 6px;
+            left: 0;
+            border-radius: 50%;
+        }
+    }
+}
+
+//max 768
+@include media-breakpoint-down(sl) {
+    .footer-blocks{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .footer-container {
+        .links {
+            ul{
+                margin-bottom: 0;
+            }
+            .collapse{
+                display: none;
+                &.show{
+                    display: block;
+                }
+            }
+            .title {
+                padding: 0;
+                border-bottom: 1px solid $white;
+                cursor: pointer;
+                display: flex;
+                align-items: baseline;
+                margin-bottom: 10px;
+                .pull-xs-right{
+                    color: $white;
+                    margin-left: auto;
+                }
+                .collapse-icons .remove {
+                    display: none;
+                }
+            }
+            .title[aria-expanded="true"] .collapse-icons {
+                .add {
+                    display: none;
+                }
+                .remove {
+                    display: inline-block;
+                }
+            }
+            .navbar-toggler {
+                display: inline-block;
+                padding: 0;
+                font-size: 20px;
+                text-align: right;
+                i{
+                    font-size: inherit;
+                }
+            }
+        }
+    }
+    .links{
+        h3, .h3{
+            font-size: 13px;
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .footer-container {
+        padding-bottom: 30px;
+    }
+    .footer-blocks {
+        margin-top: 15px;
+    }
+}

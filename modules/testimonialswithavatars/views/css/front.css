@@ -1,0 +1,193 @@
+/**
+*  @author    Amazzing
+*  @copyright Amazzing
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*
+*  NOTE: It is not recommended to modify this file.
+*  If you want to add custom styles, you should add an override named custom.css in your theme subfolder:
+*      PS 1.6: /themes/your_theme/css/modules/testimonialswithavatars/views/css/custom.css
+*      PS 1.7: /themes/your_theme/modules/testimonialswithavatars/views/css/custom.css
+*/
+
+#loadMore {
+	cursor: pointer;
+	margin: 20px 0;
+	color: #999;
+}
+.twa .btn-primary{
+	border-radius: 3px;
+	margin-top: 15px;
+}
+#submitPost.btn-primary {
+	margin: 5px 0;
+}
+.addForm {
+	margin: 2% auto;
+}
+@media (min-width: 767px) {
+	.addForm {
+		width: 50%;
+	}
+}
+
+.addForm  .new_content_wrapper{
+	padding: 40px 15px 10px;
+	border: 1px dashed #CCC;
+	background: #FAFAFA;
+	border-radius: 5px;
+}
+
+.addForm .post_avatar {
+	margin: 0 auto -55px;
+}
+
+.addForm .centered_label {
+	color: #BBB;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+
+.addForm .imgholder {
+	padding: 5px;
+	border: 1px dashed #CCC;
+	border-radius: 100%;
+	cursor: pointer;
+	width: 75px;
+	height: 75px;
+	z-index: 1;
+	position: relative;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+.addForm .imgholder > div {
+	width: 100%;
+	height: 0;
+	padding-top:100%;
+	background-size: cover;
+	background-position: 50% 50%;
+	border-radius: 100%;
+}
+
+.addForm .field {
+	margin: 25px 0 0 0;
+}
+
+.addForm .field.allow_html{
+	margin-top:15px;
+}
+
+.addForm input, .addForm  textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.addForm .red-border input, .addForm .red-border  textarea, .addForm .red-border  .mce-edit-area {
+	border: 1px solid #f3515c!important;
+}
+
+.field_error {
+	color: #F3515C;
+	margin-top: -10px;
+}
+
+.addForm .ajax_errors {
+	border-radius: 3px;
+}
+
+.addForm .alert.alert-danger:before {
+	content: '';
+}
+
+.restriction-warning {
+	margin: 20px 0 10px;
+	text-align: center;
+	padding: 10px;
+}
+.restriction-warning .close {
+	font-size: 18px;
+	opacity: 0.3;
+	outline: none;
+}
+
+/* ajax bar at the top*/
+#re-progress {
+  top: 0;
+  height: 2px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+#re-progress .progress-inner {
+  background-color: #71B238;
+  height: 2px;
+  width: 0;
+}
+
+.just_added {
+	color: #71b238;
+}
+
+.just_added .post_footer:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin: -4px 5px 0 0;
+    width: 11px;
+    height: 7px;
+    border-style: solid;
+    border-color: transparent transparent #71B238 #71B238;
+    border-width: 0 0 3px 3px;
+    transform: rotate(-45deg);
+}
+
+/* rating */
+.editable_rating.field {
+	text-align: center;
+}
+.editable_rating .stars_holder {
+	display: inline-block;
+	margin-right: -3px;
+}
+.editable_rating .rating_star {
+	font-size: 17px;
+	cursor: pointer;
+}
+
+/* mce */
+.mce-tinymce.mce-container {
+	border: none;
+}
+
+.mce-edit-area {
+	border: 1px solid #ccc!important;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+div.mce-panel {
+	background:none;
+}
+
+.mce-panel .mce-btn-group .mce-btn {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	background: #FFF;
+	margin: 0 10px 10px 0;
+}
+
+.mce-panel .mce-btn-group .mce-btn button {
+	padding: 3px 5px;
+}
+
+.mce-panel .mce-flow-layout-item {
+	margin: 0;
+}
+
+.mce-tooltip-inner {
+	box-shadow:none!important;
+}
+/* since 2.5.0 */

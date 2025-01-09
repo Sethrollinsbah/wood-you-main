@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/u695283169/domains/woodyoubahamas.com/public_html/themes/furniture/modules/amazzingblog/views/templates/front/pagination.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680">
+        <source>All</source>
+        <target>All</target>
+        <note>Line: 28</note>
+      </trans-unit>
+      <trans-unit id="aa55eeb3bfe951eb9d56e8a919d80781">
+        <source>of %d</source>
+        <target>of %d</target>
+        <note>Line: 33</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,17 @@
+Hej {giftcard_lastname},
+
+Vi är glada att få skicka dig detta presentkort på {giftcard_price}.
+Du har fått presentkortet av {giftcard_from}.
+
+{giftcard_from} skrev ett meddelande:
+{giftcard_message}
+
+Ange koden {giftcard_code} i kassan innan du betalar din order.
+
+Bifogat finns en PDF med alla uppgifter.
+
+Välkommen till {shop_name}
+		
+	
+
+

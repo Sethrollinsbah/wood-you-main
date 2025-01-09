@@ -1,0 +1,20 @@
+.twa_posts {
+	&.grid{
+		display: flex;
+		flex-wrap: wrap;
+		.post-comment{
+			width: 100%;
+		}
+	}
+}
+@include media-breakpoint-up(sm) {
+	.twa_posts {
+		&.grid{
+			margin: 0 -15px;
+			.post-comment{
+				width: 50%;
+				padding: 0 15px;
+			}
+		}
+	}
+}

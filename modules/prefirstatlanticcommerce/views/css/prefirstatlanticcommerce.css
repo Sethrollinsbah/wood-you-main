@@ -1,0 +1,48 @@
+/**
+ *  2014-2020 Prestashoppe
+ *
+ *  @author    Prestashoppe
+ *  @copyright 2014-2020 Prestashoppe
+ *  @license   Prestashoppe Commercial License
+ */
+
+.pre-fac-payment {
+    margin-left: 2.875rem;
+    margin-top: 1.25rem;
+}
+.pre-fac-payment .form-group .fac-control-label {
+    display: inline-block !important;
+}
+.pre-fac-payment .form-group .fac-control-label span.required {
+    color: #e2401c;
+}
+.pre-fac-payment .form-group .fac-card-number {
+    background-repeat: no-repeat;
+    background-position: right 0.6180469716em center;
+    background-size: 31px 20px;
+    background-image: url("../img/unknown.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.visa {
+    background-image: url("../img/visa.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.mastercard {
+    background-image: url("../img/mastercard.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.laser {
+    background-image: url("../img/laser.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.dinersclub {
+    background-image: url("../img/diners.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.maestro {
+    background-image: url("../img/maestro.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.jcb {
+    background-image: url("../img/jcb.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.amex {
+    background-image: url("../img/amex.svg");
+}
+.pre-fac-payment .form-group .fac-card-number.discover {
+    background-image: url("../img/discover.svg");
+}

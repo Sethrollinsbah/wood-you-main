@@ -1,0 +1,99 @@
+.bootstrap input[type="text"].at-left {
+	display: inline-block;
+	margin-right: 4px;
+	width: 90%;
+}
+
+.clear {
+	clear: both;
+}
+
+.bootstrap .note {
+	margin: 6px 0;
+}
+
+.at-inline-block {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.at-checkbox {
+	padding: 6px 0 6px 0;
+}
+
+.bootstrap fieldset.at-lang-list {
+	background-position: right 8px top 11px;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	padding-right: 24px;
+}
+
+.bootstrap label.at-lang-label {
+	bottom: -8px;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0 6px 0 0;
+	position: relative;
+	vertical-align: top;
+	width: auto;
+}
+
+.bootstrap select.at-lang-list {
+	display: inline-block;
+	margin-right: 10px;
+	width: auto;
+}
+
+.bootstrap input[type="checkbox"].at-checkbox {
+	margin-right: 6px;
+	vertical-align: bottom;
+}
+
+.alert-info {
+	border-radius: 2px;
+	padding: 6px 10px;
+}
+
+.at-translate-btn {
+	position: relative;
+}
+
+.at-loading .at-translate-txt {
+	opacity: 0;
+}
+
+.at-loading .at-stop-txt {
+	display: block;
+}
+
+.at-stop-txt {
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.at-ajax-response {
+	margin-left: 6px;
+}
+
+.at-ajax-response.ok {
+	color: #008000;
+}
+
+.at-bulk-actions {
+	margin-top: 1em;
+}
+
+.alert .at-repeat {
+	background: #1e94ab;
+	border-radius: 10px;
+	color: #fff;
+	margin: 0 3px;
+	padding: 2px 6px;
+}
+
+.alert .at-repeat:before {
+	content: 'x';
+}

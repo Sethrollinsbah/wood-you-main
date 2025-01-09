@@ -1,0 +1,34 @@
+//max 1199
+@include media-breakpoint-down(lm){
+    .grid{
+        .thumbnail-container{
+            overflow: hidden;
+            &:hover{
+	            .quick-view, .lnk_view{
+	                visibility: visible;
+	                opacity: 1;
+	                transform: translate(0,0);
+	            }
+	        }
+	        .highlighted-informations{
+	            text-align: center;
+	            position: absolute;
+	            top: 40%;
+	            z-index: 1;
+	            left: 0;
+	            right: 0;
+	        }
+	        .quick-view{
+	            transform: translate(-1000%,0);
+	        }
+	        .lnk_view{
+	            transform: translate(1000%,0);
+	        }
+	        .quick-view,.lnk_view{
+	            transition: transform.5s ease-in-out, opacity.5s ease-in-out, visibility .5s ease-in-out;
+	            visibility: hidden;
+	            opacity: 0;
+	        }
+        }
+    }
+}

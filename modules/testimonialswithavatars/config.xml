@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>testimonialswithavatars</name>
+    <displayName><![CDATA[Testimonials with avatars]]></displayName>
+    <version><![CDATA[2.5.0]]></version>
+    <description><![CDATA[Testimonials (customer reviews) with uploadable avatars and rating.]]></description>
+    <author><![CDATA[Amazzing]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

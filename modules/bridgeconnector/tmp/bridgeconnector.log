@@ -1,0 +1,421 @@
+[Sun, 24 Mar 2024 19:30:15 -0400]Initializing
+[Sun, 24 Mar 2024 19:30:15 -0400]Creating backup file
+[Sun, 24 Mar 2024 19:30:15 -0400]Selecting tables
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_access` [836].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_access` LIMIT 0, 17773
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_accessory` [197].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_accessory` LIMIT 0, 12484
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_address` [300].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_address` LIMIT 0, 3828
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_address_format` [244].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_address_format` LIMIT 0, 3899
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attachment` [6].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attachment` LIMIT 0, 385
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attachment_lang` [6].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attachment_lang` LIMIT 0, 385
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute` [373].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attribute` LIMIT 0, 23832
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute_group` [19].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attribute_group` LIMIT 0, 1216
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute_group_lang` [19].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attribute_group_lang` LIMIT 0, 1216
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute_group_shop` [19].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attribute_group_shop` LIMIT 0, 1216
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute_impact` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute_lang` [373].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attribute_lang` LIMIT 0, 23832
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_attribute_shop` [373].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_attribute_shop` LIMIT 0, 23832
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_authorization_role` [1 164].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_authorization_role` LIMIT 0, 8258
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_bridgeconnector_failed_login` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_bridgeconnector_ma_failed_login` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_bridgeconnector_ma_push_notifications` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_bridgeconnector_ma_tokens` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_bridgeconnector_ma_users` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_bridgeconnector_ma_users` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_bridgeconnector_session_keys` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_bridgeconnector_session_keys` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_carrier` [5].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_carrier` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_carrier_group` [15].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_carrier_group` LIMIT 0, 960
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_carrier_lang` [5].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_carrier_lang` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_carrier_shop` [5].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_carrier_shop` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_carrier_tax_rules_group_shop` [5].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_carrier_tax_rules_group_shop` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_carrier_zone` [40].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_carrier_zone` LIMIT 0, 2559
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart` [5 443].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart` LIMIT 0, 3592
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM ps_cart LIMIT 3592, 3592
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_cart_rule` [6].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_cart_rule` LIMIT 0, 385
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_product` [3 137].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_product` LIMIT 0, 15421
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule` [5].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_rule` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_carrier` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_combination` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_country` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_group` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_lang` [5].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_rule_lang` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_product_rule` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_rule_product_rule` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_product_rule_group` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_rule_product_rule_group` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_product_rule_value` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cart_rule_product_rule_value` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cart_rule_shop` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_category` [138].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_category` LIMIT 0, 8813
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_category_group` [411].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_category_group` LIMIT 0, 26215
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_category_lang` [138].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_category_lang` LIMIT 0, 1472
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_category_product` [3 968].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_category_product` LIMIT 0, 18080
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_category_shop` [138].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_category_shop` LIMIT 0, 8813
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms` [16].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cms` LIMIT 0, 1024
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_category` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cms_category` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_category_lang` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cms_category_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_category_shop` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cms_category_shop` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_lang` [16].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cms_lang` LIMIT 0, 115
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_role` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_role_lang` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_cms_shop` [16].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_cms_shop` LIMIT 0, 1024
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_configuration` [943].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_configuration` LIMIT 0, 6027
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_configuration_kpi` [72].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_configuration_kpi` LIMIT 0, 4600
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_configuration_kpi_lang` [8].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_configuration_kpi_lang` LIMIT 0, 513
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_configuration_lang` [42].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_configuration_lang` LIMIT 0, 2683
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_contact` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_contact` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_contact_lang` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_contact_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_contact_shop` [1].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_contact_shop` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_country` [244].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_country` LIMIT 0, 15421
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_country_lang` [244].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_country_lang` LIMIT 0, 15421
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_country_shop` [244].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_country_shop` LIMIT 0, 15421
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_currency` [3].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_currency` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_currency_lang` [3].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_currency_lang` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_currency_shop` [3].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_currency_shop` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customer` [3 446].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customer` LIMIT 0, 2271
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM ps_customer LIMIT 2271, 2271
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customer_group` [3 455].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customer_group` LIMIT 0, 27595
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customer_message` [14].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customer_message` LIMIT 0, 896
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customer_message_sync_imap` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customer_session` [519].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customer_session` LIMIT 0, 8258
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customer_thread` [13].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customer_thread` LIMIT 0, 833
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customization` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customization_field` [112].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customization_field` LIMIT 0, 7134
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customization_field_lang` [112].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customization_field_lang` LIMIT 0, 7134
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_customized_data` [14].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_customized_data` LIMIT 0, 896
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_date_range` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_delivery` [0].
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_employee` [4].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_employee` LIMIT 0, 257
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_employee_session` [211].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_employee_session` LIMIT 0, 13444
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_employee_shop` [4].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_employee_shop` LIMIT 0, 257
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_feature` [17].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_feature` LIMIT 0, 1089
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_feature_lang` [17].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_feature_lang` LIMIT 0, 1089
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_feature_product` [27 964].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_feature_product` LIMIT 0, 18397
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM ps_feature_product LIMIT 18397, 18397
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_feature_shop` [17].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_feature_shop` LIMIT 0, 1089
+[Sun, 24 Mar 2024 19:30:15 -0400]Handling table `ps_feature_value` [21 320].
+[Sun, 24 Mar 2024 19:30:15 -0400]-SELECT * FROM `ps_feature_value` LIMIT 0, 13982
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_feature_value LIMIT 13982, 13982
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_feature_value_lang` [21 257].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_feature_value_lang` LIMIT 0, 13982
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_feature_value_lang LIMIT 13982, 13982
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_gender` [3].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_gender` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_gender_lang` [3].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_gender_lang` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_group` [3].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_group` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_group_lang` [3].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_group_lang` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_group_reduction` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_group_shop` [3].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_group_shop` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_hook` [715].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_hook` LIMIT 0, 5067
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_hook_alias` [88].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_hook_alias` LIMIT 0, 5608
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_hook_module` [440].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_hook_module` LIMIT 0, 27595
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_hook_module_exceptions` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_image` [4 489].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_image` LIMIT 0, 25576
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_image_lang` [4 489].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_image_lang` LIMIT 0, 19066
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_image_shop` [4 489].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_image_shop` LIMIT 0, 20166
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_image_type` [8].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_image_type` LIMIT 0, 513
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_lang` [1].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_lang_shop` [1].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_lang_shop` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_category` [228].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_category` LIMIT 0, 14565
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_filter` [1].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_filter` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_filter_block` [373].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_filter_block` LIMIT 0, 247
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_layered_filter_block LIMIT 247, 247
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_filter_shop` [1].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_filter_shop` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_indexable_attribute_group` [21].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_indexable_attribute_group` LIMIT 0, 1344
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_indexable_attribute_group_lang_value` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_indexable_attribute_lang_value` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_indexable_feature` [17].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_indexable_feature` LIMIT 0, 1089
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_indexable_feature_lang_value` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_indexable_feature_value_lang_value` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_price_index` [9 929].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_price_index` LIMIT 0, 6514
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_layered_price_index LIMIT 6514, 6514
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_layered_product_attribute` [6 075].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_layered_product_attribute` LIMIT 0, 16645
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_manufacturer` [13].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_manufacturer` LIMIT 0, 833
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_manufacturer_lang` [13].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_manufacturer_lang` LIMIT 0, 833
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_manufacturer_shop` [13].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_manufacturer_shop` LIMIT 0, 833
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_message` [124].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_message` LIMIT 0, 1983
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_message_readed` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module` [93].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module` LIMIT 0, 5925
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_access` [372].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_access` LIMIT 0, 23303
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_carrier` [4].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_carrier` LIMIT 0, 257
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_country` [254].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_country` LIMIT 0, 16133
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_currency` [2].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_currency` LIMIT 0, 129
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_group` [276].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_group` LIMIT 0, 17477
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_history` [122].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_history` LIMIT 0, 7768
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_preference` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_module_shop` [84].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_module_shop` LIMIT 0, 5351
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_carrier` [216].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_carrier` LIMIT 0, 4600
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_cart_rule` [16].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_cart_rule` LIMIT 0, 1024
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_detail` [197].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_detail` LIMIT 0, 1800
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_detail_tax` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_history` [199].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_history` LIMIT 0, 12634
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_invoice` [128].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_invoice` LIMIT 0, 2045
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_invoice_payment` [128].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_invoice_payment` LIMIT 0, 8129
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_invoice_tax` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_message` [1].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_message` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_message_lang` [1].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_message_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_payment` [149].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_payment` LIMIT 0, 9534
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_return` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_return_detail` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_return_state` [5].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_return_state` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_return_state_lang` [5].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_return_state_lang` LIMIT 0, 321
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_slip` [3].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_slip` LIMIT 0, 193
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_slip_detail` [6].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_slip_detail` LIMIT 0, 385
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_slip_detail_tax` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_state` [20].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_state` LIMIT 0, 1280
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_order_state_lang` [20].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_order_state_lang` LIMIT 0, 1280
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_orders` [160].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_orders` LIMIT 0, 1706
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_pack` [0].
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_product` [1 892].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_product` LIMIT 0, 4316
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_product_attachment` [41].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_product_attachment` LIMIT 0, 2622
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_product_attribute` [28 791].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_product_attribute` LIMIT 0, 8129
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_product_attribute LIMIT 8129, 8129
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_product_attribute LIMIT 16258, 8129
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM ps_product_attribute LIMIT 24387, 8129
+[Sun, 24 Mar 2024 19:30:16 -0400]Handling table `ps_product_attribute_combination` [119 757].
+[Sun, 24 Mar 2024 19:30:16 -0400]-SELECT * FROM `ps_product_attribute_combination` LIMIT 0, 26215
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_combination LIMIT 26215, 26215
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_combination LIMIT 52430, 26215
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_combination LIMIT 78645, 26215
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_combination LIMIT 104860, 26215
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_attribute_image` [5 632].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_attribute_image` LIMIT 0, 29960
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_attribute_shop` [29 022].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_attribute_shop` LIMIT 0, 8193
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_shop LIMIT 8193, 8193
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_shop LIMIT 16386, 8193
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_attribute_shop LIMIT 24579, 8193
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_carrier` [1 209].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_carrier` LIMIT 0, 19066
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_criterion` [1].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_comment_criterion` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_criterion_category` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_criterion_lang` [1].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_comment_criterion_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_criterion_product` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_grade` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_report` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_comment_usefulness` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_country_tax` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_download` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_group_reduction_cache` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_lang` [1 895].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_lang` LIMIT 0, 754
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_lang LIMIT 754, 754
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM ps_product_lang LIMIT 1508, 754
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_sale` [59].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_sale` LIMIT 0, 3773
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_shop` [1 915].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_shop` LIMIT 0, 6766
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_supplier` [59].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_supplier` LIMIT 0, 3773
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_tab` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_tab_lang` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_product_tag` [4 146].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_product_tag` LIMIT 0, 20166
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_profile` [1].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_profile` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_profile_lang` [1].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_profile_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_range_price` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_range_weight` [0].
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_search_engine` [38].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_search_engine` LIMIT 0, 2428
+[Sun, 24 Mar 2024 19:30:17 -0400]Handling table `ps_search_index` [59 696].
+[Sun, 24 Mar 2024 19:30:17 -0400]-SELECT * FROM `ps_search_index` LIMIT 0, 23303
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM ps_search_index LIMIT 23303, 23303
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM ps_search_index LIMIT 46606, 23303
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_search_word` [10 033].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_search_word` LIMIT 0, 23303
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_shop` [1].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_shop` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_shop_group` [1].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_shop_group` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_shop_url` [1].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_shop_url` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_sm_picker` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_sm_picker_items` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_specific_price` [159].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_specific_price` LIMIT 0, 3384
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_specific_price_priority` [928].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_specific_price_priority` LIMIT 0, 9893
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_specific_price_rule` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_specific_price_rule_condition` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_specific_price_rule_condition_group` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_state` [352].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_state` LIMIT 0, 7491
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_stock` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_stock_available` [31 130].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_stock_available` LIMIT 0, 12337
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM ps_stock_available LIMIT 12337, 12337
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM ps_stock_available LIMIT 24674, 12337
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_stock_mvt` [22 349].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_stock_mvt` LIMIT 0, 8813
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM ps_stock_mvt LIMIT 8813, 8813
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM ps_stock_mvt LIMIT 17626, 8813
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_stock_mvt_reason` [12].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_stock_mvt_reason` LIMIT 0, 769
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_stock_mvt_reason_lang` [12].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_stock_mvt_reason_lang` LIMIT 0, 769
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_store` [2].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_store` LIMIT 0, 129
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_store_lang` [2].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_store_lang` LIMIT 0, 129
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_store_shop` [2].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_store_shop` LIMIT 0, 129
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supplier` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supplier_lang` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supplier_shop` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supply_order` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supply_order_detail` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supply_order_history` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supply_order_receipt_history` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supply_order_state` [6].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_supply_order_state` LIMIT 0, 385
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_supply_order_state_lang` [6].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_supply_order_state_lang` LIMIT 0, 385
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tab` [201].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tab` LIMIT 0, 12789
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tab_advice` [7].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tab_advice` LIMIT 0, 449
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tab_lang` [198].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tab_lang` LIMIT 0, 12634
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tab_module_preference` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tag` [413].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tag` LIMIT 0, 8739
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tag_count` [1 592].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tag_count` LIMIT 0, 14365
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tax` [1].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tax` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tax_lang` [1].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tax_lang` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tax_rule` [1].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tax_rule` LIMIT 0, 65
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tax_rules_group` [53].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tax_rules_group` LIMIT 0, 3384
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_tax_rules_group_shop` [53].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_tax_rules_group_shop` LIMIT 0, 3384
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_warehouse` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_warehouse_carrier` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_warehouse_product_location` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_warehouse_shop` [0].
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_zone` [8].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_zone` LIMIT 0, 513
+[Sun, 24 Mar 2024 19:30:18 -0400]Handling table `ps_zone_shop` [8].
+[Sun, 24 Mar 2024 19:30:18 -0400]-SELECT * FROM `ps_zone_shop` LIMIT 0, 513

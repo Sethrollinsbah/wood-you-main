@@ -1,0 +1,11 @@
+/* carousels */
+.n-hover .bx-wrapper .bx-controls-direction {
+	display: none;
+}
+.n-hover .bx-wrapper:hover .bx-controls-direction {
+	display: block;
+}
+/* fix for /bx_loader.gif 404 (Not Found) */
+.amazzingblog .bx-wrapper .bx-loading  {
+	background: none;
+}

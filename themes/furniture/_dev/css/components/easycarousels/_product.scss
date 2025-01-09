@@ -1,0 +1,192 @@
+.product-item{
+    padding-left: $grid-gutter-width-base/2;
+    padding-right: $grid-gutter-width-base/2;
+}
+.c_item {
+    .thumbnail-container{
+        border: 1px solid $color-eight;
+        text-align: center;
+        position: relative;
+    }
+    .nowrap {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+    }
+    .prop-line {
+        margin: 5px 0;
+    }
+    .product-thumbnail{
+        img {
+            display: inline-block;
+        }
+    }
+    .left-block{
+        overflow: hidden;
+        position: relative;
+    }
+    .label_unavailable{
+        + .product-flags{
+            display: none;
+        }
+    }
+    .new{
+        top: 21px;
+        left: -33px;
+    }
+    .on-sale{
+        bottom: 17px;
+        left: -33px;
+        transform: rotateZ(45deg);
+    }
+    .discount-percentage{
+        top: 12px;
+        right: 17px;
+    }
+    .product-availability{
+        font-size: 12px;
+        top: 32px;
+        left: -54px;
+        width: 200px;
+        overflow: hidden;
+    }
+    .product-item-buttons,.highlighted-informations{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .add-to-cart{
+        padding: 6px 15px 9px 15px;
+        max-height: 38px;
+        margin-top: 4px;
+        &:before{
+            content: '\E8CC';
+            font-family: $icon-font;
+            vertical-align: middle;
+            font-size: 16px;
+            padding-right: 2px;
+        }
+    }
+    .function-btn{
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        background: $white;
+        border: 1px solid $color-eight;
+        color: $color-fourteen;
+        font-size: 16px;
+        vertical-align: top;
+        font-family: $icon-font;
+        margin-top: 4px;
+        &:hover{
+            background: $brand-primary;
+            border-color: $brand-primary;
+            color: $white;
+        }
+        &:active{
+            border-color: darken($brand-primary, 10%);
+            background: darken($brand-primary, 10%);
+            color: $white;
+        }
+    }
+    .lnk_view{
+        &:before{
+            content: '\E8B6';
+        }
+    }
+    .quick-view{
+        &:before{
+            content: '\E417';
+        }
+    }
+    .right-block{
+        padding: 0 19px 19px;
+    }
+    .product-title{
+        font-size: 18px;
+        font-weight: 400;
+        border-top: 1px solid $color-eight;
+        padding: 24px 0 10px;
+        margin-bottom: 0;
+        line-height: 1.3;
+        text-align: center;
+        text-transform: none;
+    }
+    .product-price-and-shipping{
+        margin-bottom: 12px;
+    }
+}
+//max 1199
+@include media-breakpoint-down(lm){
+    .c_item{
+        .product-flags {
+            .new, .product-availability, .on-sale{
+                font-size: 12px;
+                height: 23px;
+                line-height: 23px;
+            }
+            .discount-percentage{
+                font-size: 17px;
+                right: 12px;
+            }
+        }
+        .add-to-cart{
+            padding: 0;
+            width: 38px;
+            height: 38px;
+            line-height: 36px;
+            &:before{
+                padding: 0;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+}
+//max 768-
+@include media-breakpoint-down(sl){
+    .c_item{
+        .product-title{
+           font-size: 12px;
+        }
+        .regular-price,.price{
+           font-size: 11px;
+        }
+    }
+}
+//max 455
+@include media-breakpoint-down(xs){
+    .c_item{
+        .thumbnail-container{
+            border: none;
+        }
+    }
+    .product-item{
+        border-top: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        margin: 0;
+        padding: 0;
+    }
+}
+.c_item {
+    .product-thumbnail{
+        .primary-image{
+            display: inline-block;
+        }
+        .secondary-image{
+            display: none;
+        }
+        &:hover {
+            .primary-image{
+                display: none;
+            }
+            .secondary-image{
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,193 @@
+/**
+* 2017-2027 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2017-2027 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+.file-input {
+  position: relative;
+  overflow: hidden;
+}
+
+#colors_data{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 23px;
+}
+
+.colorconfigurator .prestashop-switch label.checked {
+  color: white;
+}
+.colorconfigurator .slide-button.no {
+  border: solid 1px #CA6F6F;
+  background-color: #E08F95;
+  left: 50%;
+}
+
+.colorconfigurator .colorpicker {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+
+.colorconfigurator .colorpicker-wrap {
+  position: relative;
+}
+
+.colorconfigurator input {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.colorconfigurator .remove i {
+  margin-right: 5px;
+}
+.colorconfigurator form {
+  display: inline-block;
+}
+
+.colorconfigurator .switch {
+  width: 160px;
+  display: inline-block;
+}
+.colorconfigurator label {
+  line-height: 30px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.colorconfigurator .lines {
+  padding: 5px;
+}
+.colorconfigurator .icon-move:hover {
+  background: white !important;
+  color: #363A41 !important;
+  border: 1px solid #DEDEDE !important;
+}
+
+.colorconfigurator input,
+.colorconfigurator select {
+  display: inline-block;
+  width: 100px;
+}
+
+.colorconfigurator .lines {
+  margin: 5px 20px;
+}
+.colorconfigurator .group-head {
+  display: inline-block;
+}
+
+
+.colorconfigurator .add-group i,
+.colorconfigurator .add-color i
+{
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  height: 16px;
+  width: auto;
+}
+
+.colorconfigurator .not-valid {
+  border: 2px solid red;
+}
+.colorconfigurator.alerts {
+  position: fixed;
+  top: 220px;
+  right: 10px;
+  width: 300px;
+  z-index: 10;
+}
+
+.colorconfigurator {
+  position: relative;
+}
+
+.colorconfigurator .live-link {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 30px;
+  vertical-align: top;
+  display: inline-block;
+  cursor: pointer;
+}
+.colorconfigurator .subs.ondrag {
+  min-height: 30px;
+}
+.colorconfigurator .icon-collapse-alt, .colorconfigurator .icon-expand-alt {
+  margin-right: 5px;
+}
+
+.colorconfigurator .font-family-select {
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.colorconfigurator .font-family-select .opts-wrap{
+  position: absolute;
+  width: 200px;
+  background: white;
+  height: 200px;
+  overflow-y: scroll;
+  padding: 4px;
+  border: 1px solid lightgray;
+  z-index: 1000;
+}
+.colorconfigurator .font-family-select .opts-wrap .opt:hover{
+  background-color: lightgray;
+}
+.colorconfigurator .google-api{
+  width: 100%;
+}
+.colorconfigurator .miss-fonts-message {
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 3px;
+    width: 100%;
+    color: #9a690e;
+}
+
+.colorconfigurator .line-width {
+  width: 203px;
+}
+
+.colorconfigurator .color-picker-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+.colorconfigurator .color-picker-icon img {
+  width: 20px;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300px"
+   height="191px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="8novariable.svg"
+   inkscape:export-filename="/home/rdevera/workspacephpnew/catbibips15/prestashop/modules/giftcard/logo.png"
+   inkscape:export-xdpi="15.423112"
+   inkscape:export-ydpi="15.423112">
+  <defs
+     id="defs3">
+    <filter
+       id="filter8109"
+       inkscape:label="Fancy blur"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Smooth colorized contour which allows desaturation and hue rotation"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8111"
+         stdDeviation="5"
+         result="result1" />
+      <feComposite
+         k4="0"
+         k3="0"
+         k1="0"
+         id="feComposite8113"
+         in2="result1"
+         operator="arithmetic"
+         k2="2"
+         in="result1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6970563"
+     inkscape:cx="-2.3055366"
+     inkscape:cy="152.51289"
+     inkscape:document-units="mm"
+     inkscape:current-layer="var_color1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6082" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2989">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="var_color1"
+       style="fill:#996600"
+       transform="translate(-2.0833333,2.0833333)">
+      <rect
+         style="fill:#ff3d7f;fill-opacity:1;stroke:#d81848;stroke-width:1.98298811999999991"
+         id="rect4099"
+         width="297.16046"
+         height="188.58302"
+         x="3.7114422"
+         y="-0.28855756"
+         ry="9.8954525" />
+      <text
+         xml:space="preserve"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+         x="80.454338"
+         y="47.495312"
+         id="text6676"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6678"
+           x="80.454338"
+           y="47.495312"
+           style="font-size:56px">Joyeuse </tspan><tspan
+           sodipodi:role="line"
+           x="80.454338"
+           y="117.49531"
+           id="tspan6713"
+           style="font-size:56px" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+         x="19.171745"
+         y="98.171303"
+         id="text6715"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6717"
+           x="19.171745"
+           y="98.171303"
+           style="font-size:56px;font-weight:bold;-inkscape-font-specification:Bebas Neue Bold">Saint-Valentin</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         d="m 160.62016,121.22689 c 0.0753,0.59999 0.14033,1.11997 9.05298,1.11997 3.26866,0 6.28061,-0.0767 6.31141,-0.0767 l 1.94751,-0.0533 0.20878,-0.0667 c 0,0 3.52193,-2.56994 0,-6.85985 2.93323,-6.57652 -1.17398,-6.86651 -1.17398,-6.86651 -7.91665,-1.99663 -16.43569,2.28995 -16.43569,2.28995 v 10.28977 c 0.0376,-0.0133 0.0787,-0.0233 0.12322,-0.0433 -0.0274,0.0867 -0.0411,0.17667 -0.0342,0.26666 z m 2.39587,-0.23333 c 1.57444,-0.36666 3.16598,-0.54999 4.74041,-0.54999 2.2487,0 4.13117,0.38333 5.48997,0.78999 -1.04049,0.0133 -2.28634,0.03 -3.57669,0.03 -3.76837,0 -5.79117,-0.1 -6.87274,-0.21 0.065,-0.0233 0.14033,-0.0367 0.21905,-0.06 z m -8.84419,-10.17978 h 4.3023 v 10.01312 h -4.3023 v -10.01312 z m -19.4716,11.70308 0.0753,0.003 c 0,0 5.65084,-0.19333 9.26861,-0.19333 8.20073,0 8.26576,-0.49999 8.33422,-1.07331 0.0171,-0.14 -0.0103,-0.25999 -0.0685,-0.36666 v -10.16978 c 0,0 -8.51219,-4.28324 -16.43569,-2.28995 0,0 -4.11063,0.29 -1.1774,6.86652 -3.51851,4.28657 0.003,7.22318 0.003,7.22318 z m 10.446,-2.05329 c 1.61893,0 3.25839,0.19 4.85678,0.56666 0.0445,0.0133 0.0924,0.0233 0.14375,0.0333 -1.0268,0.0933 -2.85793,0.18333 -6.09921,0.18333 -1.55389,0 -3.10094,-0.0267 -4.36049,-0.0467 1.36908,-0.38666 3.24128,-0.73665 5.45917,-0.73665 z m -6.82481,7.8465 c 0,0 0.0958,3.30993 6.08552,4.55323 5.99652,1.23998 5.76036,2.55328 6.30799,7.11318 0,0 4.58638,-8.61314 2.79975,-18.95959 0.003,0.003 -8.56012,8.05983 -15.19326,7.29318 z m 29.90734,4.55323 c 5.99311,-1.2433 6.08894,-4.55323 6.08894,-4.55323 -6.63315,0.76665 -15.18984,-7.29318 -15.18984,-7.29318 -1.78321,10.34645 2.79633,18.95959 2.79633,18.95959 0.55447,-4.5599 0.31831,-5.8732 6.30457,-7.11318 z m -15.63136,8.06983 c 0.19167,-0.37333 1.21505,-2.43328 2.10152,-5.60321 -0.69822,1.80663 -1.40672,3.67992 -2.10152,5.60321 z m -16.72662,-12.54973 -0.0685,-2.56328 2.6115,0.30333 c 0.71876,0.0867 1.48544,0.003 2.26581,-0.15333 0.17798,-0.48332 0.34227,-0.93998 0.50998,-1.3933 -3.14202,0.0533 -6.46886,0.16666 -6.51678,0.16666 l -0.0719,0.007 -0.94808,-0.0333 -0.61266,-0.50666 c -1.90986,-1.58996 -3.58354,-5.23322 -1.08157,-9.19646 -0.47917,-1.29997 -0.71876,-2.46995 -0.74272,-3.52993 -3.83682,1.08331 -6.74952,2.89661 -8.7997,5.50988 -2.84424,3.64326 -3.77179,8.62982 -2.73814,14.82635 1.0268,6.08321 6.31142,13.65637 12.32848,20.57622 1.83798,-6.56652 4.13459,-13.56637 6.30115,-19.77623 -1.75926,-1.44664 -2.40272,-3.12327 -2.43695,-4.23658 z m 49.35157,-11.38975 c -1.13633,-1.44997 -2.5499,-2.64661 -4.22016,-3.61992 -0.12664,0.51998 -0.26355,1.05997 -0.47918,1.62996 1.01996,1.58663 1.42726,3.18326 1.21848,4.7699 -0.0719,0.51999 -0.37992,1.41663 -0.37992,1.41663 l -1.35538,2.12662 c 0,0 -0.61608,0.56999 -0.68796,0.62666 l -0.30804,0.22332 -1.19794,0.27667 -1.94408,0.0533 c -0.56132,0.0167 -3.35764,0.0767 -6.37644,0.0767 -0.61608,0 -1.19452,0 -1.75583,-0.003 2.07756,1.06664 4.2578,1.79329 6.12659,1.55996 l 2.62177,-0.30333 -0.0753,2.56328 c -0.0513,1.87662 -1.76953,5.38988 -7.88243,6.65985 -4.01137,0.82665 -4.01137,0.82665 -4.42209,4.36324 l -0.97547,7.99316 -3.39871,-6.40319 c -0.10611,-0.18666 -1.34512,-2.58328 -2.31373,-6.3132 -4.31258,11.03976 -8.7381,24.17281 -9.88127,33.38594 2.49171,2.25995 4.20305,3.69992 4.48028,3.93992 0.5579,0.46665 1.24244,0.69665 1.92355,0.69665 0.69138,0 1.38276,-0.23999 1.94066,-0.70665 1.20478,-1.02331 29.55823,-25.15612 32.06705,-40.1958 1.04391,-6.17986 0.13006,-11.16975 -2.72445,-14.81634 z m -32.6626,24.01281 -3.40556,6.39653 -0.97204,-7.98983 c -0.41072,-3.53992 -0.41072,-3.53992 -4.4221,-4.3699 -1.38618,-0.28666 -2.52251,-0.70332 -3.49113,-1.17664 -2.43695,7.04651 -4.73698,14.21302 -6.47228,20.55288 4.10037,4.53657 8.3616,8.69315 11.74662,11.82975 1.09184,-7.59984 3.98742,-16.8963 7.05414,-25.31945 -0.0171,0.03 -0.0342,0.07 -0.0376,0.0767 z"
+         id="path6767"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>
